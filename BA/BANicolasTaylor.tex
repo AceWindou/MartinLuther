@@ -1,0 +1,140 @@
+%vormatierung
+\documentclass[12pt,a4paper,bibliography=totocnumbered,listof=totocnumbered]{scrartcl}
+%zeilenabstand
+\usepackage{setspace}
+\onehalfspacing
+\parindent 0pt
+
+\usepackage{tabularx}
+\usepackage[utf8]{inputenc}
+%font änder
+\usepackage[ngerman]{babel}
+%ränder
+\usepackage[paper=a4paper,left=40mm,right=30mm,top=25mm,bottom=25mm]{geometry} 
+%Abstand Fusnoten
+\deffootnote{1em}{1em}{\textsuperscript{\thefootnotemark\ }}
+%sub und subbubsection tiefe
+\setcounter{tocdepth}{3}
+%Inhaltsverzeignis anklickbar.
+\usepackage{hyperref}
+\setcounter{secnumdepth}{3}
+%sonderzeichen
+\usepackage[T1]{fontenc}
+%grafiken einbinden
+\usepackage{graphicx}
+\usepackage{pdflscape}
+
+%Wie können künstliche Intelligenzen bei der Entwicklung eines Videospiels in der Unreal Engine 5 eingesetzt werden?
+\title{Entwicklung eines Videospielprototypen als "Ein-Mann-Videospielentwickler" auf der Unreal Engine 5 mit Hilfe von KI-Systemen}
+
+\author{Nicolas Taylor}
+
+\date{11.04.2023}
+
+\begin{document}
+
+\thispagestyle{empty}
+\begin{center}
+	
+	\vspace*{1cm}
+	\Large
+	\textbf{Hochschule Fulda}\\
+	\textbf{Fachbereich Angewandte Informatik}\\
+	\vspace*{4cm}
+	
+	\huge
+	\textbf{BA}\\
+	\vspace*{0.5cm}
+	\large
+	
+	\textbf{Entwicklung eines Videospielprototypen als "Ein-Mann-Videospielentwickler" auf der Unreal Engine 5 mit Hilfe von KI-Systemen}\\
+	\vspace*{1cm}
+
+
+%	\includegraphics[scale=1.0]{Bilder/logo.png}\\
+%	\vspace*{2cm}
+	
+	\vfill
+	\normalsize
+	\newcolumntype{x}[1]{>{\raggedleft\arraybackslash\hspace{0pt}}p{#1}}
+	\begin{tabular}{x{6cm}p{7.5cm}}
+		\rule{0mm}{5ex}\textbf{Autor:} & Nicolas Taylor - nicolas.taylor@gmx.net
+		\\ 
+		\rule{0mm}{5ex}\textbf{Prüfer:} & Prof. Dr. Christian Fischer
+		\\ 
+		\rule{0mm}{5ex}\textbf{Abgabedatum:} & 11.04.2023
+		\\ 
+	\end{tabular} 
+\end{center}
+\pagebreak
+\tableofcontents
+\newpage
+
+%1
+\section{Einleitung}
+\subsection{Motivation und Idee}
+\subsection{Forschungsfrage}
+\subsection{Forschungsmethoden}
+\subsection{Gliederung der Arbeit}
+\subsection{Zielsetzung}
+\subsection{Abgrenzung}
+
+%2
+\section{Theoretischer Hintergrund}
+\subsection{Begriffsdefinitionen}%erläuterung
+\subsubsection{NPC}% (DKDG) Klaus Breuer - Computerspiele programmieren - Künstliche Intelligenz für Künstliche Gehirne - Kapitel 15.1 Erster Absatz Seite 113 ------ Computerspiele programmieren: künstliche Intelligenz für künstliche Gehirne / Breuer, Klaus Barcode 12155751 Rückgabe bis 12.06.2023
+Non-Player Character, kurz NPC, Sind vom Computer gesteuerte Charaktere. Dorfbewohner, Tiere oder sogar Monster. Alle Charaktere und Tiere die sich nicht vom Spieler kontrollieren lassen. NPCs sind notwendig um eine Spielwelt lebendig wirken zu lassen.
+\subsubsection{Game Designer} %Die Kunst des Game Designs : bessere Games konzipieren und entwickeln / Schell, Jesse Barcode 12486880 Kapitel 1.2 Seite 35 bis 37 DKDG
+Ein Game Designer ist jemand der ein breites Spektrum in Fähigkeiten wie in Animation, Architektur, Betriebswirtschaft, Game Engineering, Darstellende Kunst, Geschichte, Management, Mathematik, Musik, Präsentation, Soundgestaltung, Spiele und viele weitere beherrschen sollte.\\
+%Kapitel 2.1 Seite 44
+Der Game Designer erschafft ein Erlebnis, wobei das Spiel nicht das Erlebnis ist, sonder nur die Möglichkeit, dem Spieler ein Erlebnis zu erfahren.
+/subsubsection{Design}%Seite 49 oder eine andere gemeingültige Quelle DKDG
+/subsubsection{Spiel}%Kapitel 4.2 seite 74 bis 89-- Großes Kapitel
+\subsection{Videospiel-Entwicklung}
+\subsubsection{Die Vier Grundelemente eines Videospiels}%Kapitel5.2 Seite 93 DKDG
+\subsection{Unreal Engine 5}%https://www.unrealengine.com/de/unreal-engine-5 abrufdatum 27.05.2023
+Die Unreal Engine ermöglicht Videospieleentwickler 3D-Videospiele zu entwickeln. Die entwicklung eines Videospiels in der Unreal Enginge 5 kann in Echtzeit entwicklet werden, das bedeutet, das man das Ergebnis seiner Arbeit sofort betrachten. Epic Games, die Entwickler der Unreal Engine 5, beschreiben sie als "Das weltweit offenste und fortschrittlichste Werkzeug zur 3D-Erstellung in Echtzeit".\\
+Zwei Funktionen die seit der Veröffentlichung der Unreal Engine 5 die herausstechen sind Narnite und Lumen.
+\subsubsection{Narnite}
+\subsubsection{Lumen}
+\subsection{Künstliche Intelligenz und ihre Anwendungen in der Videospiel-Entwicklung}
+\subsection{Vor- und Nachteile des Einsatzes von KI in der Videospiel-Entwicklung}
+
+%3
+\section{Methodik}
+\subsection{Auswahl und Beschreibung der KIs}
+\subsection{Beschreibung des Entwicklungsprozesses}
+\subsection{Beschreibung der Tools und Technologien}
+
+%4
+\section{Umsetzung}
+\subsection {Idee und Konzeption}
+\subsection{Nutzung von KIs zur Erstellung von 2D Bildern}
+\subsection{Nutzung von KIs zur Erstellung von 3D Modellen}
+\subsection{Erstellung von Musik und Klängen}
+\subsection{Erstellung von Animationen}
+\subsection{Entwicklung der Spiellogik}
+
+%5
+\section{Ergebnisse und Diskussion}
+\subsection{Vorstellung des fertigen Videospiels}
+\subsection{Diskussion der Ergebnisse und Einschätzung des Erfolgs des KI-Einsatzes}
+\subsubsection{Einsatz von MonsterMash}
+	MonsterMash ist ein KI-System mit dem man sehr gut Monster erstellen kann, was der Name auch gut Suggeriert. Wenn man realitätsnahe ergenisse sich Wünscht, wird man mit MonsterMash auf sehr große Herausforderungen treffen. Monster sind Fantasiewesen, und niemand kann genau beschreiben, wie ein Monster aussieht. Bei darstellung von Menschen oder gebäude sieht das anders aus. Für mein Adventure game, mit einem Historischen Hintergrund, ist MonsterMash nicht zu empfehlen. Anders würde es in einem Fantasy-Scenario aussehen, wo undefinierte Gestalten dem Spieler begegnen sollen.
+\subsection{Kritische Reflexion des Entwicklungsprozesses und Ausblick auf mögliche zukünftige Entwicklungen}
+
+%6
+\section{Fazit}
+\subsection{Zusammenfassung der Ergebnisse}
+\subsection{Implikationen für die Praxis}
+\subsection{Limitationen der Studie}
+
+%7
+\section{Literaturverzeichnis}
+
+%8
+\section{Anhang}
+\subsection{Abbildungen und Diagramme}
+\subsection{Code-Beispiele}
+\subsection{Weitere Materialien}
+\end{document}
