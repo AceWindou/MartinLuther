@@ -1,0 +1,111 @@
+{
+  "save": {
+    "version": 1,
+    "RuntimeFunctions": {},
+    "GnlTools": {
+      "176799": {
+        "name": "Curve Tool",
+        "identifier": 176799,
+        "instances": {
+          "4039236": {
+            "identifier": 4039236,
+            "name": "Draw Curves",
+            "visible": true,
+            "frozen": false,
+            "index": 0,
+            "properties": {},
+            "result": []
+          }
+        },
+        "sourceID": 176799
+      },
+      "225074": {
+        "name": "Surface Scatter",
+        "identifier": 225074,
+        "instances": {
+          "2457756": {
+            "identifier": 2457756,
+            "name": "Scatter Scattered Granite Rocks",
+            "visible": true,
+            "frozen": false,
+            "index": 0,
+            "properties": {
+              "64_seed": {
+                "value": {
+                  "Integer": 148
+                }
+              }
+            },
+            "result": [
+              2687798
+            ]
+          }
+        },
+        "sourceID": 753258
+      },
+      "2547770": {
+        "name": "Surface Scatter",
+        "identifier": 2547770,
+        "instances": {
+          "9902350": {
+            "identifier": 9902350,
+            "name": "Scatter Scattered Granite Rocks",
+            "visible": true,
+            "frozen": false,
+            "index": 0,
+            "properties": {
+              "2_density": {
+                "value": {
+                  "Float": 0.61
+                }
+              },
+              "64_seed": {
+                "value": {
+                  "Integer": 789
+                }
+              }
+            },
+            "result": [
+              10132392
+            ]
+          }
+        },
+        "sourceID": 753258
+      },
+      "4209016": {
+        "name": "Surface Scatter",
+        "identifier": 4209016,
+        "instances": {
+          "1767293": {
+            "identifier": 1767293,
+            "name": "Scatter Scattered Granite Rocks",
+            "visible": true,
+            "frozen": false,
+            "index": 0,
+            "properties": {
+              "0_surface": {
+                "value": {
+                  "SceneContainer": [
+                    1210218
+                  ]
+                }
+              },
+              "64_seed": {
+                "value": {
+                  "Integer": 799
+                }
+              }
+            },
+            "result": [
+              1997335
+            ]
+          }
+        },
+        "sourceID": 753258
+      }
+    },
+    "ObjectTags": {},
+    "time": "2023-08-21 19:11:07"
+  },
+  "autosave": {}
+}
