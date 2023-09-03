@@ -23,6 +23,21 @@
 %grafiken einbinden
 \usepackage{graphicx}
 \usepackage{pdflscape}
+\usepackage{listings}
+
+\lstdefinestyle{myStyle}{
+    backgroundcolor=\color{gray!10},   % Hintergrundfarbe
+    basicstyle=\ttfamily\small,        % Schriftart und -größe
+    frame=single,                      % Rahmen um den Text
+    framesep=5pt,                      % Abstand zwischen Rahmen und Text
+    rulecolor=\color{black},           % Rahmenfarbe
+    xleftmargin=10pt,                  % Abstand vom linken Rand
+    xrightmargin=10pt,                 % Abstand vom rechten Rand
+    breaklines=true,                   % Zeilenumbruch zulassen
+    breakatwhitespace=true,            % Zeilenumbruch an Leerstellen
+    showstringspaces=false,            % Leerzeichen in Strings nicht hervorheben
+}
+
 
 %Wie können künstliche Intelligenzen bei der Entwicklung eines Videospiels in der Unreal Engine 5 eingesetzt werden?
 \title{Entwicklung eines Videospielprototypen als ,,Ein-Mann-Videospielentwickler´´ auf der Unreal Engine 5 mit Hilfe von KI-Systemen}
@@ -57,21 +72,30 @@
 	\vfill
 	\normalsize
 	\newcolumntype{x}[1]{>{\raggedleft\arraybackslash\hspace{0pt}}p{#1}}
-	\begin{tabular}{x{6cm}p{7.5cm}}
-		\rule{0mm}{5ex}\textbf{Autor:} & Nicolas Taylor - nicolas.taylor@gmx.net
-		\\ 
-		\rule{0mm}{5ex}\textbf{Prüfer:} & Prof. Dr. Christian Fischer
-		\\ 
-		\rule{0mm}{5ex}\textbf{Abgabedatum:} & 11.04.2023
-		\\ 
-	\end{tabular} 
+	%\begin{tabular}{x{6cm}p{7.5cm}}
+		%\rule{0mm}{5ex}\textbf{Autor:} & Nicolas Taylor - nicolas.taylor@gmx.net
+		%rule{0mm}{5ex}\textbf{Prüfer:} & Prof. Dr. Christian Fischer
+		%\\ 
+		%\rule{0mm}{5ex}\textbf{Abgabedatum:} & 11.04.2023
+		%\\ 
+	%\end{tabular} 
 \end{center}
 \pagebreak
 \tableofcontents
 \newpage
 
 %1
-\section{Einleitung}
+\section{Einleitung} "Sprich mir nach; ich bin Game Desighner. Herzlichen Glückwunsch, du bist Game Designer."
+Jesse Schell, ein Mann der vieles in der Gamingbranche erreicht hat, sogar als Proffesor an Harvard über Gamedesighn vorlesung hält. Wenn er gefragt wird, was er macht um seine Brötchen zu verdienen, antwortet er; "Ich bin Game Designer".
+Genau dieser Mann, ermutigt komplette Anfänger, die noch vor Ihrem ersten Schritt Game Designer oder Videospieleentwickler stehen, sich selber als Game Designer zu bezeichnen.
+Wenn wir den Worten von Jesse Shell glauben schenken, ist Gamed Designer werden nicht schwer, aber ein Videospiel zu entwickeln hingegen mit sehr vielen Herausforderungen verbunden ist.
+Wenn man sich dazu entscheidet Videospiele zu Produzieren, steht man am anfang sehr oft alleine da. Genau um dieses Alleine sein möchte ich mich in meiner Bachelortheses drehen. Ich benutze in meiner Bachelortheses den Begriff "Ein-Mann-Videospielentwickler" um zu verdeutlichen, das alle Prozesse an einem Menschen abhängen.
+Baldur´s Gate 3 , was von dem Belgischen Entwicklerstudio Larian Studios entwicklet wurde, hat mehr als 450 Angestellte.%https://dailygame.at/baldurs-gate-3-entwickler-bleibt-weiterhin-unabhaengig/ -03.09.2023
+
+
+
+
+Wenn man den Worten von Jesse Schell glauben schenkt ist Game Designer werden nicht schwer. Hinter dieser bezeichnung steckt aber trotzdem sehr viel Arbeit und sehr viele Diverse Arbeitsbereiche.
 \subsection{Motivation und Idee}
 Videospiele zu entwickeln ist einfe aufgabe die großses Know-How vorrausetzt. In den Größten videospiele studios ist es kein Einzefall, das über 500 Menschen angestellt sind. Videospiele werden aus sehr vielen Teilbereiche der Medienbranche zusammengesetzt, wie zum Beispiel, Autoren, Programmierer und Illustratoren.
 In den Anfangszeiten, wo Videospiele gerade angengen haben, siech Kommerziell als Unterhaltungsmedium zu orientieren, wurden ein großer teil von Videospielen von einer Person geschrieben. Sehr oft stand auch der Namen dieses Spiele Entwicklers wie Peter Molineux oder Sid Maier, direkt über diesem Spieltitel auf der Spieleverpackung.
@@ -137,47 +161,44 @@ Zwei Funktionen die seit der Veröffentlichung der Unreal Engine 5 die herausste
 %4
 \section{Umsetzung}
 \subsection {Idee und Konzeption}
-Meine Idee ist ein Videospiel zu Entwickeln die eine geschichtliche und Kulturelle relevanz zur deutschen Geschichte hat. Ein weiteres Kriterium an mein Videospiel war es, ein Szenario zu wählen das vor dem Zweiten-Weltkriek sich befindet.
+Meine Idee ist ein Videospiel zu Entwickeln die eine geschichtliche und Kulturelle Relevanz zur deutschen Geschichte hat. Ein weiteres Kriterium an mein Videospiel ist es, ein Szenario zu wählen das vor dem Zweiten-Weltkriek sich befindet.
+Mit dieser Idee ging ich zu ChatGPT und habe folgenden Prompt formuliert und anschließend diese Ausgabe bekommen.
+\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.7]{BilderFuerBA/ChatGPT5Themen1.png}
+	\caption{Idee  1 bis 5 von ChatGPT}
+	\label{fig:Ersten-Fünf-Idenn}
+\end{figure}
+\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.7]{BilderFuerBA/ChatGPT5Themen2.png}
+	\caption{Idee 6 bis 10 von ChatGPT}
+	\label{fig:Zweiten-Fünf-Idenn}
+\end{figure}
+\\
 
-Mit diesr Idee ging ich zu ChatGPT und habe volgenen Promp formuliert und Anschliesende Ausgabe bekommen.
 
-nenn mir bitte 5 große Themen in der Deutschen Geschichte, vor den zweiten Weltkrieg.
-
-Gerne! Hier sind fünf große Themen in der deutschen Geschichte vor dem Zweiten Weltkrieg:
-
-1. Das Heilige Römische Reich Deutscher Nation: Das Reich bestand vom 10. Jahrhundert bis 1806 und war ein wichtiger Einfluss auf die politische und kulturelle Entwicklung Deutschlands.
-
-2. Die Reformation: Die Bewegung begann im 16. Jahrhundert und führte zu bedeutenden Veränderungen in der religiösen Praxis und Theologie, insbesondere durch Martin Luther.
-
-3. Die Aufklärung: Eine intellektuelle Bewegung im 18. Jahrhundert, die sich für Freiheit, Toleranz und Vernunft einsetzte und viele wichtige Persönlichkeiten hervorbrachte, darunter Immanuel Kant.
-
-4. Die Industrialisierung: Im 19. Jahrhundert wurde Deutschland zu einer führenden Industrienation und erlebte eine rasante wirtschaftliche und technologische Entwicklung.
-
-5. Der Erste Weltkrieg: Der Konflikt von 1914-1918 hatte einen enormen Einfluss auf die deutsche Gesellschaft und führte zu politischen, wirtschaftlichen und kulturellen Veränderungen, die die folgenden Jahrzehnte prägten.
-
-da mir die ersten 5 nicht wirklich gefallan habe habe ich mir noch weitere 5 mir ausgeben lassen.
-
-nen mir bitte weitere 5
-
-Gerne! Hier sind weitere fünf große Themen in der deutschen Geschichte vor dem Zweiten Weltkrieg:
-
-1. Die Französische Revolution und Napoleonische Kriege: Die Ereignisse von 1789 bis 1815 beeinflussten auch Deutschland stark und führten zu politischen Veränderungen, insbesondere durch die napoleonische Herrschaft.
-
-2. Die Deutsche Revolution von 1848: Eine Bewegung für demokratische Reformen und Einheit, die jedoch letztendlich scheiterte.
-
-3. Die Bismarcksche Reichsgründung: Die Schaffung des Deutschen Kaiserreichs 1871 durch Kanzler Otto von Bismarck prägte die deutsche Geschichte des 19. Jahrhunderts.
-
-4. Der Erste Weltkrieg und die Weimarer Republik: Die Niederlage im Ersten Weltkrieg und die darauf folgende Gründung der Weimarer Republik waren entscheidend für die Entwicklungen in der deutschen Geschichte.
-
-5. Die nationalsozialistische Machtergreifung: Der Aufstieg der NSDAP und Hitlers Ernennung zum Reichskanzler im Januar 1933 führte schließlich zum Zweiten Weltkrieg und den Schrecken des Holocausts.
-
+Man kann an diesem Beispiel sehen, das ich das Thema in Deutschland, Vor dem zweiten Weltkrieg. und ChatGPT innerhalb dieser Grenze mir 10 eingegrenzt habe.
 ChatGPT hat mir in diesem Fall sehr schnell gehlfen mir 10 Ideen zu entwickeln, die ich Thematisch in meinem Videospiel verarbeiten kann. Als Ein-Mann-Videospielentwickler konnte ich mich dann dafür Entscheiden, die Reformation mit Martin Luther als Hauptfigur, zu entscheiden.
 Innerhalb dieser Bachlorthesis ist es mir aus zeitgründen nicht möglich ein komplettes Videospiel zu entwickeln was das Leben von Martin Luther wiederspiegelt. Durch meine Recherche über Martin Luther und seinem Leben, fand ich eine Moment sehr bedeutet, und zwar den Moment wo Martin Luther, seine 96 Thesesn an das Kirchtor genagelt hat.
 In meinem Prototyp habe ich dieses Ereignes als Thematischen Mittelpunkt gewählt.
-Meine Spieleidee für mein Prototyp ist es, das Martin Luther durch ein Dorf Läuft und verschiedene NPCs trifft und mit Ihnen in ein Dialog tritt. Martin Luther trifft verschiedene Personen mit verschiedenen Problemen und Ansichten. Er redet mit Ihnen und lässt scih von Ihnen inspirieren. Durch dieser Inspiration entwickelt Martin Luther später im spiel seine 96 Thesen.
+Meine Spieleidee für mein Prototyp ist es, das Martin Luther durch ein Dorf Läuft und verschiedene NPCs trifft und mit Ihnen in ein Dialog tritt. Martin Luther trifft verschiedene Personen mit verschiedenen Problemen und Ansichten. Er redet mit Ihnen und lässt sich von ihnen inspirieren. Durch dieser Inspiration entwickelt Martin Luther später im spiel seine 96 Thesen.
 Kern meines Prototyp ist eine Spielwert das aus einem Dorf mit mehreren NPCs besteht die einen Dialog mit der Hauptfigur Martin Luther führen kann.
 
+
 \subsection{Nutzung von KIs zur Erstellung von 2D Bildern}
+Als erstes brauche ich eine Spielfigur die Martin Luther nachempfunden ist. Mein Worklfow besteht darin ein Promt von ChatGPT ausgeben zu lassen, den ich Später für Midjourney benutzen kann. Genau diesen Prompt habe ich ChatGPT übergeben.
+\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.7]{BilderFuerBA/ChatGPTMJML01.png}
+	\caption{Idee 3 bis 10 von ChatGPT}
+	\label{fig:Prompt-MJ-Fünf-Idenn}
+\end{figure}
+\\
+Man bemerkt, das ChatGPT sehr bemüht ist verschiedene Stimmungen und Situationnen zu beschreiben
 \subsection{Nutzung von KIs zur Erstellung von 3D Modellen}
 \subsection{Erstellung von Musik und Klängen}
 \subsection{Erstellung von Animationen}
