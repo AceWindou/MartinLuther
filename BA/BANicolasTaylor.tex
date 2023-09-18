@@ -129,7 +129,21 @@ Was ich mache. Und welche Werkzeuge ich benutze. Ich werde Alles am Ende analysi
 \subsection{Zielsetzung}
 Mein Ziel in dieser Arbeit ist es, einen Prototyp zu entwickeln. Dieser Prototyp wird nur von einer Peron entwickelt, und alle anderen Aufgaben und Probleme werden versucht, mit Hilfe von KI-Systemen zu lösen.
 \subsection{Abgrenzung}
-%2
+\subsection{Fragestellung}
+KI ist ein großes Technologiefeld, was schon seit 15 Jahren daran geforscht wird. Seit ChatGPT 2022 für die breite Öffentlichgkeit geöffnet wurde, ist ein Bewustsein für diese Technologie geschaffen wurden.
+\\
+Viele gesellschaftliche, und industrielle gebiete sind oder werden in nahe zukunft mit KI-Systemen ihren Alltag finden.
+\\
+Viele KI-Systeme können mittlerweile sehr kreative Aufgaben sehr schnell bearbeiten und Resultate hervorbringen.
+\\
+Bilder, Stimmen, Animationen, Text. Alles Medienformen die in Videospiele benötigt werden um ein Fertiges Produkt zu erzeugen.
+\\
+Wie weit kommt Stand Heute ein Ein-Mann-Videospieleentwickler, wenn er sich dieser KI-Systeme bedient? Was sind die Hürden? Was sind die Vorteile? Ist es sinnvoll, auf solche Systeme zurückzugreifen, um einen Prototypen zu entwickeln.
+\\
+Diese Fragen möchte ich in meiner Bachelorthesis klären.
+\\
+Ich werde selber forschen, welche KI-Systeme es gibt und welche ich wie und in welcher Weise ich benutzen kann, um ein Prototypen zu entwickeln.
+
 \section{Theoretischer Hintergrund}
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \subsection{Begriffsdefinitionen}%erläuterung
@@ -263,35 +277,53 @@ Im ersten Test werden die Prompts mit Klammern ausgegeben. Diese sind mit einer 
 \subsection {Meilenstein: Gebäude}
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.7]{BilderFuerBA/MeilensteinGebaude/a_scatch_from_a_village_top_down.png}
+	\includegraphics[scale=0.2]{BilderFuerBA/MeilensteinGebaude/a_scatch_from_a_village_top_down.png}
 	\caption{a scatch from a village, top down}
 	\label{fig:Midjourney-Conceptart-Dorf}
 \end{figure}
-Martin Luther, die Spielfigur in meinem Prototyp, soll sich am Ende durch ein Dorf bewegen und NPC treffen. In diesem Dorf befinden sich verschiedene Gebäude. In diesem Kapitel möchte ich zeigen, wie ich die Gebäude mit hilfe verschiedener KI-Systemen in der Unreal Engine 5 realisiert habe. Ich werde in diesem Kapitel und in den folgenden Meilensteine nicht mehr so detailliert alles wie bei der Erstellung der Hauptfigur, sondern nur auf Schritte eingehen, die im Prozess unterscheiden.
+Nach der Erstellung der Haupspielfigur, ist der nächste Schritt das Erstellen einer Spielwelt.
+\\
+Die Idee ist es ein Dorf in der Unreal Engine 5 zu erschaffen. In diesem Dorf befinden sich verschiedene Gebäude.
+\\
+In diesem Kapitel möchte ich zeigen, wie ich die Gebäude mit Hilfe verschiedener KI-Systeme in der Unreal Engine 5 realisiert habe. Ich werde in diesem Kapitel und in den folgenden Meilensteine nicht mehr so detailliert alles wie bei der Erstellung der Hauptfigur, sondern nur auf Schritte eingehen, die im Prozess unterscheiden.
 \\
 Fachwerkhäuser repräsentieren etwas Mittelalterliches, und da die Renaissance an das Mittelalter zeitlich gegliedert ist, waren in Zeiten der Renaissance Fachwerkhäuser sehr weit verbreitet.
-Meine Idee ist es, Diverse Fachwerkhäuser in meinem Dorf zu verteilen, um eine Dorflandschaft zu kreieren.
 \\
-Mein erster Ansatz ist, Häuser mit Hilfe von einem einfachen 3D-Modell umzusetzen, was ich in Blender erstellt habe. Dieses 3D-Modell bestand aus einem Quader mit einer Spitze. Kurz, ein einfaches Haus.
+Meine Idee ist es, Diverse Fachwerkhäuser zu erschaffen und auf einer Landschaft zu verteilen, um eine Dorflandschaft zu kreieren.
+\\
+Mein erster Ansatz ist es, Häuser mit Hilfe von einem einfachen 3D-Modell umzusetzen, was ich in Blender erstellt habe. Dieses 3D-Modell bestand aus einem Quader mit einer Spitze. Kurz, ein einfaches Haus.
 \\
 Mit Midjourney habe ich Texturen erstellt, die Fachwerkhäuser nachempfunden sind. Diese Texturen und das einfache Haus wurden mit Hilfe von Blender verbunden. 
 \\
 Folgend wurden die einfachen Fachwerkhäuser in Unreal Engine 5 Importiert und verteilt.
 \\
-Die erste Version mit dem einfachen 3D-Modell ist ein Ansatz und hat funktioniert,  es für mein Prototyp nicht geeignet.  Dieser Ansatz wäre glaube ich gut geeignet, wenn.   Das Prototyp wenn der Spielcharaktere aus der isometrischen Sicht gesteuert wird, also von oben schräg und nicht aus der dritten Person, also von hinten über die Schulter klickend.  Wenn wir vor einem solchen Modell stets wirkt es doch sehr unglaubwürdig und unlebendig. Eine Inspiration für meinen zweiten Ansatz ist Walheim, ein Survivalspiel von den Coffee Stain Studios. In diesem Spiel gibt es ein Baukastensystem, in denen der Spieler sein eigenes Haus bauen kann.
-
-Im Grunde genommen besteht ein Fachwerkhaus auch aus sebis simplen Bauteilen. Wie ZB wendebalken Dach. Ein Keller. Eine Treppe. Und diese einzelnen Elemente? 	Möchte ich nachbauen, so dass man im Unreal Engine Editor ein Haus selber bauen kann.  Der Vorteil dieser Methode liegt ganz klar auf der Hand. Zum Beispiel kann man mit Journey.  Immer wieder den gleichen Auftrag geben und er wird zum Beispiel von der Textur Stein. Immer wieder eine andere Textur ausgeben, die sich aber in sich ähneln, aber niemals gleichen.
-
-
-
+Die erste Ansatz funktioniert, bringt aber ein Problem mit sich - die Modelle wirken etwas platt und langweilig. 
+\\
+Besonders da die Kamera direkt hinter der Spielfigur befindet und frei schwenkbar ist. Anders, wenn die Kamera so angeordnet ist, wenn sie nur von oben herab schaut. Dafür wären solche Modelle wiederum sehr gut geeignet.
+\\
+Dieser Ansatz ist nicht gut geeignet, denn die Hauptfigur bewegt sich in der Third-Person durch die Spielwelt. Das Problem mit der Third Person ist, dass man Objekte sehr nah betrachten kann und dadurch unschöne Modelle eher  negativ auffallen als zum Beispiel in der Top-Down-Perspektive, wo 3D-Modell nur von oben zu betrachten sind.
+\\
+Eine Inspiration für meinen zweiten Ansatz ist Valheim, ein Survival-Spiel von den Coffee Stain Studios. In diesem Spiel gibt es ein Baukastensystem, in dem der Spieler sein eigenes Haus bauen kann.
+\\
+In Valheim kann der Spieler verschiedene Wände, Balken, Fußböden, Dächer und Materialarten auswählen, um damit seine Behausung zu gestalten.
+\\
+Hinzu kommen andere Elemente wie Zäune und Gemüse um ein Garten zu erschaffen, Werkbänke, Tische und Stühle um eine Inneneinrichtung zu kreieren und sogar Teppiche aus Tierfelle und Trophäen die man an die Wand hängen kann um eine Dekorative charakter in die Behausung eines Spielers zu schaffen.
+\\
+Aus dieser Inspiration habe ich einen zweiten Ansatz entwickelt und zwar einen so genannten Dorfbaukasten.
+\\
+Dieser Dorfbaukasten besteht ebenfalls aus Wänden, Balken, Dächer, Fussböden und Tapeten.
+\\
+Im Grunde genommen besteht ein Fachwerkhaus auch aus simplen Bauteilen, wie zum Beispiel Wände, Balken, ein Dach, Türen und Fenster. Diese einzelnen Elemente möchte ich nachbauen, so dass man im Unreal Engine Editor ein Haus selber bauen kann. 
+Ziel ist es, diese einzelnen Elemente zu programmieren, damit die Materialeigenschaft sich untereinander unterscheidet. Zum Beispiel wirkt jeder Balken unterschiedlich, weil durch Midjourney fünf unterschiedliche Holzmaterialien erstellt wurden.
+\\
 Mein erster Ansatz war gut, aber nicht gut genug. Ich habe mich als ein Mann Videospiel Entwicklung gegen meinen ersten Ansatz entschieden. Nach der Implementierung in der Unreal Engine 5, sahen die 3D-Modelle für mein Geschmack etwas zu plastisch und platt aus. Die Balken innerhalb. Des Fachwerks haben keine Schatten geworfen und.  Sah einfach zu künstlich aus für meinen Geschmack. Also habe ich einen zweiten Ansatz entwickelt. Der zweite Ansatz besteht aus einem Baukastensystem, jeder Balken, jede Wand und jedes Dachelement hat.  Eine eigenes Element.  Diese Elemente können kann ich die diese Elemente, die in der Regel aus. Einfachen Formen wie?
 
 Quader, oder?  	Dreiecke bestehen.  Kann ich einfach mit einem blueprint Skript.  Die Texturen jeweils. Hinzufügen.  Das bedeutet, ich brauche keinen Blender mehr, um ein 3 D Modell zu erzeugen, sondern mit einfachen.  Formen. Geometrien. Die über die andere Engine.   Mir zur Verfügung gestellt werden.  Mir einen einfachen Bausatz erstellen kann, die ich dann zusammengesteckt. Zusammenstecken kann. Um halt einfache Fachwerkhäuser. Zu erstellen.  Der Vorteil meines zweiten Ansatzes liegt darin, dass ich. Individuellere. Gebäude erstellen kann.
 
 Die Sicherheit. Klar, auch in Form.  Von den Nachbarnhäusern unterscheiden.  	Ein weiterer Vorteil ist, ich kann Innenräumen gestalten, das in der ersten Version nicht. Möglich gewesen ist. Oder möglich ist.   	Ich kann mit der zweiten Version Innenräumen auch Fußboden gestalten. Ich kann Tapeten gestalten.
 
-
 \subsection {Meilenstein: Nebenfiguren}
+Die Nebenfiguren konnte ich mit Midjourney und PIFuHD generrieren
 \subsection {Meilenstein: Dialogsystem}
 \subsection {Meilenstein: Sprachausgabe}
 \subsection{Erstellung von Musik und Klängen}
@@ -329,6 +361,8 @@ Durch Midjourney konnte ich Bilder von Martin Luther erzeugen, die als Konzeptgr
 \subsection{Code-Beispiele}
 \subsection{Weitere Materialien}
 \end{document}
+
+
 
 
 
