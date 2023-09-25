@@ -1,14 +1,19 @@
 %vormatierung
-\documentclass[12pt,a4paper,bibliography=totocnumbered,listof=totocnumbered]{scrartcl}
+\documentclass[10pt,a4paper,bibliography=totocnumbered,listof=totocnumbered]{scrartcl}
 %zeilenabstand
 \usepackage{setspace}
-\onehalfspacing
+\linespread{1.2}
+%\onehalfspacing
 \parindent 0pt
 
 \usepackage{tabularx}
 \usepackage[utf8]{inputenc}
 %font änder
 \usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{uarial}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{blindtext}
 %ränder
 \usepackage[paper=a4paper,left=40mm,right=30mm,top=25mm,bottom=25mm]{geometry} 
 %Abstand Fusnoten
@@ -19,24 +24,11 @@
 \usepackage{hyperref}
 \setcounter{secnumdepth}{3}
 %sonderzeichen
-\usepackage[T1]{fontenc}
+%\usepackage[T1]{fontenc}
 %grafiken einbinden
 \usepackage{graphicx}
 \usepackage{pdflscape}
 \usepackage{listings}
-
-\lstdefinestyle{myStyle}{
-    backgroundcolor=\color{gray!10},   % Hintergrundfarbe
-    basicstyle=\ttfamily\small,        % Schriftart und -größe
-    frame=single,                      % Rahmen um den Text
-    framesep=5pt,                      % Abstand zwischen Rahmen und Text
-    rulecolor=\color{black},           % Rahmenfarbe
-    xleftmargin=10pt,                  % Abstand vom linken Rand
-    xrightmargin=10pt,                 % Abstand vom rechten Rand
-    breaklines=true,                   % Zeilenumbruch zulassen
-    breakatwhitespace=true,            % Zeilenumbruch an Leerstellen
-    showstringspaces=false,            % Leerzeichen in Strings nicht hervorheben
-}
 
 
 %Wie können künstliche Intelligenzen bei der Entwicklung eines Videospiels in der Unreal Engine 5 eingesetzt werden?
@@ -94,7 +86,7 @@ Ich benutze in meiner Bachelorthesis den Begriff Ein-Mann-Videospielentwickler, 
 \\
 In der Videospielindustrie ist es heute üblich, dass ein Spiel von Entwickler Studios entwickelt wird, die mehrere hundert Angestellte haben. Zum Beispiel Baldur´s Gate 3 , was von dem Belgischen Entwicklerstudio Larian Studios entwickelt wurde, hat mehr als 450 Angestellte.
 \\
-Im Jahr 2022 hat ein großes kulturelles Umdenken in unserer Gesellschaft stattgefunden, was das Thema KI betriff. Früher ein Thema für Nerds und Science Fiction, heute ein Thema für Markus Lenz und die Tagesschau.
+%Im Jahr 2022 hat ein großes kulturelles Umdenken in unserer Gesellschaft stattgefunden, was das Thema KI betriff. Früher ein Thema für Nerds und Science Fiction, heute ein Thema für Markus Lenz und die Tagesschau.
 \\
 Bettina Stark-Watzinger bezeichnet KI als Schlüsseltechnologie.
 \\
@@ -207,13 +199,13 @@ Die Unreal Engine ermöglicht den Spieleentwickler 3D-Videospiele zu entwickeln.
 Meine Idee ist ein Videospiel zu entwickeln, das eine geschichtliche und kulturelle Relevanz zur deutschen Geschichte hat. Ein weiteres Kriterium an meinem Videospiel ist es, ein Szenario zu wählen, das sich vor dem Zweiten Weltkrieg befindet. Mit dieser Idee ging ich zu ChatGPT und habe folgenden Prompt formuliert und anschließend diese Ausgabe bekommen.
 \begin{figure}[h]
         	\centering
-\includegraphics[scale=0.7]{BilderFuerBA/CGPTBachelorarbeitZurKI/01.png}
+\includegraphics[width=14cm]{BilderFuerBA/CGPTBachelorarbeitZurKI/01.png}
         	\caption{Ersten 5 Themen}
         	\label{fig:ersten-5-themen}
 \end{figure}
 \begin{figure}[h]
         	\centering
-\includegraphics[scale=0.7]{BilderFuerBA/CGPTBachelorarbeitZurKI/02.png}
+\includegraphics[width=14cm]{BilderFuerBA/CGPTBachelorarbeitZurKI/02.png}
         	\caption{Zweiten 5 Themen}
         	\label{fig:zweiten-5-themen}
 \end{figure}
@@ -243,27 +235,64 @@ Die Entwicklung des Prototyps unterteilt sich in verschiedene Meilensteine:
 -Sprachausgabe
 \\
 Jeder dieser Meilensteine besitzt in dieser Theses sein eigenes Kapitel, in dem die Entwicklung nahegebracht wird.
+
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ HUPTFIGUR\\\\\\\\\\\\\\\\\\\\\\\
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ HUPTFIGUR\\\\\\\\\\\\\\\\\\\\\\\
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ HUPTFIGUR\\\\\\\\\\\\\\\\\\\\\\\
 \subsection {Meilenstein: Hauptfigur}
+Mein erste Meilenstein ist die Hauptfigur Martin Luther. Ich beginne die Entwicklung der Hauptfigur in dem ich ChatGPT um eine Beschreibung meiner Hauptfigur auffordere. Ich gebe auch an, dass ich die Ausgabe von ChatGPT als Prompt für Midjourney verwenden möchte. 
+Ich habe zusätzlich ChatGPT aufgefordert, dass die Vorlage für PIFuHD kompatibel sein sollte
 \begin{figure}[h]
-        	\centering
-\includegraphics[scale=0.7]{BilderFuerBA/CGPTMidJourneyMartinLuther/01.png}
+ 	\centering
+\includegraphics[width=14cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/01.png}
         	\caption{Erster Versuch: ChatGPT erstellt Promt für Midjourney}
         	\label{fig:chatgpt-ptompt-Midjourney-01}
 \end{figure}
-\begin{figure}[h]
-        	\centering
-\includegraphics[scale=0.7]{BilderFuerBA/CGPTMidJourneyMartinLuther/02.png}
-        	\caption{Zweiter Versuch: ChatGPT erstellt Promt für Midjourney ohne Rechtschreibfehler}
-        	\label{fig:chatgpt-ptompt-Midjourney-02}
-\end{figure}
-\begin{figure}[h]
-        	\centering
-\includegraphics[scale=0.7]{BilderFuerBA/CGPTMidJourneyMartinLuther/03.png}
-        	\caption{Dritter Versuch: ChatGPT erstellt Promt für Midjourney in Englisch}
-        	\label{fig:chatgpt-ptompt-Midjourney-03}
-\end{figure}
-Der erste Versuch hat einen deutschen Prompt ausgegeben, der anschließend übersetzt wurde.
 \\
+Mit der in Abbildung 3 zusehenden Auffoerderung, habe ich eine deutsche Asugabe bekommen. Um das zu beheben forderte ich ChatGPT auf, diesen Prompt zu übersetzen. Meine frühere Erfahrun zeigt mir das ein Prompt in Englisch, ein besseres Ergebnis in Midjourney herforbring. wie in Abbildung 4 und 5 zeige am beispiel Bussfahrer auf deutsch und buss driver auf englisch.
+\\
+\begin{figure}[h]
+	\centering
+	\begin{minipage}[t]{0.45\linewidth}
+		\centering
+		\includegraphics[width=6cm]{BilderFuerBA/MJ/Bussfahrer.png}
+		\caption{Midjourney Prompt: Bussfahrer}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.45\linewidth}
+		\centering
+		\includegraphics[width=6cm]{BilderFuerBA/MJ/buss_driver.png}
+		\caption{Midjourney Prompt: buss driver}
+	\end{minipage}
+		
+\includegraphics[scale=0.7]{BilderFuerBA/CGPTMidJourneyMartinLuther/03.png}
+        	´%\caption{Dritter Versuch: ChatGPT erstellt Promt für Midjourney in Englisch}
+        	%\label{fig:chatgpt-ptompt-Midjourney-03}
+\end{figure}
+\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=14cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/02.png}
+	\caption{Zweiter Versuch: ChatGPT erstellt Promt für Midjourney ohne Rechtschreibfehler}
+	\label{fig:chatgpt-ptompt-Midjourney-02}
+\end{figure}
+
+Nach der Übersetung von ChatGPT, übergebe ich diesen an Midjourney.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=14cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/03.png}
+	\caption{Vierter Versuch: Aufforderung ChatGPT verwendung einer Midjourney-Formel}
+	\label{fig:chatgpt-ptompt-Midjourney-04}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{BilderFuerBA/MJ/MLaufEnglisch.png}
+	\caption{Vierter Versuch: Aufforderung ChatGPT verwendung einer Midjourney-Formel}
+	\label{fig:chatgpt-ptompt-Midjourney-04}
+\end{figure}
+
 Dieser Prompt wurde Midjourney übergeben, was diese Bilder als Resultat ergibt.
 [BILD]
 ChatGPT beschrieb sehr atmosphärisch, was in ein sehr unaufgeräumtes Resultat hervorbringt.
@@ -271,16 +300,16 @@ Es wird vermutet, dass ChatGPT nicht genügend darauf trainiert ist, wie Midjour
 \\
 Eine Recherche auf YouTube hat gezeigt, dass das Verwenden von Midjourney-Formeln ein aufgeräumtes Ergebnis hervorrufen kann. Diese Formel wurde ChatGPT übergeben und diese hat ein Aufgeräumteres Ergebnis die Folge.
 \begin{figure}[h]
-        	\centering
-\includegraphics[scale=0.7]{BilderFuerBA/CGPTMidJourneyMartinLuther/04.png}
-        	\caption{Vierter Versuch: Aufforderung ChatGPT verwendung einer Midjourney-Formel}
-        	\label{fig:chatgpt-ptompt-Midjourney-04}
+	\centering
+	\includegraphics[width=5cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/04.png}
+	\caption{Vierter Versuch: Aufforderung ChatGPT verwendung einer Midjourney-Formel}
+	\label{fig:chatgpt-ptompt-Midjourney-04}
 \end{figure}
 \begin{figure}[h]
-        	\centering
-\includegraphics[scale=0.7]{BilderFuerBA/CGPTMidJourneyMartinLuther/05.png}
-        	\caption{Erster Test MJ-Formel: ChatGPT erstellt Promt mit verwendung der Midjourney-Formel}
-        	\label{fig:chatgpt-ptompt-Midjourney-05}
+	\centering
+	\includegraphics[width=5cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/05.png}
+	\caption{Erster Test MJ-Formel: ChatGPT erstellt Promt mit verwendung der Midjourney-Formel}
+	\label{fig:chatgpt-ptompt-Midjourney-05}
 \end{figure}
 \begin{figure}[h]
         	\centering
@@ -312,6 +341,9 @@ PIFuHD lauffährig zu machen sind einige Einstellung nötig, diese werde ich im 
  
 %[BILD]
 %[BILD]
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Gebäude\\\\\\\\\\\\\\\\\\\\\\\
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Gebäude\\\\\\\\\\\\\\\\\\\\\\\
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Gebäude\\\\\\\\\\\\\\\\\\\\\\\
 \subsection {Meilenstein: Gebäude}
 \begin{figure}[h]
         	\centering
@@ -371,7 +403,11 @@ Nach dem ich PIFuHD die beiden Conzeptgraphiken übergeben habe, wu rden sie Wie
 Für den Prototyp impotiere ich die NPCs ohne Sceleton Mesh ein, da sie keine Laufanimation benötigen, sonder nur in der Spielwelt plaziert werden um mit dem Hauptcharakter zu reden.
 \\
 Dadurch das die NPC keine Sceleton Mesh besitzen ist auch gut zu erkennen, das die NPCs keine großen verformungen aufweisen wie die Hauptfigur. Die Verformung tritt z. B. in bereich der Hüfte sehr stark auf aufgrund der unterschiedlich gewichtete zuweisung der Vertices zu den einzelen Bones des Sceleton Mesh.
- 
+
+
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Dialogsystem\\\\\\\\\\\\\\\\\\\\\\\
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Dialogsystem\\\\\\\\\\\\\\\\\\\\\\\
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Dialogsystem\\\\\\\\\\\\\\\\\\\\\\\
 \subsection {Meilenstein: Dialogsystem}
 Um ein Dialogsystem in der Unreal Enginge 5 zu entwickeln habe ich mehrere Ansätze gebraucht.
  
@@ -398,7 +434,12 @@ Das Problem, dass ich nicht weiß wie ein Dialogsystem entwickelt wurde, und Cha
 Also habe ich gegoogelt und auf youtube ein Tutorial gefunden.   	Mit der andere Engine 5. Musste ich eine Schnittstelle, was zwischen den verschiedenen.  Actors wie zum Beispiel der Hauptfigur und den MPC.  Eine Schnittstelle bildet.         	Diese Schnittstelle habe ich mit Blueprince umgesetzt. Ich musste auch bei blueprint m bei meiner Hauptfigur Martin Luther.   	Etwas entwickeln und zwar habe ich ein Array erzeugt oder mehrere Arrays erzeugt. Die speichert, was gesagt wird, in Schriftform und was gesagt wird in.   Ausgabe.  In Sprachausgabe, in Soundausgabe.
 \\
 Ich habe eine Aktionsbutton hinzugefügt, was für was in diesem Beispiel der Buchstabe auf der Tastatur e ist.  Der sagt, Hey, ich möchte mit dir arbeiten.     	Ich habe einen Pool A erzeugt, die. Signalisiert. Hey, ich kann jetzt interagieren mit der Person oder gerade nicht.        	Da das Dialogsystem. Vor z GPT unvollständig war habe ich mir noch andere Dialog Dialoge hinzu ausgedacht, andere Dialoge ausgedacht.  Und somit war das Dialogsystem auch schon fertig.
- 
+
+
+
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Sprachausgabe\\\\\\\\\\\\\\\\\\\\\\\
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Sprachausgabe\\\\\\\\\\\\\\\\\\\\\\\
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Sprachausgabe\\\\\\\\\\\\\\\\\\\\\\\
 \subsection {Meilenstein: Sprachausgabe}
 Nachdem ich das Dialogsystem erstellt und implementiert habe, fehlt nur noch der Inhalt, was die Charaktere miteinander als sich erzählen. Und zwar habe ich hier zwei neue Ki-Systeme benutzt, die vorher noch nicht zum Einsatz gekommen diese sind Voice AI und Adobe Enhance Speache.
 \\
@@ -472,3 +513,22 @@ KI-Systeme sind gute Werkzeuge um ein Prototyp
 
 %\subsection{Nutzung von KIs zur Erstellung von 2D Bildern}
 %Als erstes brauche ich eine Spielfigur die Martin Luther nachempfunden ist. Mein Worklfow besteht darin ein Promt von ChatGPT ausgeben zu lassen, den ich Später für Midjourney benutzen kann. Genau diesen Prompt habe ich ChatGPT übergeben.
+
+%\begin{figure}[h]
+%	\centering
+%	\begin{minipage}[t]{0.45\linewidth}
+%		\centering
+%		\includegraphics[width=7cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/03.png}
+%		\caption{Dritter Versuch: ChatGPT erstellt Promt für Midjourney in Englisch}
+%	\end{minipage}
+%	\hfill
+%	\begin{minipage}[t]{0.45\linewidth}
+%		\centering
+%		\includegraphics[width=7cm]{BilderFuerBA/MJ/MLaufEnglisch.png}
+%		\caption{Describe a scene where Martin Luther is working on}
+%	\end{minipage}
+%		
+%\includegraphics[scale=0.7]{BilderFuerBA/CGPTMidJourneyMartinLuther/03.png}
+        	´%\caption{Dritter Versuch: ChatGPT erstellt Promt für Midjourney in Englisch}
+        	%\label{fig:chatgpt-ptompt-Midjourney-03}
+%\end{figure}
