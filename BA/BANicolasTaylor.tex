@@ -29,7 +29,7 @@
 \usepackage{graphicx}
 \usepackage{pdflscape}
 \usepackage{listings}
-
+%\usepackage[none]{hyphenat}
 
 %Wie können künstliche Intelligenzen bei der Entwicklung eines Videospiels in der Unreal Engine 5 eingesetzt werden?
 \title{Entwicklung eines Videospielprototypen als ,,Ein-Mann-Videospielentwickler´´ auf der Unreal Engine 5 mit Hilfe von KI-Systemen}
@@ -240,51 +240,53 @@ Jeder dieser Meilensteine besitzt in dieser Theses sein eigenes Kapitel, in dem 
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ HUPTFIGUR\\\\\\\\\\\\\\\\\\\\\\\
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ HUPTFIGUR\\\\\\\\\\\\\\\\\\\\\\\
 \subsection {Meilenstein: Hauptfigur}
-Bitte schreib mir ein promp für midjourney um eine vorlage zu bekommen die ich in PIFuHD benutzen kann. Die Person soll martin luther ähnlich sehen.
 
 Ich beginne die Entwicklung der Hauptfigur in dem ich ChatGPT um eine Beschreibung meiner Hauptfigur auffordere. Ich gebe ebenfalls an, dass ich die Ausgabe von ChatGPT als Prompt für Midjourney verwenden möchte. Zusätzlich fordere ich ChatGPT auf, dass das Ergebnis von Midjourney für PIFuHD kompatibel sein sollte.
 \begin{figure}[h]
  	\centering
-\includegraphics[width=14cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/01.png}
+\includegraphics[width=14cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/02.png}
         	\caption{Erster Versuch: ChatGPT erstellt Promt für Midjourney}
         	\label{Erster_Versuch_Midjourney_Promt}
 \end{figure}
 \\
-Mit der in Abbildung \ref{Erster_Versuch_Midjourney_Promt} zusehenden Aufforderung, habe ich eine deutsche Ausgabe bekommen. Durch eine kurze Aufforderung kann die Ausgabe von ChatGPT übersetzt werden. 
-Midjourney liefert in Englisch in Gegensatz in Deutsch oft ein ähnliches Ergebnis, aber nicht immer. Beobachten kann man bei Promts, wo wörter im Englschen auseinander geschrieben werden, wie zum Beispiel Bussfahrer auf deutsch und buss driver auf englisch.
+Mit der in Abbildung \ref{Erster_Versuch_Midjourney_Promt} zusehenden Aufforderung, habe ich eine deutsche Ausgabe bekommen. Durch eine kurze Aufforderung wie in Abbildung \ref{übersetzen} wurde die Ausgabe von ChatGPT übersetzt.
 \\
-\begin{figure}
+Midjourney liefert in Englisch in Gegensatz im Vergleich zu Deutsch nicht immer ein ähnliches Ergebnis. Beobachten kann das zum Beispiel in Abbildung \ref{Bussfahrer} Bussfahrer auf deutsch, und in Abbildung \ref{bus_driver} buss driver auf englisch.
+\\
+\begin{figure}[h]
 	\centering
 	\begin{minipage}[t]{0.45\linewidth}
 		\centering
-		\includegraphics[width=6cm]{BilderFuerBA/MJ/Bussfahrer.png}
+		\includegraphics[width=6cm]{BilderFuerBA/MJ/Busfahrer.png}
 		\caption{Midjourney Prompt: Bussfahrer}
+		\label{Bussfahrer}
 	\end{minipage}
 	\hfill
 	\begin{minipage}[t]{0.45\linewidth}
 		\centering
-		\includegraphics[width=6cm]{BilderFuerBA/MJ/buss_driver.png}
-		\caption{Midjourney Prompt: buss driver}
+		\includegraphics[width=6cm]{BilderFuerBA/MJ/bus_driver.png}
+		\caption{Midjourney Prompt: bus driver}
+		\label{bus_driver}
 	\end{minipage}
-		
+\end{figure}
+Anhang in Abbildung \ref{Bussfahrer} und Abbildung \ref{bus_driver} kann man gut betrachten, das die verwendeten Sprache ein Unterschied macht. Im Englischen wird eher eine Person dargestellt, die ein Lenkrad in der Hand hält, wo der Prompt auf deutsch eher ein Passagier dargestellt wird oder nur ein Bus in einer Landschaft.
+\\
+Midjourney versteht garnicht unsere Sprache, sondert die Genauigkeit entsteht aus der Menge der Daten womit das KI-System Trainiert ist. Das Wort Bussfahrer kommt womöglich mit nicht so oft in den Trainigsdaten vor wie buss driver aus dem Englischen.
+\\
+Ich entscheide mich meine Promts auf Englisch für Midjourney verfassen.
+\\
+
 %\includegraphics[scale=0.7]{BilderFuerBA/CGPTMidJourneyMartinLuther/03.png}
         	´%\caption{Dritter Versuch: ChatGPT erstellt Promt für Midjourney in Englisch}
         	%\label{fig:chatgpt-ptompt-Midjourney-03}
-\end{figure}
-\begin{figure}
-	\centering
-	\includegraphics[width=14cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/02.png}
-	\caption{Zweiter Versuch: ChatGPT erstellt Promt für Midjourney ohne Rechtschreibfehler}
-	\label{fig:chatgpt-ptompt-Midjourney-02}
-\end{figure}
 
 Nach der Übersetung von ChatGPT, übergebe ich diesen an Midjourney.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=14cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/03.png}
-	\caption{Vierter Versuch: Aufforderung ChatGPT verwendung einer Midjourney-Formel}
-	\label{fig:chatgpt-ptompt-Midjourney-04}
+	\caption{Übersetzung des Promptsl}
+	\label{übersetzen}
 \end{figure}
 
 \begin{figure}[h]
@@ -533,3 +535,5 @@ KI-Systeme sind gute Werkzeuge um ein Prototyp
         	´%\caption{Dritter Versuch: ChatGPT erstellt Promt für Midjourney in Englisch}
         	%\label{fig:chatgpt-ptompt-Midjourney-03}
 %\end{figure}
+%\end{figure}	\begin{figure}	\centering	\includegraphics[width=14cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/02.png}	\caption{Zweiter Versuch: ChatGPT erstellt Promt für Midjourney ohne Rechtschreibfehler}	\label{fig:chatgpt-ptompt-Midjourney-02}\end{figure}
+

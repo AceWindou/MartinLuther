@@ -1,0 +1,554 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.11)  26 SEP 2023 02:13
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Namenlos-4.tex
+(Namenlos-4.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28>
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks19
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen147
+\stockheight=\dimen148
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen151
+\lightrulewidth=\dimen152
+\cmidrulewidth=\dimen153
+\belowrulesep=\dimen154
+\belowbottomsep=\dimen155
+\aboverulesep=\dimen156
+\abovetopsep=\dimen157
+\cmidrulesep=\dimen158
+\cmidrulekern=\dimen159
+\defaultaddspace=\dimen160
+\@cmidla=\count196
+\@cmidlb=\count197
+\@aboverulesep=\dimen161
+\@belowrulesep=\dimen162
+\@thisruleclass=\count198
+\@lastruleclass=\count199
+\@thisrulewidth=\dimen163
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen164
+\ar@mcellbox=\box51
+\extrarowheight=\dimen165
+\NC@list=\toks20
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box52
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/paralist\paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip51
+\plpartopsep=\skip52
+\plitemsep=\skip53
+\plparsep=\skip54
+\pl@lab=\toks21
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks22
+\verbatim@line=\toks23
+\verbatim@in@stream=\read2
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/07/31 v3.6n Customizing captions (AR)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen166
+\captionmargin=\dimen167
+\caption@leftmargin=\dimen168
+\caption@rightmargin=\dimen169
+\caption@width=\dimen170
+\caption@indent=\dimen171
+\caption@parindent=\dimen172
+\caption@hangindent=\dimen173
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count266
+\c@continuedfloat=\count267
+)
+\c@KVtest=\count268
+\sf@farskip=\skip55
+\sf@captopadj=\dimen174
+\sf@capskip=\skip56
+\sf@nearskip=\skip57
+\c@subfigure=\count269
+\c@subfigure@save=\count270
+\c@lofdepth=\count271
+\c@subtable=\count272
+\c@subtable@save=\count273
+\c@lotdepth=\count274
+\sf@top=\skip58
+\sf@bottom=\skip59
+) (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip60
+\f@nch@O@elh=\skip61
+\f@nch@O@erh=\skip62
+\f@nch@O@olh=\skip63
+\f@nch@O@orh=\skip64
+\f@nch@O@elf=\skip65
+\f@nch@O@erf=\skip66
+\f@nch@O@olf=\skip67
+\f@nch@O@orf=\skip68
+) (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/sectsty\sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has section divisions on input line 50.
+
+Package tocbibind Note: Using section or other style headings.
+
+) (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip69
+\cftbeforetoctitleskip=\skip70
+\cftaftertoctitleskip=\skip71
+\cftbeforepartskip=\skip72
+\cftpartnumwidth=\skip73
+\cftpartindent=\skip74
+\cftbeforesecskip=\skip75
+\cftsecindent=\skip76
+\cftsecnumwidth=\skip77
+\cftbeforesubsecskip=\skip78
+\cftsubsecindent=\skip79
+\cftsubsecnumwidth=\skip80
+\cftbeforesubsubsecskip=\skip81
+\cftsubsubsecindent=\skip82
+\cftsubsubsecnumwidth=\skip83
+\cftbeforeparaskip=\skip84
+\cftparaindent=\skip85
+\cftparanumwidth=\skip86
+\cftbeforesubparaskip=\skip87
+\cftsubparaindent=\skip88
+\cftsubparanumwidth=\skip89
+\cftbeforeloftitleskip=\skip90
+\cftafterloftitleskip=\skip91
+\cftbeforefigskip=\skip92
+\cftfigindent=\skip93
+\cftfignumwidth=\skip94
+\cftbeforelottitleskip=\skip95
+\cftafterlottitleskip=\skip96
+\cftbeforetabskip=\skip97
+\cfttabindent=\skip98
+\cfttabnumwidth=\skip99
+\cftbeforesubfigskip=\skip100
+\cftsubfigindent=\skip101
+\cftsubfignumwidth=\skip102
+\cftbeforesubtabskip=\skip103
+\cftsubtabindent=\skip104
+\cftsubtabnumwidth=\skip105
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count275
+\l__pdf_internal_box=\box53
+) (Namenlos-4.aux
+
+LaTeX Warning: Label `fig:chatgpt-ptompt-Midjourney-04' multiply defined.
+
+)
+\openout1 = `Namenlos-4.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-7.86334pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count276
+\scratchdimen=\dimen175
+\scratchbox=\box54
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen176
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks25
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+ [1
+
+{C:/Users/nicol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+(Namenlos-4.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 1.
+ [2])
+\tf@toc=\write3
+\openout3 = `Namenlos-4.toc'.
+
+ [3]
+Overfull \hbox (11.33658pt too wide) in paragraph at lines 97--117
+\OT1/cmr/m/n/10.95 Sprich mir nach; ich bin Game De-signer. Her-zlichen Gl^^?uc
+kwunsch, du bist "Gamedesigner." 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--136
+
+ []
+
+[4]
+Overfull \hbox (2.74385pt too wide) in paragraph at lines 153--156
+\OT1/cmr/m/n/10.95 Die Ar-beit ist gegliedert in, Warum ich was mache, dann ein
+ Paar all-ge-meine Erkl^^?arungen. 
+ []
+
+[5] [6]
+<BilderFuerBA/CGPTBachelorarbeitZurKI/01.png, id=26, 553.31718pt x 416.30531pt>
+
+File: BilderFuerBA/CGPTBachelorarbeitZurKI/01.png Graphic file (type png)
+<use BilderFuerBA/CGPTBachelorarbeitZurKI/01.png>
+Package pdftex.def Info: BilderFuerBA/CGPTBachelorarbeitZurKI/01.png  used on i
+nput line 222.
+(pdftex.def)             Requested size: 398.33858pt x 299.70148pt.
+<BilderFuerBA/CGPTBachelorarbeitZurKI/02.png, id=28, 556.32843pt x 411.78844pt>
+
+File: BilderFuerBA/CGPTBachelorarbeitZurKI/02.png Graphic file (type png)
+<use BilderFuerBA/CGPTBachelorarbeitZurKI/02.png>
+Package pdftex.def Info: BilderFuerBA/CGPTBachelorarbeitZurKI/02.png  used on i
+nput line 228.
+(pdftex.def)             Requested size: 398.33858pt x 294.84747pt.
+ [7]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8]
+<BilderFuerBA/CGPTMidJourneyMartinLuther/02.png, id=36, 556.32843pt x 261.22594
+pt>
+File: BilderFuerBA/CGPTMidJourneyMartinLuther/02.png Graphic file (type png)
+<use BilderFuerBA/CGPTMidJourneyMartinLuther/02.png>
+Package pdftex.def Info: BilderFuerBA/CGPTMidJourneyMartinLuther/02.png  used o
+n input line 267.
+(pdftex.def)             Requested size: 398.33858pt x 187.04218pt.
+<BilderFuerBA/MJ/Busfahrer.png, id=37, 2055.68pt x 2055.68pt>
+File: BilderFuerBA/MJ/Busfahrer.png Graphic file (type png)
+<use BilderFuerBA/MJ/Busfahrer.png>
+Package pdftex.def Info: BilderFuerBA/MJ/Busfahrer.png  used on input line 284.
+
+(pdftex.def)             Requested size: 184.9429pt x 184.94048pt.
+<BilderFuerBA/MJ/bus_driver.png, id=38, 2055.68pt x 2055.68pt>
+File: BilderFuerBA/MJ/bus_driver.png Graphic file (type png)
+<use BilderFuerBA/MJ/bus_driver.png>
+Package pdftex.def Info: BilderFuerBA/MJ/bus_driver.png  used on input line 291
+.
+(pdftex.def)             Requested size: 184.9429pt x 184.94048pt.
+ [9 <./BilderFuerBA/CGPTBachelorarbeitZurKI/01.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<BilderFuerBA/CGPTMidJourneyMartinLuther/03.png, id=43, 555.57562pt x 223.58531
+pt>
+File: BilderFuerBA/CGPTMidJourneyMartinLuther/03.png Graphic file (type png)
+<use BilderFuerBA/CGPTMidJourneyMartinLuther/03.png>
+Package pdftex.def Info: BilderFuerBA/CGPTMidJourneyMartinLuther/03.png  used o
+n input line 304.
+(pdftex.def)             Requested size: 398.33858pt x 160.30919pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<BilderFuerBA/MJ/MLaufEnglisch.png, id=44, 1027.84pt x 1027.84pt>
+File: BilderFuerBA/MJ/MLaufEnglisch.png Graphic file (type png)
+<use BilderFuerBA/MJ/MLaufEnglisch.png>
+Package pdftex.def Info: BilderFuerBA/MJ/MLaufEnglisch.png  used on input line 
+311.
+(pdftex.def)             Requested size: 284.52756pt x 284.53105pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<BilderFuerBA/CGPTMidJourneyMartinLuther/04.png, id=45, 554.07pt x 199.49532pt>
+
+File: BilderFuerBA/CGPTMidJourneyMartinLuther/04.png Graphic file (type png)
+<use BilderFuerBA/CGPTMidJourneyMartinLuther/04.png>
+Package pdftex.def Info: BilderFuerBA/CGPTMidJourneyMartinLuther/04.png  used o
+n input line 324.
+(pdftex.def)             Requested size: 142.26378pt x 51.22221pt.
+<BilderFuerBA/CGPTMidJourneyMartinLuther/05.png, id=46, 555.57562pt x 388.45125
+pt>
+File: BilderFuerBA/CGPTMidJourneyMartinLuther/05.png Graphic file (type png)
+<use BilderFuerBA/CGPTMidJourneyMartinLuther/05.png>
+Package pdftex.def Info: BilderFuerBA/CGPTMidJourneyMartinLuther/05.png  used o
+n input line 330.
+(pdftex.def)             Requested size: 142.26378pt x 99.4657pt.
+<BilderFuerBA/CGPTMidJourneyMartinLuther/06.png, id=47, 557.08125pt x 453.19313
+pt>
+File: BilderFuerBA/CGPTMidJourneyMartinLuther/06.png Graphic file (type png)
+<use BilderFuerBA/CGPTMidJourneyMartinLuther/06.png>
+Package pdftex.def Info: BilderFuerBA/CGPTMidJourneyMartinLuther/06.png  used o
+n input line 336.
+(pdftex.def)             Requested size: 389.95422pt x 317.23302pt.
+
+Overfull \hbox (2.09503pt too wide) in paragraph at lines 316--353
+\OT1/cmr/m/n/10.95 Prompts mit Klam-mern aus-gegeben. Diese sind mit einer ein-
+fachen Auf-forderung m^^?oglich
+ []
+
+
+Overfull \hbox (7.25952pt too wide) in paragraph at lines 316--353
+\OT1/cmr/m/n/10.95 Ich habe den Promt von Chat-GPT so ver-wen-det damit ich ein
+ sauberes Ergeb-nis bekomme,
+ []
+
+[10 <./BilderFuerBA/CGPTBachelorarbeitZurKI/02.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--358
+
+ []
+
+<BilderFuerBA/MeilensteinGebaude/a_scatch_from_a_village_top_down.png, id=52, 1
+027.84pt x 1027.84pt>
+File: BilderFuerBA/MeilensteinGebaude/a_scatch_from_a_village_top_down.png Grap
+hic file (type png)
+<use BilderFuerBA/MeilensteinGebaude/a_scatch_from_a_village_top_down.png>
+Package pdftex.def Info: BilderFuerBA/MeilensteinGebaude/a_scatch_from_a_villag
+e_top_down.png  used on input line 370.
+(pdftex.def)             Requested size: 205.56436pt x 205.56436pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11 <./BilderFuerBA/CGPTMidJourneyMartinLuther/02.png>] [12 <./BilderFuerBA/MJ/
+Busfahrer.png (PNG copy)> <./BilderFuerBA/MJ/bus_driver.png (PNG copy)>]
+[13 <./BilderFuerBA/CGPTMidJourneyMartinLuther/03.png>] [14 <./BilderFuerBA/MJ/
+MLaufEnglisch.png (PNG copy)>] [15 <./BilderFuerBA/CGPTMidJourneyMartinLuther/0
+4.png> <./BilderFuerBA/CGPTMidJourneyMartinLuther/05.png>] [16 <./BilderFuerBA/
+CGPTMidJourneyMartinLuther/06.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 464--476
+
+ []
+
+[17 <./BilderFuerBA/MeilensteinGebaude/a_scatch_from_a_village_top_down.png (PN
+G copy)>] [18] [19]
+Overfull \hbox (8.46469pt too wide) in paragraph at lines 511--511
+[]\OT1/cmss/m/n/12 Kritische Re-flex-ion des En-twick-lungsprozesses und Aus-bl
+ick auf m^^?ogliche zuk^^?unftige
+ []
+
+[20] (Namenlos-4.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5054 strings out of 475385
+ 92891 string characters out of 2776907
+ 443969 words of memory out of 3000000
+ 26367 multiletter control sequences out of 15000+600000
+ 476605 words of font info for 52 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 69i,12n,79p,751b,362s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\nicol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1095.pk> <C:\Users\nicol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcbx1200.pk><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/nicol/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb>
+Output written on Namenlos-4.pdf (20 pages, 17815169 bytes).
+PDF statistics:
+ 117 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+
