@@ -33,7 +33,7 @@
 \usepackage[backend=biber,style=alphabetic,]{biblatex}
 \usepackage{biblatex}
 \addbibresource{ref.bib}
-%\bibliography{ref.bib}
+\bibliography{ref.bib}
 %\bibliographystyle{apalike} 
 %\bibliographie{ref}
 
@@ -69,13 +69,16 @@
 		 \vfill
 		 \normalsize
 \newcolumntype{x}[1]{>{\raggedleft\arraybackslash\hspace{0pt}}p{#1}}
-   		 %\begin{tabular}{x{6cm}p{7.5cm}}
-               		 %\rule{0mm}{5ex}\textbf{Autor:} & Nicolas Taylor - nicolas.taylor@gmx.net
-               		 %rule{0mm}{5ex}\textbf{Prüfer:} & Prof. Dr. Christian Fischer
-               		 %\\
-               		 %\rule{0mm}{5ex}\textbf{Abgabedatum:} & 11.04.2023
-               		 %\\
-   		 %\end{tabular}
+   		 \begin{tabular}{x{6cm}p{7.5cm}}
+               		 \rule{0mm}{5ex}\textbf{Autor:} & Nicolas Taylor - nicolas.taylor@gmx.net
+               		 \\
+               		 \rule{0mm}{5ex}\textbf{Prüfer:} & Prof. Dr. Christian Fischer
+               		 \\
+               		 \rule{0mm}{5ex}\textbf{Zweitprüfer:} & Dipl.-Ing. Peter Klingebiel
+               		 \\
+               		 \rule{0mm}{5ex}\textbf{Abgabedatum:} & 09.10.2023
+               		 \\
+   		 \end{tabular}
 \end{center}
 \pagebreak
 \tableofcontents
@@ -243,89 +246,107 @@ Jeder dieser Meilensteine besitzt in dieser Theses sein eigenes Kapitel, in dem 
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ HUPTFIGUR\\\\\\\\\\\\\\\\\\\\\\\
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ HUPTFIGUR\\\\\\\\\\\\\\\\\\\\\\\
 \subsection {Meilenstein: Hauptfigur}
-\begin{figure}[h]
+\begin{figure}
 	 \centering
 	\includegraphics[width=14cm]{BilderFuerBA/Screenshot/MartinLutherImSpiel.png}
 	\caption{UE5: Martin Luther im Spiel}
 	\label{MartinLutherImSpiel}
 \end{figure}
-Ich beginne die Entwicklung der Hauptfigur in dem ich ChatGPT um eine Beschreibung meiner Hauptfigur auffordere. Ich gebe ebenfalls an, dass ich die Ausgabe von ChatGPT als Prompt für Midjourney verwenden möchte. Zusätzlich fordere ich ChatGPT auf, dass das Ergebnis von Midjourney für PIFuHD kompatibel sein soll.
-\begin{figure}[h]
-	 \centering
-\includegraphics[width=14cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/02.png}
-   		 \caption{ChatGPT: Erster Versuch zur erstellung eines Promt für Midjourney}
-   		 \label{ChatGPT_erster_Versuch_Midjourney_Promt}
-\end{figure}
-\\
-Mit der in Abbildung \ref{ChatGPT_erster_Versuch_Midjourney_Promt} zusehenden Aufforderung, habe ich eine deutsche Ausgabe bekommen. Durch eine kurze Aufforderung wie in Abbildung \ref{ChatGPT_übersetzen} wurde die Ausgabe von ChatGPT übersetzt.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=14cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/03.png}
-    \caption{ChatGPT: Übersetzung des Prompts}
-    \label{ChatGPT_übersetzen}
-\end{figure}
-\\
-Midjourney liefert in Englisch in Gegensatz im Vergleich zu Deutsch nicht immer ein ähnliches Ergebnis. Beobachten kann das zum Beispiel in Abbildung \ref{Bussfahrer} Bussfahrer auf deutsch, und in Abbildung \ref{bus_driver} buss driver auf englisch.
-\begin{figure}[h]
-    \centering
-    \begin{minipage}[t]{0.45\linewidth}
-   	 \centering
-   	 \includegraphics[width=6.405cm]{BilderFuerBA/MJ/Busfahrer.png}
-   	 \caption{Midjourney Prompt: Bussfahrer}
-   	 \label{Bussfahrer}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{0.45\linewidth}
-   	 \centering
-   	 \includegraphics[width=6.405cm]{BilderFuerBA/MJ/bus_driver.png}
-   	 \caption{Midjourney Prompt: bus driver}
-   	 \label{bus_driver}
-    \end{minipage}
-\end{figure}
-\\
-Anhang in Abbildung \ref{Bussfahrer} und Abbildung \ref{bus_driver} kann man gut beobachten, dass die verwendeten Sprache ein Unterschied macht. Im Englischen wird eher eine Person dargestellt, die ein Lenkrad in der Hand hält, wo der Prompt auf deutsch eher ein Passagier dargestellt wird oder ein Bus in einer Landschaft.
-\\
-%https://philipp-stelzel.com/de/midjourney-deutsch-sprachen/ Abrufdatum 25.09.2023
-Midjourney versteht nicht unsere Sprache, sondert die Genauigkeit entsteht aus der Menge der Daten womit das KI-System Trainiert ist. Das Wort Bussfahrer kommt womöglich mit nicht so oft in den Trainigsdaten vor wie buss driver aus dem Englischen mit mehr Trainigsdaten hinterlegt ist.
-\\
-Mit dieser Erkenntnis, entscheide mich meine Promts auf Englisch für Midjourney zu verfassen.
-%\includegraphics[scale=0.7]{BilderFuerBA/CGPTMidJourneyMartinLuther/03.png}
-   		 %\caption{Dritter Versuch: ChatGPT erstellt Promt für Midjourney in Englisch}
-   		 %\label{fig:chatgpt-ptompt-Midjourney-03}
-\\
-Nach der Übersetzung von ChatGPT, übergebe ich den von ChatGPT generierten Promt Midjourney. Das ergebnis is in Abbildung \ref{}
 
-\begin{figure}[h]
+\begin{figure}
+	\centering
+	\includegraphics[width=14cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/02.png}
+	\caption{ChatGPT: Erster Versuch zur erstellung eines Promt für Midjourney}
+	\label{ChatGPT_erster_Versuch_Midjourney_Promt}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=14cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/03.png}
+	\caption{ChatGPT: Übersetzung des Prompts}
+	\label{ChatGPT_übersetzen}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\begin{minipage}[t]{0.45\linewidth}
+		\centering
+		\includegraphics[width=6.405cm]{BilderFuerBA/MJ/Busfahrer.png}
+		\caption{Midjourney Prompt: Bussfahrer}
+		\label{Bussfahrer}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.45\linewidth}
+		\centering
+		\includegraphics[width=6.405cm]{BilderFuerBA/MJ/bus_driver.png}
+		\caption{Midjourney Prompt: bus driver}
+		\label{bus_driver}
+	\end{minipage}
+\end{figure}
+
+\begin{figure}
+	 \centering
+	\includegraphics[width=14cm]{BilderFuerBA/Screenshot/BlenderMLVonPIFuHD105k.png}
+	\caption{Blender: 3D-Modell von Martin Luther von PIFuHD}
+	\label{BlenderMLVonPIFuHD105k}
+\end{figure}
+\begin{figure}
+	 \centering
+	\includegraphics[width=14cm]{BilderFuerBA/Screenshot/BlenderMLGeriggtUndTexturiert95k.png}
+	\caption{Blender: Martin Luther Texturiert, geriggt, Nachgebessert und gemergeten Verticies}
+	\label{BlenderMLVonPIFuHD105k}
+\end{figure}
+
+\begin{figure}
     \centering
     \includegraphics[width=8.022cm]{BilderFuerBA/MJ/MLaufEnglisch.png}
     \caption{Midjourney: Erster Prompt von ChatCPT}
     \label{Midjourney_erster_Prompt}
 \end{figure}
 
-Dieser Prompt wurde Midjourney übergeben, was diese Bilder als Resultat ergibt.
-[BILD]
-ChatGPT beschrieb sehr atmosphärisch, was in ein sehr unaufgeräumtes Resultat hervorbringt.
-Es wird vermutet, dass ChatGPT nicht genügend darauf trainiert ist, wie Midjourney Prompts auszusehen sind.
-\\
-Eine Recherche auf YouTube hat gezeigt, dass das Verwenden von Midjourney-Formeln ein aufgeräumtes Ergebnis hervorrufen kann. Diese Formel wurde ChatGPT übergeben und diese hat das in Abbildung \ref{} dieses Ergebnis die Folge.
-\begin{figure}[h]
+\begin{figure}
     \centering
     \includegraphics[width=14cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/04.png}
-    \caption{Vierter Versuch: Aufforderung ChatGPT verwendung einer Midjourney-Formel}
+    \caption{ChatGPT: Aufforderung verwendung einer Midjourney-Formel}
     \label{fig:chatgpt-ptompt-Midjourney-04}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}
     \centering
     \includegraphics[width=14cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/05.png}
-    \caption{Erster Test MJ-Formel: ChatGPT erstellt Promt mit verwendung der Midjourney-Formel}
-    \label{fig:chatgpt-ptompt-Midjourney-05}
+    \caption{ChatGPT: Erstellung Prompts mit Verwendung der Midjourney-Formel}
+    \label{chatgpt_formel_mj_first_5}
 \end{figure}
-\begin{figure}[h]
+
+\begin{figure}
    		 \centering
 \includegraphics[scale=0.7]{BilderFuerBA/CGPTMidJourneyMartinLuther/06.png}
    		 \caption{Zweiter Test MJ-Formel: ChatGPT erstellt Promt für Midjourney in Englisch ohne Klammern}
    		 \label{fig:chatgpt-ptompt-Midjourney-06}
 \end{figure}
+
+Auf Abbildung \ref{MartinLutherImSpiel} ist die Huptspielfigur des Prototypes zu Sehen. Die Hauptfigur ist Martin Luther nachempfunden. Die Hauptspielfigur ist vom Spieler Steuerbar und wurde mit Hilfe den KI-Systemen ChatGPT, Midjourney und PIFuHD erstellt. Wie die soben genannten KI-Systeme verwendet wurden, werde ich in den folgenden Absätzen ausfühlich erklären
+\\
+Ich beginne die Entwicklung der Hauptfigur in dem ich ChatGPT um eine Beschreibung meiner Hauptfigur auffordere. Ich gebe ebenfalls an, dass ich die Ausgabe von ChatGPT als Prompt für Midjourney verwenden möchte. Zusätzlich fordere ich ChatGPT auf, dass das Ergebnis von Midjourney für PIFuHD kompatibel sein soll.
+\\
+Mit der in Abbildung \ref{ChatGPT_erster_Versuch_Midjourney_Promt} zusehenden Aufforderung, habe ich eine deutsche Ausgabe bekommen. Durch eine weitere kurze Aufforderung wie in Abbildung \ref{ChatGPT_übersetzen} wurde die Ausgabe von ChatGPT übersetzt.
+\\
+Midjourney liefert in Englisch in Gegensatz im Vergleich zu Deutsch nicht immer ein ähnliches Ergebnis. Beobachten kann das zum Beispiel in Abbildung \ref{Bussfahrer} Bussfahrer auf deutsch, und in Abbildung \ref{bus_driver} buss driver auf englisch.
+\\
+Anhang in Abbildung \ref{Bussfahrer} und Abbildung \ref{bus_driver} kann man gut beobachten, dass die verwendeten Sprache ein Unterschied macht. Im Englischen wird eher eine Person dargestellt, die ein Lenkrad in der Hand hält, wo der Prompt auf deutsch eher ein Passagier dargestellt wird oder ein Bus in einer Landschaft.
+\\
+%https://philipp-stelzel.com/de/midjourney-deutsch-sprachen/ Abrufdatum 25.09.2023
+Midjourney versteht nicht unsere Sprache, sondert die Genauigkeit entsteht aus der Menge der Daten womit das KI-System Trainiert ist. Das Wort Bussfahrer kommt womöglich mit nicht so oft in den Trainigsdaten vor wie buss driver aus dem Englischen.
+\\
+Mit dieser Erkenntnis, entscheide ich mich meine Promts auf Englisch für Midjourney zu verfassen bzw von ChatGPT verfassen lassen.
+\\
+Nach der Übersetzung von ChatGPT, übergebe ich den von ChatGPT generierten Promt Midjourney. Das Ergebnis is in Abbildung \ref{Midjourney_erster_Prompt} zu betrachen.
+\\
+Der Prompt von ChatGPT aus Abbildung \ref{ChatGPT_übersetzen} beinhaltet sehr viele Schlüsselwörter die in Textform verfasst sind. Ich beschreibe den Promt von ChatGPT sehr Athomsphärisch, wie als würde man eine Textstelle aus einem Roman lesen, anstelle einer Aufforderung gegenüber eines weiteren KI-System.
+\\
+Ich vermutet, dass ChatGPT nicht genügend darauf trainiert ist, wie Midjourney-Prompts auszusehen haben.
+\\
+Eine Recherche auf YouTube hat gezeigt, dass das Verwenden von Midjourney-Formeln ein aufgeräumtes Ergebnis hervorbringen kann. Eine Kurze Auforderung wie in Abbildung \ref{chatgpt_formel_mj_first_5}
+\\
 Im ersten Test werden die Prompts mit Klammern ausgegeben. Diese sind mit einer einfachen Aufforderung möglich zu entfernen.
 \\
 Mein ziel ist es Bilder von Midjourney zu erhalten, die wie Fostos von Personen wirken. Mit diesen Fotos dienen dazu mit PIFuHD zu übergebn um 3D-Modelle von einer Person zu bekommen.
@@ -339,15 +360,10 @@ PIFuHD weist darauf hin, dass ein neutraler Hintergrund und eine frontalaufnahme
 Nachdem ich ein Ergebnis von Midjourney erhalten habe, die Martin Luther nachempfunden ist, gebe ich das bild PIFuHD um ein 3D-Modell zu erhalten.
 \\
 PIFuHD lauffährig zu machen sind einige Einstellung nötig, diese werde ich im Folgenden Kapitel erläutern
- 
 Über Google Collab ist es möglich PIFuHD zum laufen zu bringen in dem man eine Versionn in sein Google-Drive coopiert.
 \\
 Über Verbinden und Local Host läuft PIFuHD auf meinem Computer.
 \\
- 
- 
- 
- 
 %[BILD]
 %[BILD]
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Gebäude\\\\\\\\\\\\\\\\\\\\\\\
