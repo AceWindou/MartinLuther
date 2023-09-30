@@ -30,6 +30,14 @@
 \usepackage{pdflscape}
 \usepackage{listings}
 %\usepackage[none]{hyphenat}
+\usepackage[backend=biber,style=alphabetic,]{biblatex}
+\usepackage{biblatex}
+\addbibresource{ref.bib}
+%\bibliography{ref.bib}
+%\bibliographystyle{apalike} 
+%\bibliographie{ref}
+
+
 
 %Wie können künstliche Intelligenzen bei der Entwicklung eines Videospiels in der Unreal Engine 5 eingesetzt werden?
 \title{Entwicklung eines Videospielprototypen als ,,Ein-Mann-Videospielentwickler´´ auf der Unreal Engine 5 mit Hilfe von KI-Systemen}
@@ -53,7 +61,7 @@
 		 \vspace*{0.5cm}
 		 \large
 		 
-		 \textbf{Entwicklung eines Videospielprototypen als ,,Ein-Mann-Videospielentwickler´´ auf der Unreal Engine 5 mit Hilfe von KI-Systemen}\\
+		 \textbf{Entwicklung eines Videospielprototypen als Ein-Mann-Videospielentwickler auf der Unreal Engine 5 mit Hilfe von KI-Systemen}\\
 		 \vspace*{1cm}
 %	 \includegraphics[scale=1.0]{Bilder/logo.png}\\
 %		 \vspace*{2cm}
@@ -74,39 +82,22 @@
 \newpage
 %1
 \section{Einleitung}
-Sprich mir nach; ich bin Game Designer. Herzlichen Glückwunsch, du bist "Gamedesigner."
+"Sprechen Sie einfach diese magischen Worte aus: Ich bin ein Game Designer. (...) Haben Sie es gemacht? Wenn ja, dann gratuliere ich Ihnen. Sie sind jetzt ein Game Designer."\cite{schell2020kunst}
 \\
 Dieses Zitat stammt von Jesse Schell; Hochschullehrer für Unterhaltungstechnologie am Entertainment Technology Center in Pittsburgh, USA.
 \\
 Wenn er gefragt wird, was er macht, um seine Brötchen zu verdienen, antwortet er: "Ich bin Game Designer". Jesse Schell, ermutigt Anfänger in seinem Buch, die noch vor Ihrem ersten Schritt Game Designer oder Videospiele Entwickler stehen, sich selbst als Gamedesigner zu bezeichnen. Wenn wir den Worten von Jesse Schell Glauben schenken, ist Gamedesigner werden nicht schwer.
 \\
-Wenn man sich dazu entscheidet Videospiele zu entwickeln, steht man am Anfang sehr oft alleine da. Genau um dieses “alleine sein”, möchte ich mich in meine Bachelor Thesis beziehen.
+Wenn man sich dazu entscheidet Videospiele zu entwickeln, stehen oft nur drei Wege zur Verfügung. Der erste Weg ist es in einem Großen Videospielentwicklungsstudium zu arbeiten die mehrere Hundert Angestellte haben. In diesen Studios ist es üblich mit einem sehr kleinen Aufgabenbereich beschäftigt zu sein. Der zweite Weg ist in einem kleinerem Entwicklerstudio anzufangen wo sich die Rollen in der Videospielentwicklung mit anderen aus dem Team Überschneiden. Der Vorteil in diesen beiden Wegen ist, das ein Entwickler von anderen Erfahreren Entwickler lernen kann. Der dritte und letzte Weg ist der Weg als Ein-Mann-Videospielentwickler. Als Ein-Mann-Videospielentwickler ist man gezwungen alle Aufgaben zu übernehmen die Anfallen um ein Videospiel zu entwickeln.
 \\
-In der Videospielindustrie ist es heute üblich, dass ein Spiel von Entwickler Studios entwickelt wird, die mehrere hundert Angestellte haben. Zum Beispiel Baldur´s Gate 3, das von dem Belgischen Entwicklerstudio Larian Studios entwickelt wurde, hat mehr als 450 Angestellte.
-\\
-Wer in so einem großen Studio arbeitet riskiert auf eine Feste Position zu bekommen und damit verbundene limitierte Aufgaben.
-\\
-Wer aber in einem Entwicklerstudio Arbeitet, wird Automatisch mehr Aufgaben bekommen und somit mehr Erfahrungen.
-\\
-Bleiben einem Game Designer aus verschiedenen gründen beide Wege verschlossen kann man sich dazu entscheiden einen Weg als Ein-Mann-Videospielentwickler zu beschreiten.
-\\
-Als Ein-Mann-Videospielentwickler ist es nicht nur die Aufgabe ein paar Aufgaben zu übernehmen um ein Vidoespiel zu entwickeln, sonder alle.
-\\
-Ich benutze in meiner Bachelorthesis den Begriff Ein-Mann-Videospielentwickler, um zu verdeutlichen, dass alle Prozesse an einer Person abhängen.
-\\
-%Im Jahr 2022 hat ein großes kulturelles Umdenken in unserer Gesellschaft stattgefunden, was das Thema KI betriff. Früher ein Thema für Nerds und Science Fiction, heute ein Thema für Markus Lenz und die Tagesschau.
-\\
-Bettina Stark-Watzinger bezeichnet KI als Schlüsseltechnologie.
-\\
-In dieser Arbeit möchte ich als Ein-Mann-Videospielentwickler einen Prototyp im Rahmen meiner Bachelorthesis zu entwickeln mit Hilfe von KI-Systemen.
-\\
-Genau diese Entwicklung möchte ich in meiner Thesis analysieren und beschreiben.
+In dieser Arbeit möchte ich mich mit der Frage auseinandersetzen wie KI-Systeme in der Entwicklung eines Videospiels unterstützen kann. Ich werde diese Frage als Ein-Mann-Videospielentwickler nachgehen und im Rahmen dieser Bachelorthesis ein Prototyp entwickeln und in meinem Projekt so viele KI-Systeme einbinden wie es Möglich und Sinnvoll ist.
+
 %https://dailygame.at/baldurs-gate-3-entwickler-bleibt-weiterhin-unabhaengig/ -03.09.2023
  
 \subsection{Motivation und Idee}
 Videospiele werden aus sehr vielen Teilbereichen der Medienbranche zusammengesetzt, wie zum Beispiel Autoren, Programmierer und Illustratoren bis hin zu Marketing und Vertrieb.
 \\
-In den Anfangszeiten, wo Videospiele gerade angefangen haben, sich kommerziell als Unterhaltungsmedium zu etablieren, wurde ein großer Teil von Videospielen von einer Person geschrieben. Spiele Wie Space Invader, Adventure oder Space War [arbeitstitel bitte noch mal in der geschichte der VS nachssacuen]
+Die Vergangenheit hat merfach bewiesen das Videospiele von einer Person entwickelt werden könne. Spiele wie Stardew Valley das von Eric Barone entwickelt wurde, Minecraft das ursprünglich von Markus „Notch“ Persson entwickelt wurde oder Undertale das von Toby Fox entwickelt wurde.
 \\
 Spätestens in den 90er Jahren wurden nur noch sehr wenige Spiele von einer Person entwickelt die in Arcadehallen oder Kaufhäußer zugänglich waren.
 Warum der Ein-Mann-Videospieleentwickler immer seltener wurde, liegt großteil daran, dass die Technik auf denen die Vidoepiele liefen mit der Zeit leistungsfähiger wurden und somit größere und Komplexere Spielewelten erschaffen konnten.
@@ -562,11 +553,17 @@ Mein Ziel war es, Inhalte für mein Prototyp mit Hilfe von KI-Systemen für die 
 \subsection{Limitationen der Studie}
 %7
 \section{Literaturverzeichnis}
+\printbibliography
 %8
 \section{Anhang}
 \subsection{Abbildungen und Diagramme}
 \subsection{Code-Beispiele}
+\printbibliography
+
 \subsection{Weitere Materialien}
+
+%
+
 \end{document}
  
  
@@ -598,4 +595,5 @@ Mein Ziel war es, Inhalte für mein Prototyp mit Hilfe von KI-Systemen für die 
    		 %\label{fig:chatgpt-ptompt-Midjourney-03}
 %\end{figure}
 %\end{figure}    \begin{figure}    \centering    \includegraphics[width=14cm]{BilderFuerBA/CGPTMidJourneyMartinLuther/02.png}    \caption{Zweiter Versuch: ChatGPT erstellt Promt für Midjourney ohne Rechtschreibfehler}    \label{fig:chatgpt-ptompt-Midjourney-02}\end{figure}
+
 
