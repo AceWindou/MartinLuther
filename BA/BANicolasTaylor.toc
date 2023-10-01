@@ -36,37 +36,37 @@
 \contentsline {section}{\numberline {5}Umsetzung}{9}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Idee und Konzeption}{9}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Meilenstein: Hauptfigur}{11}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Meilenstein: Gebäude}{17}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Meilenstein: Nebenfiguren}{20}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Meilenstein: Dialogsystem}{20}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Meilenstein: Sprachausgabe}{21}{subsection.5.6}%
-\contentsline {subsubsection}{\numberline {5.6.1}Erst Adobe Enhance Speache dann Voice AI}{22}{subsubsection.5.6.1}%
-\contentsline {subsubsection}{\numberline {5.6.2}Erst Voice Ai dann Adobe Enhance Speech}{22}{subsubsection.5.6.2}%
-\contentsline {subsubsection}{\numberline {5.6.3}Erst Adobe Enhance Speech dann Voice AI dann wieder Adobe Enhance Speech}{22}{subsubsection.5.6.3}%
-\contentsline {subsection}{\numberline {5.7}Erstellung von Musik und Klängen}{23}{subsection.5.7}%
-\contentsline {subsection}{\numberline {5.8}Erstellung von Animationen}{23}{subsection.5.8}%
-\contentsline {subsection}{\numberline {5.9}Entwicklung der Spiellogik}{23}{subsection.5.9}%
-\contentsline {section}{\numberline {6}Ergebnisse und Diskussion}{23}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Vorstellung des fertigen Videospiels}{23}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Diskussion der Ergebnisse und Einschätzung des Erfolgs des KI-Einsatzes}{23}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}Einsatz von MonsterMash}{23}{subsubsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2}Einsatz von PFuHD}{23}{subsubsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.3}Kritische Reflexion des Entwicklungsprozesses und Ausblick auf mögliche zukünftige Entwicklungen}{24}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Allgemeine Probleme mit KI und KI-Systeme}{24}{section.7}%
-\contentsline {subsection}{\numberline {7.1}KI-Systeme und ihrer Monatarisierung}{24}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}KI-Systeme und ursachen auf andere Berufe}{24}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Ki-Systeme und der Biologischer Fussabdruck}{24}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}KI-Systeme aund die auswirkung als Entwickler}{24}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Dritte-Welt länder vs. Erste-Welt länder}{24}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}Firmeninteressen}{24}{subsection.7.6}%
-\contentsline {subsection}{\numberline {7.7}Geistiges eigentum}{24}{subsection.7.7}%
-\contentsline {section}{\numberline {8}Fazit}{24}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Zusammenfassung der Ergebnisse}{26}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Implikationen für die Praxis}{26}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Limitationen der Studie}{26}{subsection.8.3}%
-\contentsline {section}{\numberline {9}Literaturverzeichnis}{26}{section.9}%
-\contentsline {section}{\numberline {10}Anhang}{26}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Abbildungen und Diagramme}{26}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Code-Beispiele}{26}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Weitere Materialien}{26}{subsection.10.3}%
+\contentsline {subsection}{\numberline {5.3}Meilenstein: Gebäude}{21}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Meilenstein: Nebenfiguren}{23}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Meilenstein: Dialogsystem}{24}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Meilenstein: Sprachausgabe}{25}{subsection.5.6}%
+\contentsline {subsubsection}{\numberline {5.6.1}Erst Adobe Enhance Speache dann Voice AI}{25}{subsubsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.2}Erst Voice Ai dann Adobe Enhance Speech}{26}{subsubsection.5.6.2}%
+\contentsline {subsubsection}{\numberline {5.6.3}Erst Adobe Enhance Speech dann Voice AI dann wieder Adobe Enhance Speech}{26}{subsubsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.7}Erstellung von Musik und Klängen}{27}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Erstellung von Animationen}{27}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}Entwicklung der Spiellogik}{27}{subsection.5.9}%
+\contentsline {section}{\numberline {6}Ergebnisse und Diskussion}{27}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Vorstellung des fertigen Videospiels}{27}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Diskussion der Ergebnisse und Einschätzung des Erfolgs des KI-Einsatzes}{27}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Einsatz von MonsterMash}{27}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Einsatz von PFuHD}{27}{subsubsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.3}Kritische Reflexion des Entwicklungsprozesses und Ausblick auf mögliche zukünftige Entwicklungen}{28}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Allgemeine Probleme mit KI und KI-Systeme}{28}{section.7}%
+\contentsline {subsection}{\numberline {7.1}KI-Systeme und ihrer Monatarisierung}{28}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}KI-Systeme und ursachen auf andere Berufe}{28}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Ki-Systeme und der Biologischer Fussabdruck}{28}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}KI-Systeme aund die auswirkung als Entwickler}{28}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Dritte-Welt länder vs. Erste-Welt länder}{28}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Firmeninteressen}{28}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Geistiges eigentum}{28}{subsection.7.7}%
+\contentsline {section}{\numberline {8}Fazit}{28}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Zusammenfassung der Ergebnisse}{30}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Implikationen für die Praxis}{30}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Limitationen der Studie}{30}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Literaturverzeichnis}{30}{section.9}%
+\contentsline {section}{\numberline {10}Anhang}{30}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Abbildungen und Diagramme}{30}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Code-Beispiele}{30}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Weitere Materialien}{30}{subsection.10.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
