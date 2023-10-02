@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.11)  1 OCT 2023 22:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.11)  2 OCT 2023 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -893,14 +893,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--118
  []
 
 [5] [6] [7]
-<BilderFuerBA/CGPTBachelorarbeitZurKI/01.png, id=179, 553.31718pt x 416.30531pt
+<BilderFuerBA/CGPTBachelorarbeitZurKI/01.png, id=181, 553.31718pt x 416.30531pt
 >
 File: BilderFuerBA/CGPTBachelorarbeitZurKI/01.png Graphic file (type png)
 <use BilderFuerBA/CGPTBachelorarbeitZurKI/01.png>
 Package pdftex.def Info: BilderFuerBA/CGPTBachelorarbeitZurKI/01.png  used on i
 nput line 206.
 (pdftex.def)             Requested size: 398.33858pt x 299.70148pt.
-<BilderFuerBA/CGPTBachelorarbeitZurKI/02.png, id=182, 556.32843pt x 411.78844pt
+<BilderFuerBA/CGPTBachelorarbeitZurKI/02.png, id=184, 556.32843pt x 411.78844pt
 >
 File: BilderFuerBA/CGPTBachelorarbeitZurKI/02.png Graphic file (type png)
 <use BilderFuerBA/CGPTBachelorarbeitZurKI/02.png>
@@ -915,7 +915,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9]
-<BilderFuerBA/Screenshot/MartinLutherImSpiel.png, id=193, 637.63219pt x 425.339
+<BilderFuerBA/Screenshot/MartinLutherImSpiel.png, id=195, 637.63219pt x 425.339
 07pt>
 File: BilderFuerBA/Screenshot/MartinLutherImSpiel.png Graphic file (type png)
 <use BilderFuerBA/Screenshot/MartinLutherImSpiel.png>
@@ -923,21 +923,21 @@ Package pdftex.def Info: BilderFuerBA/Screenshot/MartinLutherImSpiel.png  used
 on input line 251.
 (pdftex.def)             Requested size: 398.33858pt x 265.71294pt.
  [10 <./BilderFuerBA/CGPTBachelorarbeitZurKI/01.png>]
-<BilderFuerBA/CGPTMidJourneyMartinLuther/02.png, id=199, 556.32843pt x 261.2259
+<BilderFuerBA/CGPTMidJourneyMartinLuther/02.png, id=201, 556.32843pt x 261.2259
 4pt>
 File: BilderFuerBA/CGPTMidJourneyMartinLuther/02.png Graphic file (type png)
 <use BilderFuerBA/CGPTMidJourneyMartinLuther/02.png>
 Package pdftex.def Info: BilderFuerBA/CGPTMidJourneyMartinLuther/02.png  used o
 n input line 258.
 (pdftex.def)             Requested size: 398.33858pt x 187.04218pt.
-<BilderFuerBA/CGPTMidJourneyMartinLuther/03.png, id=200, 555.57562pt x 223.5853
+<BilderFuerBA/CGPTMidJourneyMartinLuther/03.png, id=202, 555.57562pt x 223.5853
 1pt>
 File: BilderFuerBA/CGPTMidJourneyMartinLuther/03.png Graphic file (type png)
 <use BilderFuerBA/CGPTMidJourneyMartinLuther/03.png>
 Package pdftex.def Info: BilderFuerBA/CGPTMidJourneyMartinLuther/03.png  used o
 n input line 265.
 (pdftex.def)             Requested size: 398.33858pt x 160.30919pt.
-<BilderFuerBA/MJ/Busfahrer.png, id=201, 2055.68pt x 2055.68pt>
+<BilderFuerBA/MJ/Busfahrer.png, id=203, 2055.68pt x 2055.68pt>
 File: BilderFuerBA/MJ/Busfahrer.png Graphic file (type png)
 <use BilderFuerBA/MJ/Busfahrer.png>
 Package pdftex.def Info: BilderFuerBA/MJ/Busfahrer.png  used on input line 274.
@@ -948,7 +948,7 @@ Overfull \hbox (2.98871pt too wide) in paragraph at lines 274--275
  [][] 
  []
 
-<BilderFuerBA/MJ/bus_driver.png, id=202, 2055.68pt x 2055.68pt>
+<BilderFuerBA/MJ/bus_driver.png, id=204, 2055.68pt x 2055.68pt>
 File: BilderFuerBA/MJ/bus_driver.png Graphic file (type png)
 <use BilderFuerBA/MJ/bus_driver.png>
 Package pdftex.def Info: BilderFuerBA/MJ/bus_driver.png  used on input line 281
@@ -959,147 +959,170 @@ Overfull \hbox (2.98871pt too wide) in paragraph at lines 281--282
  [][] 
  []
 
-<BilderFuerBA/Screenshot/BlenderMLVonPIFuHD105k.png, id=203, 784.43062pt x 523.
-20468pt>
-File: BilderFuerBA/Screenshot/BlenderMLVonPIFuHD105k.png Graphic file (type png
-)
-<use BilderFuerBA/Screenshot/BlenderMLVonPIFuHD105k.png>
-Package pdftex.def Info: BilderFuerBA/Screenshot/BlenderMLVonPIFuHD105k.png  us
-ed on input line 289.
-(pdftex.def)             Requested size: 398.33858pt x 265.68922pt.
-<BilderFuerBA/Screenshot/BlenderMLGeriggtUndTexturiert95k.png, id=204, 718.1831
-2pt x 478.78876pt>
-File: BilderFuerBA/Screenshot/BlenderMLGeriggtUndTexturiert95k.png Graphic file
- (type png)
-<use BilderFuerBA/Screenshot/BlenderMLGeriggtUndTexturiert95k.png>
-Package pdftex.def Info: BilderFuerBA/Screenshot/BlenderMLGeriggtUndTexturiert9
-5k.png  used on input line 295.
-(pdftex.def)             Requested size: 398.33858pt x 265.56287pt.
 <BilderFuerBA/MJ/MLaufEnglisch.png, id=205, 1027.84pt x 1027.84pt>
 File: BilderFuerBA/MJ/MLaufEnglisch.png Graphic file (type png)
 <use BilderFuerBA/MJ/MLaufEnglisch.png>
 Package pdftex.def Info: BilderFuerBA/MJ/MLaufEnglisch.png  used on input line 
-302.
+291.
 (pdftex.def)             Requested size: 228.2481pt x 228.24278pt.
 <BilderFuerBA/CGPTMidJourneyMartinLuther/04.png, id=206, 554.07pt x 199.49532pt
 >
 File: BilderFuerBA/CGPTMidJourneyMartinLuther/04.png Graphic file (type png)
 <use BilderFuerBA/CGPTMidJourneyMartinLuther/04.png>
 Package pdftex.def Info: BilderFuerBA/CGPTMidJourneyMartinLuther/04.png  used o
-n input line 309.
+n input line 298.
 (pdftex.def)             Requested size: 398.33858pt x 143.42342pt.
 <BilderFuerBA/CGPTMidJourneyMartinLuther/05.png, id=207, 555.57562pt x 388.4512
 5pt>
 File: BilderFuerBA/CGPTMidJourneyMartinLuther/05.png Graphic file (type png)
 <use BilderFuerBA/CGPTMidJourneyMartinLuther/05.png>
 Package pdftex.def Info: BilderFuerBA/CGPTMidJourneyMartinLuther/05.png  used o
-n input line 315.
+n input line 304.
 (pdftex.def)             Requested size: 398.33858pt x 278.517pt.
 <BilderFuerBA/CGPTMidJourneyMartinLuther/06.png, id=208, 557.08125pt x 453.1931
 3pt>
 File: BilderFuerBA/CGPTMidJourneyMartinLuther/06.png Graphic file (type png)
 <use BilderFuerBA/CGPTMidJourneyMartinLuther/06.png>
 Package pdftex.def Info: BilderFuerBA/CGPTMidJourneyMartinLuther/06.png  used o
-n input line 322.
+n input line 311.
 (pdftex.def)             Requested size: 389.95422pt x 317.23302pt.
 <BilderFuerBA/Sonstiges/fuchsKopfAbenteuerer.png, id=209, 1027.84pt x 1027.84pt
 >
 File: BilderFuerBA/Sonstiges/fuchsKopfAbenteuerer.png Graphic file (type png)
 <use BilderFuerBA/Sonstiges/fuchsKopfAbenteuerer.png>
 Package pdftex.def Info: BilderFuerBA/Sonstiges/fuchsKopfAbenteuerer.png  used 
-on input line 329.
+on input line 318.
 (pdftex.def)             Requested size: 228.2481pt x 228.24278pt.
 <BilderFuerBA/CGPTMidJourneyMartinLuther/07.png, id=210, 554.07pt x 409.53pt>
 File: BilderFuerBA/CGPTMidJourneyMartinLuther/07.png Graphic file (type png)
 <use BilderFuerBA/CGPTMidJourneyMartinLuther/07.png>
 Package pdftex.def Info: BilderFuerBA/CGPTMidJourneyMartinLuther/07.png  used o
-n input line 336.
+n input line 325.
 (pdftex.def)             Requested size: 387.84636pt x 286.66904pt.
 <BilderFuerBA/MJ/MidJourneyMLMitFormel.png, id=211, 1027.84pt x 1027.84pt>
 File: BilderFuerBA/MJ/MidJourneyMLMitFormel.png Graphic file (type png)
 <use BilderFuerBA/MJ/MidJourneyMLMitFormel.png>
 Package pdftex.def Info: BilderFuerBA/MJ/MidJourneyMLMitFormel.png  used on inp
-ut line 344.
+ut line 333.
 (pdftex.def)             Requested size: 228.2481pt x 228.24278pt.
 <BilderFuerBA/CGPTMidJourneyMartinLuther/09.png, id=212, 556.32843pt x 424.5862
 4pt>
 File: BilderFuerBA/CGPTMidJourneyMartinLuther/09.png Graphic file (type png)
 <use BilderFuerBA/CGPTMidJourneyMartinLuther/09.png>
 Package pdftex.def Info: BilderFuerBA/CGPTMidJourneyMartinLuther/09.png  used o
-n input line 351.
+n input line 340.
 (pdftex.def)             Requested size: 389.42725pt x 297.20834pt.
 <BilderFuerBA/CGPTMidJourneyMartinLuther/10.png, id=213, 554.07pt x 471.26062pt
 >
 File: BilderFuerBA/CGPTMidJourneyMartinLuther/10.png Graphic file (type png)
 <use BilderFuerBA/CGPTMidJourneyMartinLuther/10.png>
 Package pdftex.def Info: BilderFuerBA/CGPTMidJourneyMartinLuther/10.png  used o
-n input line 358.
+n input line 347.
 (pdftex.def)             Requested size: 387.84636pt x 329.88019pt.
 <BilderFuerBA/MJ/MartinLutherInTPoseFirst.png, id=214, 1027.84pt x 1027.84pt>
 File: BilderFuerBA/MJ/MartinLutherInTPoseFirst.png Graphic file (type png)
 <use BilderFuerBA/MJ/MartinLutherInTPoseFirst.png>
 Package pdftex.def Info: BilderFuerBA/MJ/MartinLutherInTPoseFirst.png  used on 
-input line 365.
+input line 354.
 (pdftex.def)             Requested size: 228.2481pt x 228.24278pt.
+<BilderFuerBA/MJ/ErsteAusgabeVomFinalenPrompt.png, id=215, 2055.68pt x 2055.68p
+t>
+File: BilderFuerBA/MJ/ErsteAusgabeVomFinalenPrompt.png Graphic file (type png)
+<use BilderFuerBA/MJ/ErsteAusgabeVomFinalenPrompt.png>
+Package pdftex.def Info: BilderFuerBA/MJ/ErsteAusgabeVomFinalenPrompt.png  used
+ on input line 361.
+(pdftex.def)             Requested size: 228.2481pt x 228.2271pt.
+<BilderFuerBA/MJ/ZweiteAusgabeVomFinalenPrompt.png, id=216, 2055.68pt x 2055.68
+pt>
+File: BilderFuerBA/MJ/ZweiteAusgabeVomFinalenPrompt.png Graphic file (type png)
 
-LaTeX Warning: Reference `chatgpt_formel_mj_first_5' on page 11 undefined on in
-put line 391.
+<use BilderFuerBA/MJ/ZweiteAusgabeVomFinalenPrompt.png>
+Package pdftex.def Info: BilderFuerBA/MJ/ZweiteAusgabeVomFinalenPrompt.png  use
+d on input line 368.
+(pdftex.def)             Requested size: 228.2481pt x 228.2271pt.
+<BilderFuerBA/MJ/DritteAusgabeVomFinalenPrompt.png, id=217, 1027.84pt x 1027.84
+pt>
+File: BilderFuerBA/MJ/DritteAusgabeVomFinalenPrompt.png Graphic file (type png)
 
+<use BilderFuerBA/MJ/DritteAusgabeVomFinalenPrompt.png>
+Package pdftex.def Info: BilderFuerBA/MJ/DritteAusgabeVomFinalenPrompt.png  use
+d on input line 375.
+(pdftex.def)             Requested size: 228.2481pt x 228.24278pt.
 [11 <./BilderFuerBA/CGPTBachelorarbeitZurKI/02.png>] [12 <./BilderFuerBA/Screen
 shot/MartinLutherImSpiel.png> <./BilderFuerBA/CGPTMidJourneyMartinLuther/02.png
 >] [13 <./BilderFuerBA/CGPTMidJourneyMartinLuther/03.png> <./BilderFuerBA/MJ/Bu
-sfahrer.png (PNG copy)> <./BilderFuerBA/MJ/bus_driver.png (PNG copy)>] [14 <./B
-ilderFuerBA/Screenshot/BlenderMLVonPIFuHD105k.png> <./BilderFuerBA/Screenshot/B
-lenderMLGeriggtUndTexturiert95k.png>] [15 <./BilderFuerBA/MJ/MLaufEnglisch.png 
-(PNG copy)> <./BilderFuerBA/CGPTMidJourneyMartinLuther/04.png>] [16 <./BilderFu
-erBA/CGPTMidJourneyMartinLuther/05.png> <./BilderFuerBA/CGPTMidJourneyMartinLut
-her/06.png>] [17 <./BilderFuerBA/Sonstiges/fuchsKopfAbenteuerer.png (PNG copy)>
- <./BilderFuerBA/CGPTMidJourneyMartinLuther/07.png>] [18 <./BilderFuerBA/MJ/Mid
-JourneyMLMitFormel.png (PNG copy)> <./BilderFuerBA/CGPTMidJourneyMartinLuther/0
-9.png>] [19 <./BilderFuerBA/CGPTMidJourneyMartinLuther/10.png> <./BilderFuerBA/
-MJ/MartinLutherInTPoseFirst.png (PNG copy)>]
-LaTeX Font Info:    Trying to load font information for TS1+ua1 on input line 4
-01.
+sfahrer.png (PNG copy)> <./BilderFuerBA/MJ/bus_driver.png (PNG copy)> <./Bilder
+FuerBA/MJ/MLaufEnglisch.png (PNG copy)>] [14 <./BilderFuerBA/CGPTMidJourneyMart
+inLuther/04.png> <./BilderFuerBA/CGPTMidJourneyMartinLuther/05.png>] [15 <./Bil
+derFuerBA/CGPTMidJourneyMartinLuther/06.png> <./BilderFuerBA/Sonstiges/fuchsKop
+fAbenteuerer.png (PNG copy)>] [16 <./BilderFuerBA/CGPTMidJourneyMartinLuther/07
+.png> <./BilderFuerBA/MJ/MidJourneyMLMitFormel.png (PNG copy)>] [17 <./BilderFu
+erBA/CGPTMidJourneyMartinLuther/09.png> <./BilderFuerBA/CGPTMidJourneyMartinLut
+her/10.png>] [18 <./BilderFuerBA/MJ/MartinLutherInTPoseFirst.png (PNG copy)> <.
+/BilderFuerBA/MJ/ErsteAusgabeVomFinalenPrompt.png (PNG copy)>] [19 <./BilderFue
+rBA/MJ/ZweiteAusgabeVomFinalenPrompt.png (PNG copy)> <./BilderFuerBA/MJ/DritteA
+usgabeVomFinalenPrompt.png (PNG copy)>]
+LaTeX Font Info:    Trying to load font information for TS1+ua1 on input line 3
+99.
 
 (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/arial\ts1ua1.fd
 File: ts1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for TS1/ua1.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 408--410
 
- []
+LaTeX Warning: Reference `chatgpt_formel_mj_first_5' on page 20 undefined on in
+put line 409.
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 413--435
-
- []
-
-<BilderFuerBA/MeilensteinGebaude/a_scatch_from_a_village_top_down.png, id=304, 
+<BilderFuerBA/Screenshot/BlenderMLVonPIFuHD105k.png, id=312, 784.43062pt x 523.
+20468pt>
+File: BilderFuerBA/Screenshot/BlenderMLVonPIFuHD105k.png Graphic file (type png
+)
+<use BilderFuerBA/Screenshot/BlenderMLVonPIFuHD105k.png>
+Package pdftex.def Info: BilderFuerBA/Screenshot/BlenderMLVonPIFuHD105k.png  us
+ed on input line 449.
+(pdftex.def)             Requested size: 398.33858pt x 265.68922pt.
+<BilderFuerBA/Screenshot/BlenderMLGeriggtUndTexturiert95k.png, id=313, 718.1831
+2pt x 478.78876pt>
+File: BilderFuerBA/Screenshot/BlenderMLGeriggtUndTexturiert95k.png Graphic file
+ (type png)
+<use BilderFuerBA/Screenshot/BlenderMLGeriggtUndTexturiert95k.png>
+Package pdftex.def Info: BilderFuerBA/Screenshot/BlenderMLGeriggtUndTexturiert9
+5k.png  used on input line 455.
+(pdftex.def)             Requested size: 398.33858pt x 265.56287pt.
+ [21] [22 <./BilderFuerBA/Screenshot/BlenderMLVonPIFuHD105k.png> <./BilderFuerB
+A/Screenshot/BlenderMLGeriggtUndTexturiert95k.png>]
+<BilderFuerBA/MeilensteinGebaude/a_scatch_from_a_village_top_down.png, id=329, 
 1027.84pt x 1027.84pt>
 File: BilderFuerBA/MeilensteinGebaude/a_scatch_from_a_village_top_down.png Grap
 hic file (type png)
 <use BilderFuerBA/MeilensteinGebaude/a_scatch_from_a_village_top_down.png>
 Package pdftex.def Info: BilderFuerBA/MeilensteinGebaude/a_scatch_from_a_villag
-e_top_down.png  used on input line 438.
+e_top_down.png  used on input line 503.
 (pdftex.def)             Requested size: 205.56436pt x 205.56436pt.
-[21 <./BilderFuerBA/MeilensteinGebaude/a_scatch_from_a_village_top_down.png (PN
-G copy)>] [22] [23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 532--544
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23] [24 <./BilderFuerBA/MeilensteinGebaude/a_scatch_from_a_village_top_down.pn
+g (PNG copy)>] [25] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 597--609
 
  []
 
+[27]
 LaTeX Font Info:    Faking \texteuro for font family ua1
-(Font)              in TS1 encoding on input line 553.
-[25] [26] [27]
+(Font)              in TS1 encoding on input line 618.
+ [28] [29]
 LaTeX Font Info:    Faking \texteuro for font family ua1
-(Font)              in TS1 encoding on input line 613.
- [28]
+(Font)              in TS1 encoding on input line 678.
+ [30]
 
-LaTeX Warning: Empty bibliography on input line 640.
+LaTeX Warning: Empty bibliography on input line 705.
 
 
-LaTeX Warning: Empty bibliography on input line 645.
+LaTeX Warning: Empty bibliography on input line 710.
 
-[29] [30] (BANicolasTaylor.aux)
+[31] [32] (BANicolasTaylor.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1118,19 +1141,19 @@ Package logreq Info: Writing requests to 'BANicolasTaylor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22821 strings out of 475385
- 426751 string characters out of 2776907
- 1345324 words of memory out of 3000000
- 43795 multiletter control sequences out of 15000+600000
+ 22852 strings out of 475385
+ 427976 string characters out of 2776907
+ 1345547 words of memory out of 3000000
+ 43817 multiletter control sequences out of 15000+600000
  519369 words of font info for 45 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,9n,106p,10633b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:
 /Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
-Output written on BANicolasTaylor.pdf (30 pages, 24687645 bytes).
+Output written on BANicolasTaylor.pdf (32 pages, 35646060 bytes).
 PDF statistics:
- 596 PDF objects out of 1000 (max. 8388607)
- 122 named destinations out of 1000 (max. 500000)
- 661 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 626 PDF objects out of 1000 (max. 8388607)
+ 128 named destinations out of 1000 (max. 500000)
+ 684 words of extra memory for PDF output out of 10000 (max. 10000000)
 
