@@ -1,0 +1,1006 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.11)  3 OCT 2023 23:22
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28>
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrreprt.cl
+s
+Document Class: scrreprt 2022/10/12 v3.38 KOMA-Script document class (report)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.st
+y
+Package: scrkbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+Package: scrlfile 2022/10/12 v3.38 KOMA-Script package (file load hooks)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+Package: scrlfile-hook 2022/10/12 v3.38 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2022/10/12 v3.38 KOMA-Script package (logo)
+))) (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+))
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.st
+y
+Package: tocbasic 2022/10/12 v3.38 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip47
+\scr@dte@tocline@numbox=\box51
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 137.
+Package scrreprt Info: You've used standard option `11pt'.
+(scrreprt)             This is correct!
+(scrreprt)             Internally I'm using `fontsize=11pt'.
+(scrreprt)             If you'd like to set the option with \KOMAoptions,
+(scrreprt)             you'd have to use `fontsize=11pt' there
+(scrreprt)             instead of `11pt', too.
+Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input l
+ine 2614.
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize11pt
+.clo
+File: scrsize11pt.clo 2022/10/12 v3.38 KOMA-Script font size class option (11pt
+)
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.st
+y
+Package: typearea 2022/10/12 v3.38 KOMA-Script package (type area)
+\ta@bcor=\skip48
+\ta@div=\count185
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1767.
+)
+\c@part=\count186
+\c@chapter=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\scr@dte@chapter@maxnumwidth=\skip53
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\chapter on input line 5902.
+\scr@dte@section@maxnumwidth=\skip54
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\section on input line 5913.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\section on input line 5913.
+\scr@dte@part@maxnumwidth=\skip55
+Class scrreprt Info: using compatibility default `afterindent=true'
+(scrreprt)           for `\part on input line 5922.
+\scr@dte@subsection@maxnumwidth=\skip56
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsection on input line 5932.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsection on input line 5932.
+\scr@dte@subsubsection@maxnumwidth=\skip57
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsubsection on input line 5942.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsubsection on input line 5942.
+\scr@dte@paragraph@maxnumwidth=\skip58
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\paragraph on input line 5953.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\paragraph on input line 5953.
+\scr@dte@subparagraph@maxnumwidth=\skip59
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subparagraph on input line 5963.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subparagraph on input line 5963.
+\abovecaptionskip=\skip60
+\belowcaptionskip=\skip61
+\c@pti@nb@sid@b@x=\box52
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 7140.
+\scr@dte@figure@maxnumwidth=\skip62
+\c@figure=\count193
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 7157.
+\scr@dte@table@maxnumwidth=\skip63
+\c@table=\count194
+Class scrreprt Info: Redefining `\numberline' on input line 7328.
+\bibindent=\dimen138
+) (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/10/04 3.81 The Babel package
+\babel@savecnt=\count195
+\U@D=\dimen139
+\l@unhyphenated=\language79
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count196
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ld
+f
+Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthogra
+phy)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.l
+df
+Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthogr
+aphy)
+Package babel Info: Making " an active character on input line 122.
+)))
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/de\babel
+-ngerman.tex
+Package babel Info: Importing font and identification data for ngerman
+(babel)             from babel-de.ini. Reported on input line 11.
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen140
+\ar@mcellbox=\box53
+\extrarowheight=\dimen141
+\NC@list=\toks19
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box54
+)
+\TX@col@width=\dimen142
+\TX@old@table=\dimen143
+\TX@old@col=\dimen144
+\TX@target=\dimen145
+\TX@delta=\dimen146
+\TX@cols=\count197
+\TX@ftn=\toks20
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen147
+\stockheight=\dimen148
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count198
+\Gm@cntv=\count199
+\c@Gm@tempcnt=\count266
+\Gm@bindingoffset=\dimen151
+\Gm@wd@mp=\dimen152
+\Gm@odd@mp=\dimen153
+\Gm@even@mp=\dimen154
+\Gm@layoutwidth=\dimen155
+\Gm@layoutheight=\dimen156
+\Gm@layouthoffset=\dimen157
+\Gm@layoutvoffset=\dimen158
+\Gm@dimlist=\toks21
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count267
+)
+\@linkdim=\dimen159
+\Hy@linkcounter=\count268
+\Hy@pagecounter=\count269
+ (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count270
+ (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count271
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen160
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count272
+\Field@Width=\dimen161
+\Fld@charsize=\dimen162
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count273
+\c@Item=\count274
+\c@Hfootnote=\count275
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-09-22 v7.00t Hyperref driver for pdfTeX
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count276
+\c@bookmark@seq@number=\count277
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip66
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-sc
+rpage.sty
+Package: scrlayer-scrpage 2022/10/12 v3.38 KOMA-Script package (end user interf
+ace for scrlayer)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer.st
+y
+Package: scrlayer 2022/10/12 v3.38 KOMA-Script package (defining layers and pag
+e styles)
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 217
+6.
+)
+Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1089.
+)
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: 
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 398.33865pt, 85.35826pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78317pt, 71.13188pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=398.33865pt
+* \textheight=702.78317pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=-38.53812pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=59.7508pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count278
+\l__pdf_internal_box=\box55
+) (main.aux (1_Einleitung.aux) (2_Fragestellung.aux)
+(3_Theoretischer_Hintergrund.aux) (4_Methodik.aux) (5_Umsetzung.aux)
+(6_Ergebnisse_und_Diskussion.aux)
+(7_Allgemeine_Probleme_mit_KI_und_KI-Systeme.aux) (8_Fazit.aux) (Anhang.aux)
+(11_Code-Beispiele.aux) (12_Weitere_Materialien.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count279
+\scratchdimen=\dimen163
+\scratchbox=\box56
+\nofMPsegments=\count280
+\nofMParguments=\count281
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count282
+\MPscratchDim=\dimen164
+\MPnumerator=\count283
+\makeMPintoPDFobject=\count284
+\everyMPtoPDFconversion=\toks23
+)
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 398.33865pt, 85.35826pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78317pt, 71.13188pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=398.33865pt
+* \textheight=702.78317pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=-38.53812pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=59.7508pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring OFF on input line 37.
+(main.out) (main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+Class scrreprt Info: loading recommended package `bookmark'.
+(scrreprt)           Using `bookmark' together with `hyperref' is recommended,
+(scrreprt)           because of handling of possible bookmark level gaps.
+(scrreprt)           You can avoid loading `bookmark' with KOMA-Script option
+(scrreprt)           `bookmarkpackage=false' before \begin{document} and
+(scrreprt)           you can avoid this message adding:
+(scrreprt)             \usepackage{bookmark}
+(scrreprt)           before \begin{document} on input line 37.
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+
+(C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count285
+))
+
+Package scrlayer-scrpage Warning: Very small head height detected!
+(scrlayer-scrpage)                Using scrlayer-scrpage the head height
+(scrlayer-scrpage)                should be at least \baselineskip, which is
+(scrlayer-scrpage)                20.40001pt currently.
+(scrlayer-scrpage)                But head height is currently 17.0pt only.
+(scrlayer-scrpage)                You may use
+(scrlayer-scrpage)                geometry option `head=20.40001pt'
+(scrlayer-scrpage)                or load package `scrlayer-scrpage' with
+(scrlayer-scrpage)                option `singlespacing=true'
+(scrlayer-scrpage)                to avoid this warning.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 40.
+[1
+
+
+
+
+{C:/Users/nicol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 50.
+
+
+Package scrlayer-scrpage Warning: \headheight to low.
+(scrlayer-scrpage)                At least 20.4pt needed,
+(scrlayer-scrpage)                but only 17.0pt found.
+(scrlayer-scrpage)                I'll enlarge \headheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., setting geometry's option
+(scrlayer-scrpage)                `head=20.4pt'.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 5
+0.
+
+
+Overfull \vbox (3.4pt too high) has occurred while \output is active []
+
+
+
+Package scrlayer-scrpage Warning: \footheight to low.
+(scrlayer-scrpage)                At least 20.4pt needed,
+(scrlayer-scrpage)                but only 17.0pt found.
+(scrlayer-scrpage)                I'll enlarge \footheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., using
+(scrlayer-scrpage)                  \setlength{\footheight}{20.4pt}
+(scrlayer-scrpage)                in your preamble.
+(scrlayer-scrpage)                I'll also increase \footskip on input line 50
+.
+
+[1] [2
+
+] (main.toc [3
+
+])
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [4] [5] (main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+ [6
+
+] (main.lot)
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+ [7
+
+]
+\openout2 = `1_Einleitung.aux'.
+
+ (1_Einleitung.tex
+chapter 1.
+
+LaTeX Warning: Citation `schell2020' on page 1 undefined on input line 3.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \section
+             {Forschungsfrage} [1
+
+
+] [2]) [3]
+\openout2 = `2_Fragestellung.aux'.
+
+ (2_Fragestellung.tex
+chapter 2.
+) [4
+
+
+
+
+]
+\openout2 = `3_Theoretischer_Hintergrund.aux'.
+
+
+No file 3_Theoretischer_Hintergrund.tex.
+\openout2 = `4_Methodik.aux'.
+
+(4_Methodik.tex
+chapter 3.
+) [5
+
+
+
+
+
+
+
+]
+\openout2 = `5_Umsetzung.aux'.
+
+ (5_Umsetzung.tex
+chapter 4.
+<BilderFuerBA/01.png, id=236, 554.07pt x 263.48438pt>
+File: BilderFuerBA/01.png Graphic file (type png)
+<use BilderFuerBA/01.png>
+Package pdftex.def Info: BilderFuerBA/01.png  used on input line 6.
+(pdftex.def)             Requested size: 398.33858pt x 189.42715pt.
+<BilderFuerBA/02.png, id=239, 556.32843pt x 261.22594pt>
+File: BilderFuerBA/02.png Graphic file (type png)
+<use BilderFuerBA/02.png>
+Package pdftex.def Info: BilderFuerBA/02.png  used on input line 14.
+(pdftex.def)             Requested size: 398.33858pt x 187.04218pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6
+
+
+
+
+ <./BilderFuerBA/01.png>]
+<BilderFuerBA/MartinLutherImSpiel.png, id=245, 637.63219pt x 425.33907pt>
+File: BilderFuerBA/MartinLutherImSpiel.png Graphic file (type png)
+<use BilderFuerBA/MartinLutherImSpiel.png>
+Package pdftex.def Info: BilderFuerBA/MartinLutherImSpiel.png  used on input li
+ne 51.
+(pdftex.def)             Requested size: 398.33858pt x 265.71294pt.
+File: BilderFuerBA/02.png Graphic file (type png)
+<use BilderFuerBA/02.png>
+Package pdftex.def Info: BilderFuerBA/02.png  used on input line 58.
+(pdftex.def)             Requested size: 398.33858pt x 187.04218pt.
+<BilderFuerBA/03.png, id=246, 555.57562pt x 223.58531pt>
+File: BilderFuerBA/03.png Graphic file (type png)
+<use BilderFuerBA/03.png>
+Package pdftex.def Info: BilderFuerBA/03.png  used on input line 65.
+(pdftex.def)             Requested size: 398.33858pt x 160.30919pt.
+<BilderFuerBA/Busfahrer.png, id=247, 2055.68pt x 2055.68pt>
+File: BilderFuerBA/Busfahrer.png Graphic file (type png)
+<use BilderFuerBA/Busfahrer.png>
+Package pdftex.def Info: BilderFuerBA/Busfahrer.png  used on input line 74.
+(pdftex.def)             Requested size: 182.23985pt x 182.21155pt.
+
+Overfull \hbox (2.98868pt too wide) in paragraph at lines 74--75
+ [][] 
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 75--75
+[][]\OT1/cmr/m/n/10.95 Midjourney Prompt:
+ []
+
+<BilderFuerBA/bus_driver.png, id=248, 2055.68pt x 2055.68pt>
+File: BilderFuerBA/bus_driver.png Graphic file (type png)
+<use BilderFuerBA/bus_driver.png>
+Package pdftex.def Info: BilderFuerBA/bus_driver.png  used on input line 81.
+(pdftex.def)             Requested size: 182.23985pt x 182.21155pt.
+
+Overfull \hbox (2.98868pt too wide) in paragraph at lines 81--82
+ [][] 
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 82--82
+[][]\OT1/cmr/m/n/10.95 Midjourney Prompt:
+ []
+
+<BilderFuerBA/MLaufEnglisch.png, id=249, 1027.84pt x 1027.84pt>
+File: BilderFuerBA/MLaufEnglisch.png Graphic file (type png)
+<use BilderFuerBA/MLaufEnglisch.png>
+Package pdftex.def Info: BilderFuerBA/MLaufEnglisch.png  used on input line 91.
+
+(pdftex.def)             Requested size: 228.2481pt x 228.24278pt.
+<BilderFuerBA/04.png, id=250, 554.07pt x 199.49532pt>
+File: BilderFuerBA/04.png Graphic file (type png)
+<use BilderFuerBA/04.png>
+Package pdftex.def Info: BilderFuerBA/04.png  used on input line 98.
+(pdftex.def)             Requested size: 398.33858pt x 143.42342pt.
+<BilderFuerBA/05.png, id=251, 555.57562pt x 388.45125pt>
+File: BilderFuerBA/05.png Graphic file (type png)
+<use BilderFuerBA/05.png>
+Package pdftex.def Info: BilderFuerBA/05.png  used on input line 104.
+(pdftex.def)             Requested size: 398.33858pt x 278.517pt.
+<BilderFuerBA/06.png, id=252, 557.08125pt x 453.19313pt>
+File: BilderFuerBA/06.png Graphic file (type png)
+<use BilderFuerBA/06.png>
+Package pdftex.def Info: BilderFuerBA/06.png  used on input line 111.
+(pdftex.def)             Requested size: 389.95422pt x 317.23302pt.
+<BilderFuerBA/fuchsKopfAbenteuerer.png, id=253, 1027.84pt x 1027.84pt>
+File: BilderFuerBA/fuchsKopfAbenteuerer.png Graphic file (type png)
+<use BilderFuerBA/fuchsKopfAbenteuerer.png>
+Package pdftex.def Info: BilderFuerBA/fuchsKopfAbenteuerer.png  used on input l
+ine 118.
+(pdftex.def)             Requested size: 228.2481pt x 228.24278pt.
+<BilderFuerBA/07.png, id=254, 554.07pt x 409.53pt>
+File: BilderFuerBA/07.png Graphic file (type png)
+<use BilderFuerBA/07.png>
+Package pdftex.def Info: BilderFuerBA/07.png  used on input line 125.
+(pdftex.def)             Requested size: 387.84636pt x 286.66904pt.
+<BilderFuerBA/MidJourneyMLMitFormel.png, id=255, 1027.84pt x 1027.84pt>
+File: BilderFuerBA/MidJourneyMLMitFormel.png Graphic file (type png)
+<use BilderFuerBA/MidJourneyMLMitFormel.png>
+Package pdftex.def Info: BilderFuerBA/MidJourneyMLMitFormel.png  used on input 
+line 133.
+(pdftex.def)             Requested size: 228.2481pt x 228.24278pt.
+<BilderFuerBA/09.png, id=256, 556.32843pt x 424.58624pt>
+File: BilderFuerBA/09.png Graphic file (type png)
+<use BilderFuerBA/09.png>
+Package pdftex.def Info: BilderFuerBA/09.png  used on input line 140.
+(pdftex.def)             Requested size: 389.42725pt x 297.20834pt.
+<BilderFuerBA/10.png, id=257, 554.07pt x 471.26062pt>
+File: BilderFuerBA/10.png Graphic file (type png)
+<use BilderFuerBA/10.png>
+Package pdftex.def Info: BilderFuerBA/10.png  used on input line 147.
+(pdftex.def)             Requested size: 387.84636pt x 329.88019pt.
+<BilderFuerBA/MartinLutherInTPoseFirst.png, id=258, 1027.84pt x 1027.84pt>
+File: BilderFuerBA/MartinLutherInTPoseFirst.png Graphic file (type png)
+<use BilderFuerBA/MartinLutherInTPoseFirst.png>
+Package pdftex.def Info: BilderFuerBA/MartinLutherInTPoseFirst.png  used on inp
+ut line 154.
+(pdftex.def)             Requested size: 228.2481pt x 228.24278pt.
+<BilderFuerBA/ErsteAusgabeVomFinalenPrompt.png, id=259, 2055.68pt x 2055.68pt>
+File: BilderFuerBA/ErsteAusgabeVomFinalenPrompt.png Graphic file (type png)
+<use BilderFuerBA/ErsteAusgabeVomFinalenPrompt.png>
+Package pdftex.def Info: BilderFuerBA/ErsteAusgabeVomFinalenPrompt.png  used on
+ input line 161.
+(pdftex.def)             Requested size: 228.2481pt x 228.2271pt.
+<BilderFuerBA/ZweiteAusgabeVomFinalenPrompt.png, id=260, 2055.68pt x 2055.68pt>
+
+File: BilderFuerBA/ZweiteAusgabeVomFinalenPrompt.png Graphic file (type png)
+<use BilderFuerBA/ZweiteAusgabeVomFinalenPrompt.png>
+Package pdftex.def Info: BilderFuerBA/ZweiteAusgabeVomFinalenPrompt.png  used o
+n input line 168.
+(pdftex.def)             Requested size: 228.2481pt x 228.2271pt.
+<BilderFuerBA/DritteAusgabeVomFinalenPrompt.png, id=261, 1027.84pt x 1027.84pt>
+
+File: BilderFuerBA/DritteAusgabeVomFinalenPrompt.png Graphic file (type png)
+<use BilderFuerBA/DritteAusgabeVomFinalenPrompt.png>
+Package pdftex.def Info: BilderFuerBA/DritteAusgabeVomFinalenPrompt.png  used o
+n input line 175.
+(pdftex.def)             Requested size: 228.2481pt x 228.24278pt.
+[7 <./BilderFuerBA/02.png>] [8 <./BilderFuerBA/MartinLutherImSpiel.png>]
+[9 <./BilderFuerBA/03.png> <./BilderFuerBA/Busfahrer.png (PNG copy)> <./BilderF
+uerBA/bus_driver.png (PNG copy)> <./BilderFuerBA/MLaufEnglisch.png (PNG copy)>]
+[10 <./BilderFuerBA/04.png> <./BilderFuerBA/05.png>] [11 <./BilderFuerBA/06.png
+> <./BilderFuerBA/fuchsKopfAbenteuerer.png (PNG copy)>] [12 <./BilderFuerBA/07.
+png> <./BilderFuerBA/MidJourneyMLMitFormel.png (PNG copy)>] [13 <./BilderFuerBA
+/09.png> <./BilderFuerBA/10.png>] [14 <./BilderFuerBA/MartinLutherInTPoseFirst.
+png (PNG copy)> <./BilderFuerBA/ErsteAusgabeVomFinalenPrompt.png (PNG copy)>]
+[15 <./BilderFuerBA/ZweiteAusgabeVomFinalenPrompt.png (PNG copy)> <./BilderFuer
+BA/DritteAusgabeVomFinalenPrompt.png (PNG copy)>]
+
+LaTeX Warning: Reference `chatgpt_formel_mj_first_5' on page 16 undefined on in
+put line 209.
+
+[16] [17]
+<BilderFuerBA/BlenderMLVonPIFuHD105k.png, id=343, 784.43062pt x 523.20468pt>
+File: BilderFuerBA/BlenderMLVonPIFuHD105k.png Graphic file (type png)
+<use BilderFuerBA/BlenderMLVonPIFuHD105k.png>
+Package pdftex.def Info: BilderFuerBA/BlenderMLVonPIFuHD105k.png  used on input
+ line 253.
+(pdftex.def)             Requested size: 398.33858pt x 265.68922pt.
+<BilderFuerBA/BlenderMLGeriggtUndTexturiert95k.png, id=344, 718.18312pt x 478.7
+8876pt>
+File: BilderFuerBA/BlenderMLGeriggtUndTexturiert95k.png Graphic file (type png)
+
+<use BilderFuerBA/BlenderMLGeriggtUndTexturiert95k.png>
+Package pdftex.def Info: BilderFuerBA/BlenderMLGeriggtUndTexturiert95k.png  use
+d on input line 259.
+(pdftex.def)             Requested size: 398.33858pt x 265.56287pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--277
+
+ []
+
+[18] [19 <./BilderFuerBA/BlenderMLVonPIFuHD105k.png> <./BilderFuerBA/BlenderMLG
+eriggtUndTexturiert95k.png>] [20] [21]
+<BilderFuerBA/a_scatch_from_a_village_top_down.png, id=367, 1027.84pt x 1027.84
+pt>
+File: BilderFuerBA/a_scatch_from_a_village_top_down.png Graphic file (type png)
+
+<use BilderFuerBA/a_scatch_from_a_village_top_down.png>
+Package pdftex.def Info: BilderFuerBA/a_scatch_from_a_village_top_down.png  use
+d on input line 370.
+(pdftex.def)             Requested size: 205.56436pt x 205.56436pt.
+ [22]
+Underfull \hbox (badness 10000) in paragraph at lines 374--384
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--393
+
+ []
+
+[23 <./BilderFuerBA/a_scatch_from_a_village_top_down.png (PNG copy)>] [24]
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 456--468
+
+ []
+
+[26]
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+477.
+ (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
+File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+[27]) [28]
+\openout2 = `6_Ergebnisse_und_Diskussion.aux'.
+
+ (6_Ergebnisse_und_Diskussion.tex
+chapter 5.
+) [29
+
+
+
+
+] [30]
+\openout2 = `7_Allgemeine_Probleme_mit_KI_und_KI-Systeme.aux'.
+
+ (7_Allgemeine_Probleme_mit_KI_und_KI-Systeme.tex
+chapter 6.
+) [31
+
+
+
+
+]
+\openout2 = `8_Fazit.aux'.
+
+ (8_Fazit.tex
+chapter 7.
+Excluding 'comment' comment. [32
+
+
+
+
+]) [33]
+\openout2 = `Anhang.aux'.
+
+ (Anhang.tex
+chapter 8.
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.V}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.72 \include{Anhang}
+                      [5
+
+
+
+
+]
+\openout2 = `11_Code-Beispiele.aux'.
+
+ (11_Code-Beispiele.tex)
+pdfTeX warning (ext4): destination with the same identifier (name{page.VI}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.74 \include{11_Code-Beispiele}
+                                 [6
+
+
+
+
+] (main.bbl
+
+LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
+               before end of `thebibliography' environment on input line 3.
+
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.VII}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.79 \include{12_Weitere_Materialien}
+                                      [7
+
+
+
+]
+\openout2 = `12_Weitere_Materialien.aux'.
+
+ (12_Weitere_Materialien.tex) [8
+
+
+]
+(main.aux (1_Einleitung.aux) (2_Fragestellung.aux)
+(3_Theoretischer_Hintergrund.aux) (4_Methodik.aux) (5_Umsetzung.aux)
+(6_Ergebnisse_und_Diskussion.aux)
+(7_Allgemeine_Probleme_mit_KI_und_KI-Systeme.aux) (8_Fazit.aux) (Anhang.aux)
+(11_Code-Beispiele.aux) (12_Weitere_Materialien.aux))
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 15318 strings out of 475385
+ 312336 string characters out of 2776907
+ 822855 words of memory out of 3000000
+ 36294 multiletter control sequences out of 15000+600000
+ 476344 words of font info for 51 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 108i,19n,106p,10601b,636s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\nicol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss
+1095.pk> <C:\Users\nicol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1095.pk><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nicol/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/nicol/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/nicol/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on main.pdf (45 pages, 35685665 bytes).
+PDF statistics:
+ 678 PDF objects out of 1000 (max. 8388607)
+ 131 named destinations out of 1000 (max. 500000)
+ 583 words of extra memory for PDF output out of 10000 (max. 10000000)
+

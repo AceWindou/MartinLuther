@@ -1,0 +1,84 @@
+
+\documentclass[11pt,a4paper]{scrreprt}
+
+
+\usepackage[ngerman]{babel} 
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx} %TAbellen
+\usepackage{graphicx} % Required for inserting images
+\usepackage{geometry} %Für Ränder
+\usepackage{hyperref}%Sorgt für automatische Links im fertigen PDF-Dokument
+
+\graphicspath{ {figures/} } %Bilder- und Tabellenverzeichnis
+\usepackage{array}
+\usepackage{scrlayer-scrpage} %Seitenzahl anpassen
+
+%Ränder 
+\newgeometry{
+    left=40mm,
+    right=30mm,
+    top=25mm,
+    bottom=25mm}
+
+%Zeilenabstand
+\usepackage{setspace}
+\linespread{1.5}
+%\onehalfspacing
+
+%Font
+\usepackage{comment}
+
+\title{Entwicklung eines Videospielprototypen als ,,Ein-Mann-Videospielentwickler" auf der Unreal Engine 5 mit Hilfe von KI-Systemen}
+
+\author{AceWindou }
+\date{September 2023}
+
+
+\begin{document}
+\sffamily
+\maketitle
+
+ %Seitenzahl rechts unten
+\%automark{chapter}
+\cfoot*{}
+\ofoot*{\pagemark}
+
+
+\renewcommand*\chapterheadstartvskip{\vspace*{0cm}} %bis -2cm damit Überschriften am Seitenanfang anfangen...nochmal testen
+
+\pagenumbering{Roman}
+\chapter*{Abstract}
+ljdgdgjpdjgpdjgpdj
+
+
+\tableofcontents
+\listoffigures
+\listoftables
+\newpage
+
+\pagenumbering{arabic}
+\include{1_Einleitung}
+\include{2_Fragestellung}
+\include{3_Theoretischer_Hintergrund}
+\include{4_Methodik}
+\include{5_Umsetzung}
+\include{6_Ergebnisse_und_Diskussion}
+\include{7_Allgemeine_Probleme_mit_KI_und_KI-Systeme}
+\include{8_Fazit}
+
+%\pagenumbering{Roman}
+\pagenumbering{Roman}
+\setcounter{page}{5} % Seitenzahl zählt 
+\include{Anhang}
+
+\include{11_Code-Beispiele}
+
+\bibliographystyle{apalike-german}
+\bibliography{ref}
+
+\include{12_Weitere_Materialien}
+
+
+
+
+\end{document}
