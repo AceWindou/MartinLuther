@@ -443,7 +443,7 @@ Die hochskalierte Version von Abbildung \ref{ZweiteAusgabeVomFinalenPrompt} ist 
 Wir sehen einen Mann in einer Kirchlich anmutenen Robe. Sein Haar ist braun, seine Haut hell. Der Mann trägt beide Arme vom Körper so das die Handinnenfläche zur Kamera zeigen.
 \\
 Dieses Bild verwende ich um ein 3D-Modell von Martin Luther zu verwenden.
-\subsubsection{Erzeugen eines 3D-Modells mit hilfe von PIFuHD}
+\subsubsection{Erzeugen eines 3D-Modells mit Hilfe von PIFuHD}
 \begin{figure}
 	\centering
 	\includegraphics[width=14cm]{BilderFuerBA/Screenshot/BlenderMLVonPIFuHD105k.png}
@@ -456,9 +456,9 @@ Dieses Bild verwende ich um ein 3D-Modell von Martin Luther zu verwenden.
 	\caption{Blender: Martin Luther Texturiert, geriggt, Nachgebessert und gemergeten Verticies}
 	\label{BlenderMLVonPIFuHD105k}
 \end{figure}
-In Abbildung \ref{BlenderMLVonPIFuHD105k} sehen wir das fertige Produkt von Martin Luther was durch das KI-System PIFuHD erzeugt wurde.
+In Abbildung \ref{BlenderMLVonPIFuHD105k} zeigt das 3D-Modell von Martin Luther welches durch das KI-System PIFuHD erzeugt ist.
 \\
-PIFuHD ist durch eine einfache Google-Suche zu finden. Der Erste vorschlag von Google zeigt eine Git-Hub-Link an. Im kopf dieser Git-Hub seite findet man weit oben den Link mit der Bezeichnung Demo.
+PIFuHD ist durch eine Google-Suche zu finden. Der Erste Vorschlag von Google zeigt eine Git-Hub-Link an. Im kopf dieser Git-Hub Seite findet man weit oben den Link mit der Bezeichnung Demo.
 \\
 Ich habe die Demo über Google-Colab zum laufen bekommen in dem ich mich über mein Google-Konto anmelde und auf Verbinden mit gehosteter Laufzeit: GPU klicke.
 \\
@@ -469,6 +469,86 @@ Weiter unten in der Website befindet sich der Abschnitt Config input data. An di
 Die Übergabe folgt über den Button Durchsuchen.... Ist die Übergabe erfolgreich, erfolgt die Ausgabe über der Ordnerstruktur links.
 \\
 Meine obj-Datei befindet sich unter pifuhd -> results -> pifuhd-final -> recon. Zusätlich zu meiner obj-Datei bietet PIFuHD mir eine png-Datei an, was eine Normalmap darstell und eine mp4-datei die ein fünf sekündiges Video von meinem 3D-Modell zeigt.
+\\
+
+%todo Polycount, UVs und narnite erklären verionsnummern hinzufügen
+\subsubsection{Polycount verringern in Blender}
+in Blender kann über den Menüpunkt File -> Import -> Wavefront die Obj-Datei importiert werden. 
+\\
+Das verringern des Polycount bewirkt, dass im späteren Prototyp weniger rechenkapazität verwendet wird. Besonder bei der Spielfigur ist es wichtig, da die Unreal Egine 5 aktuell Narnite nur für unbeweglich Objekte in der Spielwelt verfügbar macht.
+Nachdem ich die Obj-Datei in Blender Importiert habe, wechsel ich in den Eddit.
+\\
+Im Edit Mode wähle ich ein Verticie aus. Mit STRG + L wähle ich alle mit dem Modell verbundene Verticies aus. Das Modell erscheint nun Orange.
+\\
+Mit der Tastenkombination STRG + I invertiere ich die Auswahl. Nun habe ich alle Verticies ausgewählt die nicht direkt Mit dem 3D-Modell verbunden sind.
+\\
+Mit der der Taste ENTF ist es mir nun möglich alle Verticies zu löschen die auserhalb des 3D-Modells liegen
+\\
+Nachdem alle Verticies auserhalb des 3D-Modells gelöscht sind wähle ich alle Verticies aus in dem ich die A-Taste einmal drücke.
+\\
+Nun sind alle Verticies vollständig ausgewählt.
+\\
+Mit dem Shortcut M ist es mir nun möglich das 3D-Modell zu mergen.
+\\
+Ich Merge mein 3D-Modell mit der Funktion By Distance.
+\\
+Unten links öffnet sich ein kleines Untermenü mit dem Namen Merge by Distance und verbessere den wert auf 0,001 m.
+\\
+Durch dieses Verfahren habe ich den Polywert von knapp 120.000 Verticies auf 98.000 Verticies verringert, was eine Verringerung von rund 18\% ist.
+\subsubsection{Artefakte bereinigen in Blender}
+Blender gibt eine vielzahl an Möglichkeiten sein 3D-Modell zu moddelieren. Ich habe nachdem ich den Polycount reduziert habe betreffende Stellen im Edit Mode makiert und gemerget. Ein weiteres Verfahren war im Sculp Mode die verschiedenen Sculpwerkzeuge zu verwenden wie zum Beispiel Draw.
+\subsubsection{Texturieren in Blender}
+zweites bearbeitungsfenster hinzufügen auf UV-Editor umstellen über menüpunkt Image - Open das gewünschte foto... die kamera so einstellen das es ungefähr die gleiche blickrichtung auf das model hat wie im bild... in dem beispiel kann man über das numbap 1 für frontalansich wählen..
+im modell alles makieren und mit dem shortkut u für unwrap die funktion Projekt from View auswählen.
+Skallieren im UV Editor
+Ich habe das 3D-Modell mit Hilfe der von Midjourne erzeugten Bildes in Blender Texturiert.
+\\
+Blender bietet mir die Möglichkeit ein zweites Bearbeitungsfenster hinzuzufügen, welche ist dann als UV Editor benutze.
+\\
+Über den Menüpunkt Image -> Open, füge ich Abbildung: \ref{DritteAusgabeVomFinalenPrompt} ein, um UVs des 3D-Modells zu editieren.
+\\
+Rechts über das Propertie-Fenster -> Material Properties -> auf dem gelben Punkt neben Base Color -> Image Textur habe ich nun die Möglichkeit, ebenfalls Das Bild aus Abbildung \ref{DritteAusgabeVomFinalenPrompt} zu wählen.
+\\
+Damit das Bild von Martin Luther korrekt auf das 3D-Modell von Martin Luther korrekt projeziert wird, wähle ich eine Kamera einstellung, das ungefähr die Kameraeinstellung entsprich, wie das Bild von Martin Luther.
+\\
+Durch die betätigung der 1 auf meinem Numpad wird die Kamera so eingestellt das ich eine frontale ansicht meines 3D-Modells im Edit Modus habe.
+\\
+Ich Makiere alle Verticies in dem ich den Shortcut A drücke. Anschließend Unwrape ich mein 3D-Modell in dem ich den Shortcut U drücke.
+\\
+Blender bietet mir verschiedene Fuktionen an, mein 3D-Modell zu Unwrapen. Ich wähle die Fuktion Project from View.
+\\
+In meinem UV-Editor habe ich nun die Möglichkeit, das Projezierte 3D-Modell so zu skalieren das es mit der Vorlage übereinstimmt.
+\\
+Das Problem nach dem Unwrapen nach dieser beschriebenen Methode ist, dass das 3D-Modell von Vorne genauso texturiert ist wie von Hinten.
+\\
+Um den Rücken und den Hinterkopf einigermaßen korrekt zu texturieren, wähle ich in meinem gewünschten bereichen des 3D-Modells die ensprechenden bereiche aus und verschiebe sie im UV-Editor in gegenden, die zu dieser Stelle passen würde.
+\\
+Zum Beispiel der Mittelteil der Robe, der blau gefärbt ist, verschiebe ich in eine etwas brauneren Region im UV-Editor.
+\\
+Nachdem ich den Rücken und den Kopf nachtexturiert habe, fehlt noch ein letzer wichtiger schritt, damit Martin Luther in der Unreal Engine zum Leben erweckt wird, und zwar das Rigging.
+\subsubsection{Rigging in Blender}%todo rigging erklären
+Damit mein Hauptcharakter nicht nur in seiner T-Pose verweilt wenn er läuft und Springt, sonder Arme Beine und Kopf bewegt, braucht das 3D-Modell von Martin Luther ein Skeleton-Mesh.
+\\
+Damit ich ein 3D-Modell für die Unreal Engine 5 riggen kann, benötige ich das Blander Addon Game Rig Tools von CGDive.
+\\
+Über den Button Initiate Mannequin fügt das Addon ein Unreal Engine 5 kompatibles Skeleton Mesh zu unserem 3D-Modell.
+\\
+Über das UE5\_Manny\_TWEAK das ich über die Scene Collection ausweghelen kann, bewege ich die einzelnen Bones des Skeleton mesh innerhalb des 3D-Modells. Mit dem Shortcut G kann ich im Pose Mode die einzelnen Bones bewegen. von Martin Luther so plazieren wie bei einem normalen Menschen auch.
+\\
+Nachdem ich die Bones vom UE5\_Manny\_TWEAK fertig plaziert habe, kann ich über das Addon-Fenster von Game Rig Tool, Unreal-Rig nur sichtbar machen in den ich auf den Weißen Punkt neben Unreal drücke. 
+\\
+Nachdem nur noch unser 3D-Modell und das Unreal-Rig sichtbar ist wächsel ich in den Object Mode und wähle erst mein 3D-Modell aus und mit Schift-Taste gedrückt das Unreal-Rig aus.
+\\
+Über den Menüpunkt File -> Export -> FBX kann ich über das gerigte Modell speichern. Beim Speichern wähle ich folgende Optionen aus:
+\begin{itemize}
+	\item Limit to Selected Objects 
+	\item Object Types Amature und Mesh
+	\item Unter Transform bestätige ich noch das Apply Transform
+	\item Unter Geometry wähle ich unter Smoothing Face
+	\item Unter Armature stelle ich Add Leaf Bones aus
+	\item Unter Bake Animation stelle ich ebenfalls aus
+\end{itemize}
+Nachdem ich diese Einstellung getätigt habe, wähle ich noch ein Namen aus für meine FBX-Datei und drücke auf Export FBX.
 %
 %
 %
@@ -476,6 +556,10 @@ Meine obj-Datei befindet sich unter pifuhd -> results -> pifuhd-final -> recon. 
 %
 %
 %
+Mit diesen Einstellungen kann ich das 3D-Modell Unwrapen. Über das Shortcut U -> Project from View werden die UV-Informationen neu definiert.
+\\
+Da ich eine sehr direkte Kamera einstellung auf meiner vorlage in \ref{DritteAusgabeVomFinalenPrompt} habe, brauche ich nur die Taste 1 auf meinem NumPad der Tastatatur drücken um eine direkte ansich auf mein §D-Modell zu bekommen in meinem Bearbeitungsfenster wo ich den Edit Mode geöffnet habe.
+
 \ref{chatgptMartinLutherMJmitNeutralenHintergrund} was sehr viele Probleme verurschat hat. Midjourney versteht den begrif T-Pose nicht und 
 \\
 Mein ziel ist es Bilder von Midjourney zu erhalten, die wie Fostos von Personen wirken. Mit diesen Fotos dienen dazu mit PIFuHD zu übergebn um 3D-Modelle von einer Person zu bekommen.
@@ -494,6 +578,8 @@ PIFuHD lauffährig zu machen sind einige Einstellung nötig, diese werde ich im 
 Über Verbinden und Local Host läuft PIFuHD auf meinem Computer.
 %[BILD]
 %[BILD]
+
+
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Gebäude\\\\\\\\\\\\\\\\\\\\\\\
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Gebäude\\\\\\\\\\\\\\\\\\\\\\\
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Gebäude\\\\\\\\\\\\\\\\\\\\\\\
