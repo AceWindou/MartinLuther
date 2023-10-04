@@ -26,36 +26,38 @@
 \contentsline {subsection}{\numberline {4.2.3}Artefakte bereinigen in Blender}{20}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Texturieren in Blender}{21}{subsection.4.2.4}%
 \contentsline {subsection}{\numberline {4.2.5}Rigging in Blender}{22}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}Einngügen des Haupcharakters in Unreal Engine 5}{23}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.6}Einfügen des Haupcharakters in Unreal Engine 5}{23}{subsection.4.2.6}%
 \contentsline {section}{\numberline {4.3}Meilenstein: Gebäude}{23}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Erste Ansatz Fachwerkhäuser}{23}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Zweiter Ansatz Fachwerkhäuser}{24}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Meilenstein: Nebenfiguren}{25}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Meilenstein: Dialogsystem}{25}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Meilenstein: Sprachausgabe}{27}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Erst Adobe Enhance Speache dann Voice AI}{27}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Erst Voice Ai dann Adobe Enhance Speech}{27}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}Erst Adobe Enhance Speech dann Voice AI dann wieder Adobe Enhance Speech}{27}{subsection.4.6.3}%
-\contentsline {section}{\numberline {4.7}Erstellung von Musik und Klängen}{28}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Erstellung von Animationen}{28}{section.4.8}%
-\contentsline {section}{\numberline {4.9}Entwicklung der Spiellogik}{28}{section.4.9}%
-\contentsline {chapter}{\numberline {5}Ergebnisse und Diskussion}{29}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Vorstellung des fertigen Videospiels}{29}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Diskussion der Ergebnisse und Einschätzung des Erfolgs des KI-Einsatzes}{29}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Einsatz von MonsterMash}{29}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Einsatz von PFuHD}{29}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}Kritische Reflexion des Entwicklungsprozesses und Ausblick auf mögliche zukünftige Entwicklungen}{30}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Allgemeine Probleme mit KI und KI-Systeme}{31}{chapter.6}%
-\contentsline {section}{\numberline {6.1}KI-Systeme und ihrer Monatarisierung}{31}{section.6.1}%
-\contentsline {section}{\numberline {6.2}KI-Systeme und ursachen auf andere Berufe}{31}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Ki-Systeme und der Biologischer Fussabdruck}{31}{section.6.3}%
-\contentsline {section}{\numberline {6.4}KI-Systeme aund die auswirkung als Entwickler}{31}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Dritte-Welt länder vs. Erste-Welt länder}{31}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Firmeninteressen}{31}{section.6.6}%
-\contentsline {section}{\numberline {6.7}Geistiges Eigentum}{31}{section.6.7}%
-\contentsline {chapter}{\numberline {7}Fazit}{32}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Zusammenfassung der Ergebnisse}{33}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Implikationen für die Praxis}{33}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Limitationen der Studie}{33}{section.7.3}%
+\contentsline {subsection}{\numberline {4.3.1}Erste Ansatz Fachwerkhäuser}{24}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Moddelieren und texturieren Einfaches Haus mit Blender}{25}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Zweiter Ansatz Fachwerkhäuser}{25}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Meilenstein: Nebenfiguren}{26}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Meilenstein: Dialogsystem}{27}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Meilenstein: Sprachausgabe}{28}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Erst Adobe Enhance Speache dann Voice AI}{29}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Erst Voice Ai dann Adobe Enhance Speech}{29}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Erst Adobe Enhance Speech dann Voice AI dann wieder Adobe Enhance Speech}{29}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}Erstellung von Musik und Klängen}{30}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Erstellung von Animationen}{30}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Entwicklung der Spiellogik}{30}{section.4.9}%
+\contentsline {chapter}{\numberline {5}Ergebnisse und Diskussion}{31}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Vorstellung des fertigen Videospiels}{31}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Diskussion der Ergebnisse und Einschätzung des Erfolgs des KI-Einsatzes}{31}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Einsatz von MonsterMash}{31}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Einsatz von PFuHD}{31}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Kritische Reflexion des Entwicklungsprozesses und Ausblick auf mögliche zukünftige Entwicklungen}{32}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Allgemeine Probleme mit KI und KI-Systeme}{33}{chapter.6}%
+\contentsline {section}{\numberline {6.1}KI-Systeme und ihrer Monatarisierung}{33}{section.6.1}%
+\contentsline {section}{\numberline {6.2}KI-Systeme und ursachen auf andere Berufe}{33}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Ki-Systeme und der Biologischer Fussabdruck}{33}{section.6.3}%
+\contentsline {section}{\numberline {6.4}KI-Systeme aund die auswirkung als Entwickler}{33}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Dritte-Welt länder vs. Erste-Welt länder}{33}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Firmeninteressen}{33}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Geistiges Eigentum}{33}{section.6.7}%
+\contentsline {chapter}{\numberline {7}Fazit}{34}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Zusammenfassung der Ergebnisse}{35}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Implikationen für die Praxis}{35}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Limitationen der Studie}{35}{section.7.3}%
 \contentsline {chapter}{\numberline {8}Anhang}{V}{chapter.8}%
+\contentsline {part}{\nonumberline Abbildungsverzeichnis}{VI}{part*.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

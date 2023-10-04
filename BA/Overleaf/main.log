@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.11)  3 OCT 2023 23:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.11)  4 OCT 2023 21:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -619,11 +619,11 @@ Package scrlayer-scrpage Warning: \footheight to low.
 
 ] (main.toc [3
 
-])
+] [4])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [4] [5] (main.lof)
+ [5] (main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -684,12 +684,12 @@ chapter 3.
 
  (5_Umsetzung.tex
 chapter 4.
-<BilderFuerBA/01.png, id=236, 554.07pt x 263.48438pt>
+<BilderFuerBA/01.png, id=242, 554.07pt x 263.48438pt>
 File: BilderFuerBA/01.png Graphic file (type png)
 <use BilderFuerBA/01.png>
 Package pdftex.def Info: BilderFuerBA/01.png  used on input line 6.
 (pdftex.def)             Requested size: 398.33858pt x 189.42715pt.
-<BilderFuerBA/02.png, id=239, 556.32843pt x 261.22594pt>
+<BilderFuerBA/02.png, id=245, 556.32843pt x 261.22594pt>
 File: BilderFuerBA/02.png Graphic file (type png)
 <use BilderFuerBA/02.png>
 Package pdftex.def Info: BilderFuerBA/02.png  used on input line 14.
@@ -703,7 +703,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
  <./BilderFuerBA/01.png>]
-<BilderFuerBA/MartinLutherImSpiel.png, id=245, 637.63219pt x 425.33907pt>
+<BilderFuerBA/MartinLutherImSpiel.png, id=251, 637.63219pt x 425.33907pt>
 File: BilderFuerBA/MartinLutherImSpiel.png Graphic file (type png)
 <use BilderFuerBA/MartinLutherImSpiel.png>
 Package pdftex.def Info: BilderFuerBA/MartinLutherImSpiel.png  used on input li
@@ -713,12 +713,12 @@ File: BilderFuerBA/02.png Graphic file (type png)
 <use BilderFuerBA/02.png>
 Package pdftex.def Info: BilderFuerBA/02.png  used on input line 58.
 (pdftex.def)             Requested size: 398.33858pt x 187.04218pt.
-<BilderFuerBA/03.png, id=246, 555.57562pt x 223.58531pt>
+<BilderFuerBA/03.png, id=252, 555.57562pt x 223.58531pt>
 File: BilderFuerBA/03.png Graphic file (type png)
 <use BilderFuerBA/03.png>
 Package pdftex.def Info: BilderFuerBA/03.png  used on input line 65.
 (pdftex.def)             Requested size: 398.33858pt x 160.30919pt.
-<BilderFuerBA/Busfahrer.png, id=247, 2055.68pt x 2055.68pt>
+<BilderFuerBA/Busfahrer.png, id=253, 2055.68pt x 2055.68pt>
 File: BilderFuerBA/Busfahrer.png Graphic file (type png)
 <use BilderFuerBA/Busfahrer.png>
 Package pdftex.def Info: BilderFuerBA/Busfahrer.png  used on input line 74.
@@ -733,7 +733,7 @@ Underfull \hbox (badness 4048) in paragraph at lines 75--75
 [][]\OT1/cmr/m/n/10.95 Midjourney Prompt:
  []
 
-<BilderFuerBA/bus_driver.png, id=248, 2055.68pt x 2055.68pt>
+<BilderFuerBA/bus_driver.png, id=254, 2055.68pt x 2055.68pt>
 File: BilderFuerBA/bus_driver.png Graphic file (type png)
 <use BilderFuerBA/bus_driver.png>
 Package pdftex.def Info: BilderFuerBA/bus_driver.png  used on input line 81.
@@ -748,74 +748,74 @@ Underfull \hbox (badness 4048) in paragraph at lines 82--82
 [][]\OT1/cmr/m/n/10.95 Midjourney Prompt:
  []
 
-<BilderFuerBA/MLaufEnglisch.png, id=249, 1027.84pt x 1027.84pt>
+<BilderFuerBA/MLaufEnglisch.png, id=255, 1027.84pt x 1027.84pt>
 File: BilderFuerBA/MLaufEnglisch.png Graphic file (type png)
 <use BilderFuerBA/MLaufEnglisch.png>
 Package pdftex.def Info: BilderFuerBA/MLaufEnglisch.png  used on input line 91.
 
 (pdftex.def)             Requested size: 228.2481pt x 228.24278pt.
-<BilderFuerBA/04.png, id=250, 554.07pt x 199.49532pt>
+<BilderFuerBA/04.png, id=256, 554.07pt x 199.49532pt>
 File: BilderFuerBA/04.png Graphic file (type png)
 <use BilderFuerBA/04.png>
 Package pdftex.def Info: BilderFuerBA/04.png  used on input line 98.
 (pdftex.def)             Requested size: 398.33858pt x 143.42342pt.
-<BilderFuerBA/05.png, id=251, 555.57562pt x 388.45125pt>
+<BilderFuerBA/05.png, id=257, 555.57562pt x 388.45125pt>
 File: BilderFuerBA/05.png Graphic file (type png)
 <use BilderFuerBA/05.png>
 Package pdftex.def Info: BilderFuerBA/05.png  used on input line 104.
 (pdftex.def)             Requested size: 398.33858pt x 278.517pt.
-<BilderFuerBA/06.png, id=252, 557.08125pt x 453.19313pt>
+<BilderFuerBA/06.png, id=258, 557.08125pt x 453.19313pt>
 File: BilderFuerBA/06.png Graphic file (type png)
 <use BilderFuerBA/06.png>
 Package pdftex.def Info: BilderFuerBA/06.png  used on input line 111.
 (pdftex.def)             Requested size: 389.95422pt x 317.23302pt.
-<BilderFuerBA/fuchsKopfAbenteuerer.png, id=253, 1027.84pt x 1027.84pt>
+<BilderFuerBA/fuchsKopfAbenteuerer.png, id=259, 1027.84pt x 1027.84pt>
 File: BilderFuerBA/fuchsKopfAbenteuerer.png Graphic file (type png)
 <use BilderFuerBA/fuchsKopfAbenteuerer.png>
 Package pdftex.def Info: BilderFuerBA/fuchsKopfAbenteuerer.png  used on input l
 ine 118.
 (pdftex.def)             Requested size: 228.2481pt x 228.24278pt.
-<BilderFuerBA/07.png, id=254, 554.07pt x 409.53pt>
+<BilderFuerBA/07.png, id=260, 554.07pt x 409.53pt>
 File: BilderFuerBA/07.png Graphic file (type png)
 <use BilderFuerBA/07.png>
 Package pdftex.def Info: BilderFuerBA/07.png  used on input line 125.
 (pdftex.def)             Requested size: 387.84636pt x 286.66904pt.
-<BilderFuerBA/MidJourneyMLMitFormel.png, id=255, 1027.84pt x 1027.84pt>
+<BilderFuerBA/MidJourneyMLMitFormel.png, id=261, 1027.84pt x 1027.84pt>
 File: BilderFuerBA/MidJourneyMLMitFormel.png Graphic file (type png)
 <use BilderFuerBA/MidJourneyMLMitFormel.png>
 Package pdftex.def Info: BilderFuerBA/MidJourneyMLMitFormel.png  used on input 
 line 133.
 (pdftex.def)             Requested size: 228.2481pt x 228.24278pt.
-<BilderFuerBA/09.png, id=256, 556.32843pt x 424.58624pt>
+<BilderFuerBA/09.png, id=262, 556.32843pt x 424.58624pt>
 File: BilderFuerBA/09.png Graphic file (type png)
 <use BilderFuerBA/09.png>
 Package pdftex.def Info: BilderFuerBA/09.png  used on input line 140.
 (pdftex.def)             Requested size: 389.42725pt x 297.20834pt.
-<BilderFuerBA/10.png, id=257, 554.07pt x 471.26062pt>
+<BilderFuerBA/10.png, id=263, 554.07pt x 471.26062pt>
 File: BilderFuerBA/10.png Graphic file (type png)
 <use BilderFuerBA/10.png>
 Package pdftex.def Info: BilderFuerBA/10.png  used on input line 147.
 (pdftex.def)             Requested size: 387.84636pt x 329.88019pt.
-<BilderFuerBA/MartinLutherInTPoseFirst.png, id=258, 1027.84pt x 1027.84pt>
+<BilderFuerBA/MartinLutherInTPoseFirst.png, id=264, 1027.84pt x 1027.84pt>
 File: BilderFuerBA/MartinLutherInTPoseFirst.png Graphic file (type png)
 <use BilderFuerBA/MartinLutherInTPoseFirst.png>
 Package pdftex.def Info: BilderFuerBA/MartinLutherInTPoseFirst.png  used on inp
 ut line 154.
 (pdftex.def)             Requested size: 228.2481pt x 228.24278pt.
-<BilderFuerBA/ErsteAusgabeVomFinalenPrompt.png, id=259, 2055.68pt x 2055.68pt>
+<BilderFuerBA/ErsteAusgabeVomFinalenPrompt.png, id=265, 2055.68pt x 2055.68pt>
 File: BilderFuerBA/ErsteAusgabeVomFinalenPrompt.png Graphic file (type png)
 <use BilderFuerBA/ErsteAusgabeVomFinalenPrompt.png>
 Package pdftex.def Info: BilderFuerBA/ErsteAusgabeVomFinalenPrompt.png  used on
  input line 161.
 (pdftex.def)             Requested size: 228.2481pt x 228.2271pt.
-<BilderFuerBA/ZweiteAusgabeVomFinalenPrompt.png, id=260, 2055.68pt x 2055.68pt>
+<BilderFuerBA/ZweiteAusgabeVomFinalenPrompt.png, id=266, 2055.68pt x 2055.68pt>
 
 File: BilderFuerBA/ZweiteAusgabeVomFinalenPrompt.png Graphic file (type png)
 <use BilderFuerBA/ZweiteAusgabeVomFinalenPrompt.png>
 Package pdftex.def Info: BilderFuerBA/ZweiteAusgabeVomFinalenPrompt.png  used o
 n input line 168.
 (pdftex.def)             Requested size: 228.2481pt x 228.2271pt.
-<BilderFuerBA/DritteAusgabeVomFinalenPrompt.png, id=261, 1027.84pt x 1027.84pt>
+<BilderFuerBA/DritteAusgabeVomFinalenPrompt.png, id=267, 1027.84pt x 1027.84pt>
 
 File: BilderFuerBA/DritteAusgabeVomFinalenPrompt.png Graphic file (type png)
 <use BilderFuerBA/DritteAusgabeVomFinalenPrompt.png>
@@ -837,13 +837,13 @@ LaTeX Warning: Reference `chatgpt_formel_mj_first_5' on page 16 undefined on in
 put line 209.
 
 [16] [17]
-<BilderFuerBA/BlenderMLVonPIFuHD105k.png, id=343, 784.43062pt x 523.20468pt>
+<BilderFuerBA/BlenderMLVonPIFuHD105k.png, id=349, 784.43062pt x 523.20468pt>
 File: BilderFuerBA/BlenderMLVonPIFuHD105k.png Graphic file (type png)
 <use BilderFuerBA/BlenderMLVonPIFuHD105k.png>
 Package pdftex.def Info: BilderFuerBA/BlenderMLVonPIFuHD105k.png  used on input
  line 253.
 (pdftex.def)             Requested size: 398.33858pt x 265.68922pt.
-<BilderFuerBA/BlenderMLGeriggtUndTexturiert95k.png, id=344, 718.18312pt x 478.7
+<BilderFuerBA/BlenderMLGeriggtUndTexturiert95k.png, id=350, 718.18312pt x 478.7
 8876pt>
 File: BilderFuerBA/BlenderMLGeriggtUndTexturiert95k.png Graphic file (type png)
 
@@ -858,52 +858,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--277
 
 [18] [19 <./BilderFuerBA/BlenderMLVonPIFuHD105k.png> <./BilderFuerBA/BlenderMLG
 eriggtUndTexturiert95k.png>] [20] [21]
-<BilderFuerBA/a_scatch_from_a_village_top_down.png, id=367, 1027.84pt x 1027.84
+Overfull \hbox (84.10403pt too wide) in paragraph at lines 358--387
+\OT1/cmss/m/n/10.95 In der Ent-wick-lungs-um-ge-bung Un-re-al En-gi-ne 5 an-ge-
+kom-men, su-che ich nach dem BP[]ThirdPersonCharacter
+ []
+
+[22]
+<BilderFuerBA/a_scatch_from_a_village_top_down.png, id=377, 1027.84pt x 1027.84
 pt>
 File: BilderFuerBA/a_scatch_from_a_village_top_down.png Graphic file (type png)
 
 <use BilderFuerBA/a_scatch_from_a_village_top_down.png>
 Package pdftex.def Info: BilderFuerBA/a_scatch_from_a_village_top_down.png  use
-d on input line 370.
+d on input line 390.
 (pdftex.def)             Requested size: 205.56436pt x 205.56436pt.
- [22]
-Underfull \hbox (badness 10000) in paragraph at lines 374--384
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--404
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 385--393
-
- []
-
-[23 <./BilderFuerBA/a_scatch_from_a_village_top_down.png (PNG copy)>] [24]
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 456--468
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 405--413
 
  []
 
-[26]
+[24 <./BilderFuerBA/a_scatch_from_a_village_top_down.png (PNG copy)>]
+<BilderFuerBA/Screenshot/UE5/balkenHochBP.png, id=387, 1451.4225pt x 818.30719p
+t>
+File: BilderFuerBA/Screenshot/UE5/balkenHochBP.png Graphic file (type png)
+<use BilderFuerBA/Screenshot/UE5/balkenHochBP.png>
+Package pdftex.def Info: BilderFuerBA/Screenshot/UE5/balkenHochBP.png  used on 
+input line 445.
+(pdftex.def)             Requested size: 398.33858pt x 224.57942pt.
+
+Overfull \hbox (12.37836pt too wide) in paragraph at lines 421--449
+\OT1/cmss/m/n/10.95 Dieser Dorf-bau-kas-ten be-steht eben-falls aus W[]anden, B
+al-ken, D[]acher, Dach-gie-bel, Fu^^Yb[]oden
+ []
+
+[25] [26 <./BilderFuerBA/Screenshot/UE5/balkenHochBP.png>] [27]
+Underfull \hbox (badness 10000) in paragraph at lines 498--510
+
+ []
+
+[28]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-477.
+519.
  (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-[27]) [28]
+[29]) [30]
 \openout2 = `6_Ergebnisse_und_Diskussion.aux'.
 
  (6_Ergebnisse_und_Diskussion.tex
 chapter 5.
-) [29
+) [31
 
 
 
 
-] [30]
+] [32]
 \openout2 = `7_Allgemeine_Probleme_mit_KI_und_KI-Systeme.aux'.
 
  (7_Allgemeine_Probleme_mit_KI_und_KI-Systeme.tex
 chapter 6.
-) [31
+) [33
 
 
 
@@ -913,12 +936,12 @@ chapter 6.
 
  (8_Fazit.tex
 chapter 7.
-Excluding 'comment' comment. [32
+Excluding 'comment' comment. [34
 
 
 
 
-]) [33]
+]) [35]
 \openout2 = `Anhang.aux'.
 
  (Anhang.tex
@@ -935,17 +958,28 @@ l.72 \include{Anhang}
 
 
 ]
-\openout2 = `11_Code-Beispiele.aux'.
+part without number
 
- (11_Code-Beispiele.tex)
 pdfTeX warning (ext4): destination with the same identifier (name{page.VI}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.74 \include{11_Code-Beispiele}
-                                 [6
+l.73 \addpart{Abbildungsverzeichnis}
+                                     %Erstellt Eintrag ins Literaturverzeichnis
+[6
 
 
+
+]
+\openout2 = `11_Code-Beispiele.aux'.
+
+ (11_Code-Beispiele.tex)
+pdfTeX warning (ext4): destination with the same identifier (name{page.VII}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.76 \include{11_Code-Beispiele}
+                                 [7
 
 
 ] (main.bbl
@@ -953,26 +987,19 @@ l.74 \include{11_Code-Beispiele}
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 3.
 
-)
-pdfTeX warning (ext4): destination with the same identifier (name{page.VII}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.79 \include{12_Weitere_Materialien}
-                                      [7
+) [8
 
 
 
 ]
 \openout2 = `12_Weitere_Materialien.aux'.
 
- (12_Weitere_Materialien.tex) [8
+ (12_Weitere_Materialien.tex) [9
 
 
-]
-(main.aux (1_Einleitung.aux) (2_Fragestellung.aux)
-(3_Theoretischer_Hintergrund.aux) (4_Methodik.aux) (5_Umsetzung.aux)
-(6_Ergebnisse_und_Diskussion.aux)
+] (main.aux (1_Einleitung.aux)
+(2_Fragestellung.aux) (3_Theoretischer_Hintergrund.aux) (4_Methodik.aux)
+(5_Umsetzung.aux) (6_Ergebnisse_und_Diskussion.aux)
 (7_Allgemeine_Probleme_mit_KI_und_KI-Systeme.aux) (8_Fazit.aux) (Anhang.aux)
 (11_Code-Beispiele.aux) (12_Weitere_Materialien.aux))
 
@@ -982,11 +1009,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15318 strings out of 475385
- 312336 string characters out of 2776907
+ 15348 strings out of 475385
+ 313145 string characters out of 2776907
  822855 words of memory out of 3000000
- 36294 multiletter control sequences out of 15000+600000
- 476344 words of font info for 51 fonts, out of 8000000 for 9000
+ 36315 multiletter control sequences out of 15000+600000
+ 476638 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,19n,106p,10601b,636s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\nicol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss
@@ -998,9 +1025,9 @@ nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nicol/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/nicol/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/nicol/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on main.pdf (45 pages, 35685665 bytes).
+Output written on main.pdf (48 pages, 36104243 bytes).
 PDF statistics:
- 678 PDF objects out of 1000 (max. 8388607)
- 131 named destinations out of 1000 (max. 500000)
- 583 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 706 PDF objects out of 1000 (max. 8388607)
+ 138 named destinations out of 1000 (max. 500000)
+ 604 words of extra memory for PDF output out of 10000 (max. 10000000)
 

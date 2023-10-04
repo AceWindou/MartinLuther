@@ -330,6 +330,7 @@ Um den Rücken und den Hinterkopf einigermaßen korrekt zu texturieren, wähle i
 Zum Beispiel der Mittelteil der Robe, der blau gefärbt ist, verschiebe ich in eine etwas brauneren Region im UV-Editor.
 \\
 Nachdem ich den Rücken und den Kopf nachtexturiert habe, fehlt noch ein letzer wichtiger schritt, damit Martin Luther in der Unreal Engine zum Leben erweckt wird, und zwar das Rigging.
+
 \subsection{Rigging in Blender}%todo rigging erklären
 Damit mein Hauptcharakter nicht nur in seiner T-Pose verweilt wenn er läuft und Springt, sonder Arme Beine und Kopf bewegt, braucht das 3D-Modell von Martin Luther ein Skeleton-Mesh.
 \\
@@ -353,7 +354,26 @@ Nachdem nur noch unser 3D-Modell und das Unreal-Rig sichtbar ist wechsel ich in 
 	\item Bake Animation stelle ich ebenfalls aus
 \end{itemize}
 Nachdem ich diese Einstellung getätigt habe, wähle ich noch ein Namen aus für meine FBX-Datei und drücke auf Export FBX.
-\subsection{Einngügen des Haupcharakters in Unreal Engine 5}
+\subsection{Einfügen des Haupcharakters in Unreal Engine 5}
+Der Haupcharakter ist soweit fertig, aber ich möchte mit ihm ja spielen.
+\\
+Über den Epic Games Launcher erstelle ich ein neues Projekt. Ich benutze das Third-Person-Template was mir eine kleine Arena und ein Videospielcharakter vorgibt. Ich benutze die Project Default-Einstellung Blueprint.
+\\
+Zum Schluss gebe ich mein Projekt noch einen Namen und erstelle Mein Projekt mit Create.
+\\
+In der Entwicklungsumgebung Unreal Engine 5 angekommen, suche ich nach dem BP\_ThirdPersonCharacter Blueprint Class.
+\\
+Die BP\_ThirdPersonCharacter Blueprint Class befindet sich unter dem Ordner All -> Content -> ThirdPerson -> Blueprints. Über den Button Import der sich im Contentbrowser befindet, kann ich meine durch Blender exportierte FBX-Datei Importieren.
+\\
+Nach dem auswählen meine FBX-Datei, öffnet sich die FBX Importoptionnen, wo ich das SK\_Mannequin für das Skeleton auswählen kann. Anschließend klicke ich auf Import All.
+\\
+Um das Skeletal Mesh zu ersetzen doppelklicke ich auf das BP\_ThirdPersonCharacter Blueprint Class. Die BP\_ThirdPersonCharacter Blueprint Class besteht aus verschiedenen Components, von diesen verschiedenen Componets wähl ich das Mesh(CharacterMesh0) aus.
+\\
+Nach dem ich das Mesh(CharacterMesh0) ausgewählt habe, kann ich in den dazu geöffneten Details das Skeletal Mesh Asset durch mein Martin Luther tauschen.
+\\
+Automatisch wird auch die dazu gehörige Textur geändert, was ich daran erkenne, das der BP\_ThirdPersonCharacter nun aussieht wie mein Martin Luther.
+\\
+Nun kann ich mit meinem Haupcharakter durch die vordefinierte ThirdPersonMap bewegen und springen. Ich habe sogar eine Kollision, was mich daran hindert durch den Boden und Wände zu laufen. Ich kann sogar gegen blaue Wüfel laufen, die physikalisch von mir beeinflusst werden.
 %
 %
 %
@@ -381,7 +401,7 @@ Fachwerkhäuser repräsentieren etwas Mittelalterliches, und da die Renaissance 
 \\
 Deshalb möchte ich diverse Fachwerkhäuser erschaffen und auf einer Landschaft verteilen, um eine Dorflandschaft zu erzeugen.
 \\
-\subsection{Erste Ansatz Fachwerkhäuser}
+\subsection{Erste Ansatz Fachwerkhäuser}%todo promts für die textur raussuchen
 Mein erster Ansatz ist es, Häuser mit Hilfe von einem einfachen 3D-Modell umzusetzen, was ich in Blender erstellt habe. Dieses 3D-Modell bestand aus einem Quader mit einer Spitze. Kurz, ein einfaches Haus.
 \\
 Mit Midjourney habe ich Texturen erstellt, die Fachwerkhäuser nachempfunden sind. Diese Texturen und das einfache Haus wurden mit Hilfe von Blender verbunden.
@@ -390,7 +410,14 @@ Folgend wurden die einfachen Fachwerkhäuser in Unreal Engine 5 Importiert und v
 \\
 Die erste Ansatz lässt funktioniert und man kann die Häuser frei auf einer Landschaft verteilen.
 \\
-\subsection{Zweiter Ansatz Fachwerkhäuser}
+\subsection{Moddelieren und texturieren Einfaches Haus mit Blender}
+Ich habe mit Blender eine einfache Würfel mit Spitze modelliert was mein einfaches Fachwerkhaus darstellen soll. Dieses Einfache Fachwerkhaus habe ich eine Textur übergeben die ich mit Midjourney erzeugt habe.
+\\
+Beim Exportieren benötich ich keine Amature wie bei meiner Hauptfigur.
+\\
+Nach dem Exportieren kann ich die FBX datei in Unreal Engine 5 importieren.
+
+\subsection{Zweiter Ansatz Fachwerkhäuser}%todo quellenn für valheim raussuchen
 Eine Inspiration für meinen zweiten Ansatz ist Valheim, ein Survival-Spiel von den Coffee Stain Studios. In diesem Spiel gibt es ein Baukastensystem, in dem der Spieler sein eigenes Haus bauen kann.
 \\
 In Valheim kann der Spieler verschiedene Wände, Balken, Fußböden, Dächer und Materialarten auswählen, um damit seine Behausung zu gestalten.
@@ -399,12 +426,27 @@ Hinzu kommen andere Elemente wie Zäune und Gemüse um ein Garten zu erschaffen,
 \\
 Aus dieser Inspiration habe ich einen zweiten Ansatz entwickelt und zwar einen so genannten Dorfbaukasten.
 \\
-Dieser Dorfbaukasten besteht ebenfalls aus Wänden, Balken, Dächer, Fußböden und Tapeten.
+Dieser Dorfbaukasten besteht ebenfalls aus Wänden, Balken, Dächer, Dachgiebel, Fußböden und Tapeten.
 \\
-Aus meiner Beobachtung als Game Designer, besteht ein Fachwerkhaus auch aus simplen Geometrien, wie zum Beispiel aus verschiedene Quader für Wände, Balken, Dach, Türen und Fenster. Der Dachgiebel von einem Fachwerkhaus ist ein dreieckis Prisma. Diese einzelnen Elemente möchte ich nachbauen, so dass man in der Unreal Engine 5 einen Baukasten aus verschiedenen Einzelelementen besitz um damit seine Fachwerkhäuser zu bauen. 
+Aus meiner Beobachtung als Ein-Mann-Videospielentwickler, besteht ein Fachwerkhaus auch aus simplen Geometrien, wie zum Beispiel aus verschiedene Quader für Wände, Balken, Dach, Türen und Fenster. Der Dachgiebel von einem Fachwerkhaus ist ein dreieckiges Prisma. Diese einzelnen Elemente möchte ich nachbauen, so dass man in der Unreal Engine 5 einen Baukasten aus verschiedenen Einzelelementen verfügt um damit seine Fachwerkhäuser zu bauen. 
 \\
-Ein weiteres Ziel ist, diese einzelnen Elemente zu programmieren, damit die Materialeigenschaft sich untereinander unterscheiden. Zum Beispiel wirkt jeder Balken unterschiedlich, weil durch Midjourney fünf unterschiedliche Holzmaterialien erstellt wurden.
- 
+Ein weiteres Ziel ist, diese einzelnen Elemente zu programmieren, damit die Materialeigenschaft sich untereinander unterscheiden. Das hat den Zweck, das die Spielwelt nicht zu monoton wirkt.
+\\
+Ein beispiel ist der Balken.
+\\
+Den Balken habe ich erstellt in dem ich ein neuen Blueprint Class vom typ Actor erstellt habe. Wenn man die Blueprint Class mit doppelklick öffnet, kann ich über das ADD unter Componets ein Cube hinzufügen.
+\\
+Diesen Cube habe ich in der X- und Y-Achse auf 0,4 Skaliert und somit habe ich meine Grundform für meinen Balken.
+\\
+Im Construction Script kann ich mit Hilfe von Nodes meinen Balken besondere Eigenschaften geben wie, zufällige Auswahl von Materialien oder das bestimmen der Länge mit Hilfe eines Parameters.
+\\
+\begin{figure}[h]
+	%\centering
+	\includegraphics[width=14cm]{BilderFuerBA/Screenshot/UE5/balkenHochBP.png}
+	\caption{UE5 Blueprint: Balken Hoch Construction Script}
+	\label{UE5balkenHochBP}
+\end{figure}
+
 \section {Meilenstein: Nebenfiguren}
 Beim dritten Meilenstein Nebenfiguren möchte ich gerne beschreiben, wie ich meine Nebenfiguren, kurz NPCs, erstellt habe. Ähnlich wie beim Erstellen der Hauptfigur habe ich durch Chat GPT mir verschiedene NPCs beschrieben lassen. Zu dieser Beschreibung gehörte Alter, Geschlecht, Beruf unnd charakterliche Eigenschaften.
 \\
