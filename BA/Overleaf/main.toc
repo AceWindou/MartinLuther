@@ -67,9 +67,9 @@
 \contentsline {section}{\numberline {7.6}Firmeninteressen}{31}{section.7.6}%
 \contentsline {section}{\numberline {7.7}Geistiges Eigentum}{31}{section.7.7}%
 \contentsline {chapter}{\numberline {8}Fazit}{32}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Zusammenfassung der Ergebnisse}{33}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Implikationen für die Praxis}{33}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Limitationen der Studie}{33}{section.8.3}%
+\contentsline {section}{\numberline {8.1}Zusammenfassung der Ergebnisse}{34}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Implikationen für die Praxis}{34}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Limitationen der Studie}{34}{section.8.3}%
 \contentsline {chapter}{\numberline {9}Anhang}{V}{chapter.9}%
 \contentsline {part}{\nonumberline Abbildungsverzeichnis}{VI}{part*.4}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

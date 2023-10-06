@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.11)  6 OCT 2023 22:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.11)  7 OCT 2023 00:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -951,13 +951,16 @@ mich als Ein-Mann-Videospielentwickler
  (8_Fazit.tex
 chapter 8.
 Excluding 'comment' comment.
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-49.
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+66.
 (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (8.24515pt too wide) in paragraph at lines 37--71
+Overfull \hbox (8.24515pt too wide) in paragraph at lines 37--88
 \OT1/cmss/m/n/10 ge-ber, wie die Deut-sche Ga-mef[]orderung, zu []uberzeugen um
  mich als Ein-Mann-Videospielentwickler
  []
@@ -967,7 +970,7 @@ Overfull \hbox (8.24515pt too wide) in paragraph at lines 37--71
 
 
 
-]) [33]
+] [33]) [34]
 \openout2 = `Anhang.aux'.
 
  (Anhang.tex
@@ -1032,9 +1035,9 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  15356 strings out of 475385
- 313275 string characters out of 2776907
+ 313266 string characters out of 2776907
  824828 words of memory out of 3000000
- 36314 multiletter control sequences out of 15000+600000
+ 36313 multiletter control sequences out of 15000+600000
  473889 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,19n,106p,10601b,636s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1047,9 +1050,9 @@ nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nicol/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/nicol/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/nicol/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on main.pdf (45 pages, 36111450 bytes).
+Output written on main.pdf (46 pages, 36113794 bytes).
 PDF statistics:
- 762 PDF objects out of 1000 (max. 8388607)
- 151 named destinations out of 1000 (max. 500000)
+ 766 PDF objects out of 1000 (max. 8388607)
+ 152 named destinations out of 1000 (max. 500000)
  700 words of extra memory for PDF output out of 10000 (max. 10000000)
 
