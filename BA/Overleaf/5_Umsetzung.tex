@@ -404,54 +404,45 @@ Mit Midjourney habe ich Texturen erstellt, die Fachwerkhäuser nachempfunden sin
 Folgend wurden die einfachen Fachwerkhäuser in Unreal Engine 5 Importiert und verteilt.
 \\
 Die erste Ansatz lässt funktioniert und man kann die Häuser frei auf einer Landschaft verteilen.
-\\
-\subsection{Moddelieren und texturieren Einfaches Haus mit Blender}
 
+\subsection{Moddelieren und texturieren Einfaches Haus mit Blender}
 \begin{figure}
 	\centering
 	\includegraphics[width=14cm]{BilderFuerBA/BlenderMLGeriggtUndTexturiert95k.png}
 	\caption{Blender: Martin Luther Texturiert, geriggt, Nachgebessert und gemergeten Verticies}
 	\label{BlenderMLGeriggtUndTexturiert95k}
 \end{figure}
-Ich habe mit Blender eine einfache Würfel mit Spitze modelliert was mein einfaches Fachwerkhaus darstellen soll. Dieses Einfache Fachwerkhaus habe ich eine Textur übergeben die ich mit Midjourney erzeugt habe.
+Ich habe mit Blender eine einfache Würfel mit Spitze modelliert was mein einfaches Fachwerkhaus darstellen soll. Dieses Einfache Fachwerkhaus habe ich eine Textur übergeben die ich mit Midjourney erzuge.
 \\
-Beim Exportieren benötich ich keine Amature wie bei meiner Hauptfigur.
-\\
-Nach dem Exportieren kann ich die FBX datei in Unreal Engine 5 importieren.
+Beim Exportieren benötich ich keine Amature wie bei meiner Hauptfigur. Nach dem Exportieren kann ich die FBX datei in Unreal Engine 5 importieren.
 
-\subsection{Driitter Ansatz: Moddelieren eines Fachwerkhaus mit Blender}
+\subsection{Zweiter Ansatz: Moddelieren eines Fachwerkhaus mit Blender}
 %127 Cubes und 33 Planes
-Mein Dritter Ansatz ist, mit Blender Individuelle Häuser zu gestalten. Ich habe mit Midjourney Bilder von Fachwekhäuser gestalten lassen und versuch diese in Blender nach zu moddelieren.
+Mein zweite Ansatz ist, mit Blender Individuelle Häuser zu gestalten. Ich habe mit Midjourney Bilder von Fachwekhäuser gestalten lassen und versuch diese in Blender nach zu moddelieren.
 \\
-Das Haus habe ich 127 Cubes und 33 Planes in Blender nachmodelliert. Zu meinem Moddelierten Haus, was nur aus dem Gefache bestand habe ich mit Hilfe von Planes wände hinzugefügt.
-Dieser Prozess hat mehrere Tage und Stunden gekostet, was mich zum Dritten Ansatz gebracht hat.
+Das Haus habe ich 127 Cubes und 33 Planes in Blender erstellt un in Position gebracht. Zu meinem Moddelierten Haus, was nur aus dem Gefache bestand habe ich mit Hilfe von Planes als wände hinzugefügt.
+%Dieser Prozess hat mehrere Tage und Stunden gekostet, was mich zum Dritten Ansatz gebracht hat.
 
-\subsection{Zweiter Ansatz Fachwerkhäuser}%todo quellenn für valheim raussuchen
+\subsection{Dritter Ansatz Dorfbaukasten}%todo quellenn für valheim raussuchen
 
-Eine Inspiration für meinen zweiten Ansatz ist Valheim, ein Survival-Spiel von den Coffee Stain Studios. In diesem Spiel gibt es ein Baukastensystem, in dem der Spieler sein eigenes Haus bauen kann.
+Eine Inspiration für meinen dritten Ansatz ist Valheim, ein Survival-Spiel von den Coffee Stain Studios. In diesem Spiel gibt es ein Baukastensystem, in dem der Spieler sein eigenes Haus bauen kann.
 \\
 In Valheim kann der Spieler verschiedene Wände, Balken, Fußböden, Dächer und Materialarten auswählen, um damit seine Behausung zu gestalten.
 \\
 Hinzu kommen andere Elemente wie Zäune und Gemüse um ein Garten zu erschaffen, Werkbänke, Tische und Stühle um eine Inneneinrichtung zu kreieren und sogar Teppiche aus Tierfelle und Trophäen die man an die Wand hängen kann um eine Dekorative Charakter in die Behausung eines Spielers zu schaffen.
 \\
-Aus dieser Inspiration habe ich einen zweiten Ansatz entwickelt und zwar einen so genannten Dorfbaukasten.
+Aus dieser Inspiration habe ich einen dritten Ansatz entwickelt und zwar einen so genannten Dorfbaukasten.
 \\
 Dieser Dorfbaukasten besteht ebenfalls aus Wänden, Balken, Dächer, Dachgiebel, Fußböden und Tapeten.
 \\
-Aus meiner Beobachtung als Ein-Mann-Videospielentwickler, besteht ein Fachwerkhaus auch aus simplen Geometrien, wie zum Beispiel aus verschiedene Quader für Wände, Balken, Dach, Türen und Fenster. Der Dachgiebel von einem Fachwerkhaus ist ein dreieckiges Prisma. Diese einzelnen Elemente möchte ich nachbauen, so dass man in der Unreal Engine 5 einen Baukasten aus verschiedenen Einzelelementen verfügt um damit seine Fachwerkhäuser zu bauen. 
+Aus meiner Beobachtung als Ein-Mann-Videospielentwickler, besteht ein Fachwerkhaus nur aus simplen Geometrien, wie zum Beispiel aus verschiedene Quader für Wände, Balken, Dach, Türen und Fenster. Der Dachgiebel von einem Fachwerkhaus ist ein dreieckiges Prisma. Diese einzelnen Elemente möchte ich nachbauen, so dass man in der Unreal Engine 5 einen Baukasten aus verschiedenen Einzelelementen verfügt um damit seine Fachwerkhäuser zu bauen. 
 \\
 Ein weiteres Ziel ist, diese einzelnen Elemente zu programmieren, damit die Materialeigenschaft sich untereinander unterscheiden. Das hat den Zweck, das die Spielwelt nicht zu monoton wirkt.
 \\
-Ein beispiel ist der Balken.
-\\
-Den Balken habe ich erstellt in dem ich ein neuen Blueprint Class vom typ Actor erstellt habe. Wenn man die Blueprint Class mit doppelklick öffnet, kann ich über das ADD unter Componets ein Cube hinzufügen.
-\\
-Diesen Cube habe ich in der X- und Y-Achse auf 0,4 Skaliert und somit habe ich meine Grundform für meinen Balken.
+Ein beispiel ist der Balken den ich mit ein neuen Blueprint Class vom typ Actor erstelle. Ich öffne die Blueprint Class einem doppelklick und füge über ADD Componets ein Cube hinzufügen. Diesen Cube skaliere ich in der X- und Y-Achse auf 0,4 der aus dem Würfel einen ein Meter hohen Balken mit 40 cm breiten und tiefen Profil.
 \\
 Im Construction Script kann ich mit Hilfe von Nodes meinen Balken besondere Eigenschaften geben wie, zufällige Auswahl von Materialien oder das bestimmen der Länge mit Hilfe eines Parameters.
 \\
-
-
 \begin{figure}[h]
 	%\centering
 	\includegraphics[width=14cm]{BilderFuerBA/Screenshot/UE5/balkenHochBP.png}
@@ -464,12 +455,15 @@ Beim dritten Meilenstein Nebenfiguren möchte ich gerne beschreiben, wie ich mei
 \\
 Mit diesen Beschreibungen habe ich mir einen Prompt mit hilfe der Midjourney-Formel überlegt und Midjourney hat mir Conceptgraphiken erzeugt. Nach mehreren Versuchen habe ich zwei Conzeptgraphiken bekommen die ich für PIFuHD verwenden kann.
 \\
-Nach dem ich PIFuHD die beiden Conzeptgraphiken übergeben habe, wurden sie wie bei der Hauptfigur in Blender der Polycount reduziert und Texturiert.  Stark verformete stellen die an den Händen und Füßen auftreten wurden im Eddit Mode, oder im Sculp Mode nachgebessert.
+Nach dem ich PIFuHD die beiden Conzeptgraphiken übergebe, bekomme ich wie bei der Hauptfigur die 3D-Modelle der NPCs. In Blender habe ich den Polycount reduziert, die 3D-Modelle Texturiert und stark verformete Stellen nachgebessert.
 \\
-Für den Prototyp impotiere ich die NPCs ohne Sceleton Mesh ein, da sie keine Laufanimation benötigen, sonder nur in der Spielwelt platziert werden um mit dem Hauptcharakter zu reden.
+Für den Prototyp exportiere ich die NPCs ohne Sceleton Mesh sls FBX in Blender. Da die NPCs keine Spring oder laufanimation benötigen, sonder nur in der Spielwelt platziert werden um mit dem Hauptcharakter zu reden, benötigen die NPCs kein Skeleton Mesh.
 \\
+Nach diesen Arbeitsschritten kann ich die NPCs in die Unreal Engine 5 importieren und verteilen.
+\begin{comment}
+%todo das ins fazit
 Dadurch das die NPC keine Sceleton Mesh besitzen ist auch gut zu erkennen, das die NPCs keine großen verformungen aufweisen wie die Hauptfigur. Die Verformung tritt z. B. in bereich der Hüfte sehr stark auf aufgrund der unterschiedlich gewichtete Zuweisung der Vertices zu den einzelnen Bones des Sceleton Mesh.
-
+\end{comment}
 
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Dialogsystem\\\\\\\\\\\\\\\\\\\\\\\
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Dialogsystem\\\\\\\\\\\\\\\\\\\\\\\
@@ -478,7 +472,7 @@ Dadurch das die NPC keine Sceleton Mesh besitzen ist auch gut zu erkennen, das d
 Um ein Dialogsystem in der Unreal Enginge 5 zu entwickeln habe ich mehrere Ansätze gebraucht.
  
 \subsection{Ansatz 1 mit ChatGPT}
-Ich habe ChatGPT dazu Aufgefordert mir ein Dialogsystem zu entwickeln damit mein Hauptcharakter mit den NPCs aus meinem Prototyp sich unterhalten können.
+Ich fordere ChatGPT dazu auf mir ein Dialogsystem zu entwickeln damit mein Hauptcharakter mit den NPCs aus meinem Prototyp sich unterhalten können.
 \\
 Ich habe versucht die Schritte umzusetzen die ChatGPT mir vorgegeben hat. Das Ergbenis dieser Anleitung die mir ChatGPT gezeigt hat, hat zu keinem Dialog meiner Charaktere geführt.
 \\
@@ -488,22 +482,16 @@ Dieses Konzept soll mehrere Dialogversionen erschaffen, und einfluss auf den Ges
 \\
 Eine Inspiration ist für mich die Sincefiction Spielereihe Mass Effect. In dieser Spielreihe is es möglich, durch Gespräche mit den NPCs verschieden verläufe zu erleben.
 \\
-Mein ziel ist es mit Hilfe von ChatGPT ein ähnliches einfache Dialoge zu kreiren, was nicht gut funktioniert hat.
-\\
+Mein ziel ist es mit Hilfe von ChatGPT ein ähnliches einfache Dialoge zu kreiren, was nicht g hat.
+
 \subsection{Ansatz 2 Rechersche mit Suchmaschienen im Internet}
 Mit der Suchmaschiene Google bin ich auf ein Video auf Youtube gestoßen, was mir erklärt hat wie ich ein Dialogsystem in Unreal Engine 5 erstellt wird.
 \\
-ChatGPT hat mir im gegensatz zu dem Youtube-Video nicht mitgeteilt das es eine möglichkeit gibt zwischen Blueprint-Klassen zu Komunizieren, und diese geschieht über Interf
+ChatGPT hat mir im gegensatz zu dem Youtube-Video nicht mitgeteilt das es eine möglichkeit gibt zwischen Blueprint-Klassen zu Komunizieren, und diese geschieht über Interfaces.
 \\
 Zu dem beschriebenen Dialogsystem habe ich zusätzlich ein Dilay in der Länge von dem Soundfile hinzugefügt und ein Bool, der auf false steht, falls eine Interaktion gerade nicht möglich sein sollte.
 \\
-Dieser Bool verhindert, wenn ein Charakter gerade noch redet, ein weiteres Gespräch anzufangen. Dieser Bool verhindert, dass keine Dialoge schnell hintereinander gestartet wird und den Charakter aussprechen lässt.
-\\
-Also habe ich gegoogelt und auf youtube ein Tutorial gefunden.  	 Mit der andere Engine 5. Musste ich eine Schnittstelle, was zwischen den verschiedenen.  Actors wie zum Beispiel der Hauptfigur und den MPC.  Eine Schnittstelle bildet.    		 Diese Schnittstelle habe ich mit Blueprince umgesetzt. Ich musste auch bei blueprint m bei meiner Hauptfigur Martin Luther.  	 Etwas entwickeln und zwar habe ich ein Array erzeugt oder mehrere Arrays erzeugt. Die speichert, was gesagt wird, in Schriftform und was gesagt wird in.   Ausgabe.  In Sprachausgabe, in Soundausgabe.
-\\
-Ich habe eine Aktionsbutton hinzugefügt, was für was in diesem Beispiel der Buchstabe auf der Tastatur e ist.  Der sagt, Hey, ich möchte mit dir arbeiten.		 Ich habe einen Pool A erzeugt, die. Signalisiert. Hey, ich kann jetzt interagieren mit der Person oder gerade nicht.   		 Da das Dialogsystem. Vor z GPT unvollständig war habe ich mir noch andere Dialog Dialoge hinzu ausgedacht, andere Dialoge ausgedacht.  Und somit war das Dialogsystem auch schon fertig.
-
-
+Dieser Bool verhindert, wenn ein Charakter gerade noch redet, ein weiteres Gespräch anfängt. Zusaätlich verhindert der Bool, dass keine Dialoge schnell hintereinander gestartet werden und die Charaktere aussprechen lassen.
 
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Sprachausgabe\\\\\\\\\\\\\\\\\\\\\\\
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Sprachausgabe\\\\\\\\\\\\\\\\\\\\\\\
