@@ -314,65 +314,61 @@ zweites bearbeitungsfenster hinzufügen auf UV-Editor umstellen über menüpunkt
 im modell alles makieren und mit dem shortkut u für unwrap die funktion Projekt from View auswählen.
 Skallieren im UV Editor
 \end{comment}
-Damit ich im meinen Prototy keine graue Figur zum spielen habe, benötigt die Hauptfigur eine Textur. Diese Textur stammt von Abbildung \ref{DritteAusgabeVomFinalenPrompt], was els Eingabematerial verwendet wurde um mit PIFuHD ein 3D-Modell zu erzeugen. Kurz, in diesem Abschnit erkläre ich, wie ich das Eingabebild und das 3D-Modell von PIFuHD miteinander Verbinde.
+Damit ich in meinen Prototyp keine graue Figur zum spielen habe, benötigt die Hauptfigur eine Textur. Diese Textur stammt von Abbildung \ref{DritteAusgabeVomFinalenPrompt], was els Eingabematerial verwendet wurde um mit PIFuHD ein 3D-Modell zu erzeugen. Kurz, in diesem Abschnit erkläre ich, wie ich das Eingabebild und das 3D-Modell von PIFuHD miteinander Verbinde.
 \\
-Blender bietet mir die Möglichkeit ein zweites Bearbeitungsfenster hinzuzufügen, welche ist dann als UV Editor benutze. Über den Menüpunkt Image -> Open, füge ich Abbildung: \ref{DritteAusgabeVomFinalenPrompt} ein, um UVs des 3D-Modells zu editieren. Rechts über das Propertie-Fenster -> Material Properties -> auf dem gelben Punkt neben Base Color -> Image Textur habe ich nun die Möglichkeit, ebenfalls Das Bild aus Abbildung \ref{DritteAusgabeVomFinalenPrompt} zu wählen.
+Blender bietet mir die Möglichkeit ein zweites Bearbeitungsfenster hinzuzufügen, welche ich dann als UV Editor benutze. Über den Menüpunkt Image -> Open, füge ich Abbildung \ref{DritteAusgabeVomFinalenPrompt} ein, um UVs des 3D-Modells zu bearbeiten. Rechts über das Propertie-Fenster -> Material Properties -> der gelben Punkt neben Base Color -> Image Textur, habe ich nun die Möglichkeit, ebenfalls Das Bild aus Abbildung \ref{DritteAusgabeVomFinalenPrompt} zu wählen, welche die Standartmaterialeigenschaft in eine Image Textur umwandelt.
 \\
-Damit das Bild von Martin Luther korrekt auf das 3D-Modell von Martin Luther projeziert wird, wähle ich eine Kamera einstellung, die ungefähr der Kameraeinstellung aus \ref{DritteAusgabeVomFinalenPrompt} entsprich. Ma mein Bild von Martin Luther eine Direkte von vorne gerichtete Fotografie zeikt, wird durch die Betätigung der 1 auf meinem Numpad die Kamera so eingestellt das ich eine frontale ansicht meines 3D-Modells im Edit Modus bekomme.
+Damit das Bild von Martin Luther korrekt auf das 3D-Modell von Martin Luther projeziert wird, wähle ich eine Kameraeinstellung, die ungefähr der Kameraeinstellung aus \ref{DritteAusgabeVomFinalenPrompt} entsprich. Ma mein Bild von Martin Luther eine Direkte von vorne gerichtete Fotografie zeikt, wird durch die Betätigung der 1 auf meinem Numpad die Kamera so eingestellt das ich eine frontale ansicht meines 3D-Modells im Edit Modus bekomme.
 \\
-Ich Makiere alle Verticies in dem ich den Shortcut A drücke. Anschließend Unwrape ich mein 3D-Modell in dem ich den Shortcut U drücke. Blender bietet mir verschiedene Fuktionen an, mein 3D-Modell zu unwrapen. Ich wähle die Fuktion Project from View.
+Ich Makiere alle Verticies in dem ich den Shortcut A drücke. Anschließend Unwrape ich mein 3D-Modell in dem ich den Shortcut U drücke. Blender bietet mir verschiedene Fuktionen an, mein 3D-Modell zu unwrapen. Ich wähle die Fuktion Project from View. In meinem UV-Editor habe ich nun die Möglichkeit, das Projezierte 3D-Modell so zu skalieren das es mit der Vorlage übereinstimmt.
 \\
-In meinem UV-Editor habe ich nun die Möglichkeit, das Projezierte 3D-Modell so zu skalieren das es mit der Vorlage übereinstimmt.
-\\
-Das Problem nach dem Unwrapen, nach dieser beschriebenen Methode, ist, dass das 3D-Modell von Vorne genauso texturiert ist wie von Hinten. Um den Rücken und den Hinterkopf einigermaßen korrekt zu texturieren, wähle ich in meinem gewünschten bereichen des 3D-Modells die ensprechenden Bereiche aus und verschiebe sie im UV-Editor in Bereichen, die zu dieser Stelle passen würde.
+Das Problem nach dem Unwrapen, nach dieser beschriebenen Methode ist, dass das 3D-Modell von Vorne genauso texturiert ist wie von Hinten. Um den Rücken und den Hinterkopf einigermaßen korrekt zu texturieren, wähle ich die die ensprechenden Bereiche aus und verschiebe sie im UV-Editor in Bereichen, die zu dieser Stelle die im Bild eher passen würden.
 \\
 Zum Beispiel der Mittelteil der Robe, der blau gefärbt ist, verschiebe ich in eine etwas brauneren Region im UV-Editor.
 \\
 Nachdem ich den Rücken und den Kopf nachtexturiert habe, fehlt noch ein letzer wichtiger schritt, damit Martin Luther in der Unreal Engine zum Leben erweckt wird, und zwar das Rigging.
-\\
+
+
 \subsection{Rigging in Blender}%todo rigging erklären
 Damit mein Hauptcharakter nicht nur in seiner T-Pose verweilt wenn er läuft und Springt, sonder Arme Beine und Kopf bewegt, braucht das 3D-Modell von Martin Luther ein Skeleton-Mesh.
 \\
-Bevor ich das 3D-Modell in Blender rigge, benöti für die Unreal Engine 5 riggen kann, benötige ich das Blander Addon Game Rig Tools von CGDive.
+Bevor ich das 3D-Modell in Blender rigge, benötige ich das Blander Addon Game Rig Tools von CGDive.
 \\
-Über den Button Initiate Mannequin fügt das Addon ein Unreal Engine 5 kompatibles Skeleton Mesh zu mein 3D-Modell.
+Über den Button Initiate Mannequin fügt das Addon ein Unreal Engine 5 kompatibles Skeleton Mesh zu mein 3D-Modell.Über das UE5\_Manny\_TWEAK das ich über die Scene Collection auswählen kann, bewege ich die einzelnen Bones des Skeleton-Mesh innerhalb des 3D-Modells. Mit dem Shortcut G kann ich im Pose Mode die einzelnen Bones bewegen.
 \\
-Über das UE5\_Manny\_TWEAK das ich über die Scene Collection auswählen kann, bewege ich die einzelnen Bones des Skeleton-Mesh innerhalb des 3D-Modells. Mit dem Shortcut G kann ich im Pose Mode die einzelnen Bones bewegen.
+%toto verbindung zwichen rig und modell noch beschreiben
 \\
-Nachdem ich die Bones vom UE5\_Manny\_TWEAK fertig platziert habe, kann ich über das Addon-Fenster von Game Rig Tool, Unreal-Rig nur sichtbar machen in den ich auf den Weißen Punkt neben Unreal drücke. 
+Nachdem ich die Bones vom UE5\_Manny\_TWEAK fertig platziert habe, kann ich über das Addon-Fenster von Game Rig Tool, das Unreal-Rig nur sichtbar machen in den ich auf den Weißen Punkt neben Unreal drücke. 
 \\
-Nachdem nur noch unser 3D-Modell und das Unreal-Rig sichtbar ist wechsel ich in den Object Mode und wähle erst mein 3D-Modell aus und mit Schift-Taste gedrückt das Unreal-Rig aus.
+Nachdem nur noch unser 3D-Modell und das Unreal-Rig sichtbar ist wechsel ich in den Object Mode und wähle erst mein 3D-Modell aus und mit Schift-Taste gedrückt das Unreal-Rig.
 \\
-Über den Menüpunkt File -> Export -> FBX kann ich über das geriggte Modell speichern. Beim Speichern wähle ich folgende Optionen aus:
+Da ich nun Das 3D-Modell von Martin Luther und das Unreal-Rig im Objekt Mode in der korrekten Reihenfolge ausgewählt habe, kann ich nun über den Menüpunkt File -> Export -> FBX, das geriggte Modell speichern. Beim Speichern wähle ich folgende Optionen aus:
 \begin{itemize}
 	\item Limit to Selected Objects 
 	\item Object Types; Amature und Mesh
 	\item Unter Transform bestätige ich das Apply Transform
-	\item Unter Geometry wähle ich unter Smoothing; Face
+	\item Unter Geometry wähle ich unter Smoothing -> Face
 	\item Unter Armature stelle ich Add Leaf Bones aus
 	\item Bake Animation stelle ich ebenfalls aus
 \end{itemize}
-Nachdem ich diese Einstellung getätigt habe, wähle ich noch ein Namen aus für meine FBX-Datei und drücke auf Export FBX.
+Nachdem ich diese Einstellung getätigt habe, wähle ich noch ein Namen für meine FBX-Datei und drücke auf Export FBX.
+
 \subsection{Einfügen des Haupcharakters in Unreal Engine 5}
-Der Haupcharakter ist soweit fertig, aber ich möchte mit ihm ja spielen.
+Der Haupcharakter ist soweit fertig zum Importieren in die Unreal Engine 5, danach kann ich mich mit ihm in der Unreal Engine 5 testen.
 \\
-Über den Epic Games Launcher erstelle ich ein neues Projekt. Ich benutze das Third-Person-Template was mir eine kleine Arena und ein Videospielcharakter vorgibt. Ich benutze die Project Default-Einstellung Blueprint.
+Über den Epic Games Launcher erstelle ich ein neues Projekt. Ich benutze das Third-Person-Template was mir eine kleine Arena und ein Videospielcharakter vorgibt. Ich benutze die Project Default-Einstellung Blueprint. Zum Schluss gebe ich mein Projekt noch einen Namen und erstelle Mein Projekt mit Create.
 \\
-Zum Schluss gebe ich mein Projekt noch einen Namen und erstelle Mein Projekt mit Create.
+In der Entwicklungsumgebung Unreal Engine 5 angekommen, suche ich nach der BP\_ThirdPersonCharacter Blueprint Class.
 \\
-In der Entwicklungsumgebung Unreal Engine 5 angekommen, suche ich nach dem BP\_ThirdPersonCharacter Blueprint Class.
+Die BP\_ThirdPersonCharacter Blueprint Class befindet sich unter dem Ordner All -> Content -> ThirdPerson -> Blueprints. Über den Button Import der sich im Contentbrowser befindet, kann ich meine durch Blender exportierte FBX-Datei importieren. Nach dem auswählen meiner FBX-Datei, öffnet sich die FBX-Importoptionnen, wo ich das SK\_Mannequin für das Skeleton auswähle. Anschließend klicke ich auf Import All.
 \\
-Die BP\_ThirdPersonCharacter Blueprint Class befindet sich unter dem Ordner All -> Content -> ThirdPerson -> Blueprints. Über den Button Import der sich im Contentbrowser befindet, kann ich meine durch Blender exportierte FBX-Datei Importieren.
+Um das Skeletal Mesh zu ersetzen doppelklicke ich auf das BP\_ThirdPersonCharacter Blueprint Class. Die BP\_ThirdPersonCharacter Blueprint Class besteht aus verschiedenen Components, von diesen verschiedenen Componets wähl ich das Mesh(CharacterMesh0) aus. Nach dem ich das Mesh(CharacterMesh0) ausgewählt habe, kann ich in den dazu geöffneten Details das Skeletal Mesh Asset durch mein Martin Luther tauschen. Automatisch wird auch die dazu gehörige Textur geändert.
 \\
-Nach dem auswählen meine FBX-Datei, öffnet sich die FBX Importoptionnen, wo ich das SK\_Mannequin für das Skeleton auswählen kann. Anschließend klicke ich auf Import All.
-\\
-Um das Skeletal Mesh zu ersetzen doppelklicke ich auf das BP\_ThirdPersonCharacter Blueprint Class. Die BP\_ThirdPersonCharacter Blueprint Class besteht aus verschiedenen Components, von diesen verschiedenen Componets wähl ich das Mesh(CharacterMesh0) aus.
-\\
-Nach dem ich das Mesh(CharacterMesh0) ausgewählt habe, kann ich in den dazu geöffneten Details das Skeletal Mesh Asset durch mein Martin Luther tauschen.
-\\
-Automatisch wird auch die dazu gehörige Textur geändert, was ich daran erkenne, das der BP\_ThirdPersonCharacter nun aussieht wie mein Martin Luther.
+Nach diesen Schritten kann ich nun Martin Luther in meinem Prototyp als Hauptcharakter benutzen, in dem ich auf das grüne Play-Symbol klicke. Da ich mein 3D-Modell von Martin Luther mit BP\_ThirdPersonCharacter Blueprint Class verbunden habe, kann Martin Luther im spiel laufen und springen.
+\begin{comment}
 \\
 Nun kann ich mit meinem Haupcharakter durch die vordefinierte ThirdPersonMap bewegen und springen. Ich habe sogar eine Kollision, was mich daran hindert durch den Boden und Wände zu laufen. Ich kann sogar gegen blaue Wüfel laufen, die physikalisch von mir beeinflusst werden.
+\end{comment}
 %
 %
 %
