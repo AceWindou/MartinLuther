@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.11)  7 OCT 2023 00:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.11)  7 OCT 2023 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,9 +643,8 @@ Overfull \hbox (0.64781pt too wide) in paragraph at lines 3--12
  []
 
 Excluding 'comment' comment.
-Overfull \hbox (5.49516pt too wide) in paragraph at lines 16--47
-\OT1/cmss/m/n/10 Mit Mi-d-jour-ney kann ich in-ner-halb von we-ni-gen Mi-nu-ten
- ei-ne Land-schaft er-stel-len las-sen. ChatGPT
+Underfull \hbox (badness 10000) in paragraph at lines 16--70
+
  []
 
 
@@ -653,14 +652,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.47 \section
-             {Forschungsfrage} [1
+l.70 \section
+             {Forschungsfrage und Forschungsmethode} [1
 
 
-] [2]) [3]
+]) [2] [3]
 \openout2 = `2_Fragestellung.aux'.
 
- (2_Fragestellung.tex
+
+(2_Fragestellung.tex
 chapter 2.
 ) [4
 
@@ -1035,24 +1035,28 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  15356 strings out of 475385
- 313266 string characters out of 2776907
+ 313276 string characters out of 2776907
  824828 words of memory out of 3000000
  36313 multiletter control sequences out of 15000+600000
  473889 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,19n,106p,10601b,636s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\nicol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss
-1000.pk> <C:\Users\nicol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcrm1000.pk><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nicol/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/nicol/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/nicol/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on main.pdf (46 pages, 36113794 bytes).
+
+pdfTeX warning (dest): name{section.1.6} has been referenced but does not exist
+, replaced by a fixed one
+
+ <C:\Users\nicol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss10
+00.pk> <C:\Users\nicol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+tcrm1000.pk><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nicol/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/nicol/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/nicol/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on main.pdf (46 pages, 36113369 bytes).
 PDF statistics:
- 766 PDF objects out of 1000 (max. 8388607)
+ 763 PDF objects out of 1000 (max. 8388607)
  152 named destinations out of 1000 (max. 500000)
- 700 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 692 words of extra memory for PDF output out of 10000 (max. 10000000)
 
