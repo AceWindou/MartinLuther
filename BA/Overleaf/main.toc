@@ -1,7 +1,7 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Motivation und Idee}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Forschungsfrage und Forschungsmethode}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.1}Motivation und Idee}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Forschungsfrage und Forschungsmethode}{3}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Gliederung der Arbeit}{3}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Abgrenzung}{3}{section.1.4}%
 \contentsline {chapter}{\numberline {2}Theoretischer Hintergrund}{4}{chapter.2}%
@@ -35,21 +35,19 @@
 \contentsline {subsection}{\numberline {3.2.4}Materialize}{6}{subsection.3.2.4}%
 \contentsline {subsection}{\numberline {3.2.5}Audacity}{6}{subsection.3.2.5}%
 \contentsline {chapter}{\numberline {4}Umsetzung}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Meilenstein: Hauptfigur}{10}{section.4.1}%
-\contentsline {subsubsection}{\nonumberline Exkurs Midjourney Prompts in englisch und deutsch}{11}{subsubsection*.4}%
-\contentsline {subsection}{\numberline {4.1.1}Prompts in englisch}{13}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Erzeugen eines 3D-Modells mit Hilfe von PIFuHD}{17}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Polycount verringern in Blender}{18}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Artefakte bereinigen in Blender}{19}{subsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.1.5}Texturieren in Blender}{20}{subsection.4.1.5}%
-\contentsline {subsection}{\numberline {4.1.6}Rigging in Blender}{21}{subsection.4.1.6}%
-\contentsline {subsection}{\numberline {4.1.7}Einfügen des Haupcharakters in Unreal Engine 5}{23}{subsection.4.1.7}%
-\contentsline {section}{\numberline {4.2}Meilenstein: Gebäude}{24}{section.4.2}%
+\contentsline {section}{\numberline {4.1}Meilenstein: Hauptfigur}{9}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Erzeugen eines 3D-Modells mit Hilfe von PIFuHD}{19}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Polycount verringern in Blender}{21}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Artefakte bereinigen in Blender}{22}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Texturieren in Blender}{22}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Rigging in Blender}{23}{subsection.4.1.5}%
+\contentsline {subsection}{\numberline {4.1.6}Einfügen des Haupcharakters in Unreal Engine 5}{24}{subsection.4.1.6}%
+\contentsline {section}{\numberline {4.2}Meilenstein: Gebäude}{25}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Erste Ansatz Fachwerkhäuser}{26}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Moddelieren und texturieren Einfaches Haus mit Blender}{27}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Zweiter Ansatz: Moddelieren eines Fachwerkhaus mit Blender}{27}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.2}Moddelieren und texturieren Einfaches Haus mit Blender}{26}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Zweiter Ansatz: Moddelieren eines Fachwerkhaus mit Blender}{26}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Dritter Ansatz Dorfbaukasten}{27}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Meilenstein: Nebenfiguren}{28}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Meilenstein: Nebenfiguren}{29}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Meilenstein: Dialogsystem}{29}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Ansatz 1 mit ChatGPT}{29}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Ansatz 2 Rechersche mit Suchmaschienen im Internet}{30}{subsection.4.4.2}%
@@ -73,5 +71,5 @@
 \contentsline {section}{\numberline {7.2}Implikationen für die Praxis}{37}{section.7.2}%
 \contentsline {section}{\numberline {7.3}Limitationen der Studie}{37}{section.7.3}%
 \contentsline {chapter}{\numberline {8}Anhang}{V}{chapter.8}%
-\contentsline {part}{\nonumberline Abbildungsverzeichnis}{VI}{part*.6}%
+\contentsline {part}{\nonumberline Abbildungsverzeichnis}{VI}{part*.4}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
