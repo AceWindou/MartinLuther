@@ -1,5 +1,13 @@
 \chapter{Umsetzung}
-\section {Idee und Konzeption}
+\begin{table}
+	\centering
+	\begin{tabular}{cc}
+		Prompt & \\Bitte schreib mir ein promp für \\midjourney um eine vorlage zu bekommen die ich in PIFuHD benutzen kann. Die Person soll martin luther ähnlich sehen.\\
+		Antwort & \"Martin Luther auf einer Pilgerreise" Beschreibe eine Szene, in der Martin Luther\\ auf einer Pilgerreise zu Fuß unterwegs ist. Er trägt seine typische Kleidung\\ und hat seine Bibel in der Hand. Die Landschaft um ihn herum kann entweder eine hügelige\\ Landschaft oder eine ländliche Gegend sein. Der Himmel kann mit Wolken bedeckt oder sonnig\\ sein. Martin Luther kann entweder allein sein oder in Begleitung anderer Pilger. Stelle\\ sicher, dass das Gesicht des Martin Luther ähnlich aussieht wie das historische Abbild des\\ berühmten Reformators.\
+	\end{tabular}
+	\caption{Caption}
+	\label{tab:my_label}
+\end{table}
 Meine Idee ist ein Videospiel zu entwickeln, das eine geschichtliche und kulturelle Relevanz zur deutschen Geschichte hat. Ein weiteres Kriterium an meinem Videospiel ist es, ein Szenario zu wählen, das sich vor dem Zweiten Weltkrieg befindet. Mit dieser Idee habe ich folgenden Prompt für ChatGPT formuliert und anschließend die in Abbildung \ref{ersten-5-themen} Ausgabe bekommen.
 \begin{figure}[h]
 	\centering
@@ -8,65 +16,69 @@ Meine Idee ist ein Videospiel zu entwickeln, das eine geschichtliche und kulture
 	\label{ersten-5-themen}
 \end{figure}
 \\
-Nachdem ich mit den ersten fünf Ideen von ChatGPT nicht zufrieden bin, gebe ich mir weitere 5 Themen die in Abbildung \ref{zweiten-5-themen} zu sehen sind.
+Nachdem ich mit den ersten fünf Ideen von ChatGPT nicht zufrieden bin, fordere ich ChatGPT auf fünf weitere Themen auszugeben, die in Abbildung \ref{zweiten-5-themen} zu sehen sind.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=14cm]{BilderFuerBA/02.png}
 	\caption{ChatGPT: Zweiten fünf Themen}
 	\label{zweiten-5-themen}
 \end{figure}
-Man kann an diesem Beispiel sehen, dass ChatGPT mir zehn Ideen präsentiert, die ich in meinem Videospiel verarbeiten kann.
 \\
-Als Ein-Mann-Videospielentwickler entschied ich mich für die Reformation mit Martin Luther als Hauptfigur.
+Man kann an diesem Beispiel sehen, dass ChatGPT mir zehn Ideen präsentiert, die ich in meinem Videospiel verarbeiten kann. Als Ein-Mann-Videospielentwickler entschied ich mich für die Reformation mit Martin Luther als Hauptfigur.
 \\
-Innerhalb dieser Bachelorthesis ist es mir aus Zeitgründen nicht möglich ein komplettes Videospiel zu entwickeln, was das Leben von Martin Luther widerspiegelt. Durch meine Recherche über Martin Luther und sein Leben fand ich den Moment bedeutend wo Martin Luther seine 96 Thesen an das Kirchtor nagelt.
+Innerhalb dieser Bachelorthesis ist es mir aus Zeitgründen nicht möglich ein komplettes Videospiel zu entwickeln, was das Leben von Martin Luther widerspiegelt deshalb Konzentriere ich mich in meinen Prototyp darauf, ein bestimmtes Szenario zu erzeugen.
 \\
-In meinem Prototyp werde ich dieses Ereignis als Thematischen Mittelpunkt wählen.
+Martin Luther ist überzeugt, das man durch den richtigen Glauben seine Sünden verzeihen wird und nicht durch Ablassbriefe, die zu der Zeit üblich waren. Genau diesen Zeitpunkt, bevor Martin Luther angeblich seine 95 Thesen an das Kirchtor in Wittenberg genagelt hat, möchte ich als Scenario für mein Videospielprototy verwenden.
 \\
-Meine Spielidee für meinen Prototyp ist nun, dass Martin Luther durch ein Dorf läuft, verschiedene NPCs trifft und mit ihnen in einen Dialog tritt. Martin Luther trifft verschiedene Personen mit verschiedenen Problemen und Ansichten. Er redet mit ihnen und lässt sich von ihnen inspirieren. Durch diese Inspiration entwickelte Martin Luther später im Spiel, seine 96 Thesen.
+Meine Spielidee für meinen Prototyp ist, dass Martin Luther durch ein Dorf läuft, verschiedene NPCs trifft und mit ihnen in einen Dialog tritt. Martin Luther trifft verschiedene Personen mit verschiedenen Problemen und Ansichten. Er redet mit ihnen und lässt sich von ihnen inspirieren. Durch diese Inspiration entwickelte Martin Luther später im Spiel, seine 96 Thesen.
 \\
 Kern des Prototyps ist die Entwicklung einer Spielwert, die aus einem Dorf mit verschiedenen Häusern und NPCs besteht.
 \\
 Die Entwicklung des Prototyps unterteilt sich in verschiedene Meilensteine:
--Hauptfigur
-\\
--Landschaft
-\\
--Gebäude
-\\
--Nebenfiguren
-\\
--Dialogsystem
-\\
--Sprachausgabe
-\\
-Jeder dieser Meilensteine besitzt in dieser Theses sein eigenes Kapitel, in dem die Entwicklung nahegebracht wird.
-
+\begin{itemize}
+	\item Hauptfigur
+	\item Gebäude
+	\item Nebenfiguren
+	\item Dialogsystem
+	\item Sprachausgabe
+\end{itemize}
+Jeder dieser Meilensteine besitzt in dieser Bachelorthesis sein eigenen Unterkapitel, in dem die Entwicklung nahegebracht wird.
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ HUPTFIGUR\\\\\\\\\\\\\\\\\\\\\\\
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ HUPTFIGUR\\\\\\\\\\\\\\\\\\\\\\\
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ HUPTFIGUR\\\\\\\\\\\\\\\\\\\\\\\
+\newpage
 \section {Meilenstein: Hauptfigur}
-\begin{figure}
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=14cm]{BilderFuerBA/MartinLutherImSpiel.png}
 	\caption{UE5: Martin Luther im Spiel}
 	\label{MartinLutherImSpiel}
 \end{figure}
+Auf Abbildung \ref{MartinLutherImSpiel} ist die Huptspielfigur des Prototypes zu Sehen. Die Hauptfigur ist Martin Luther nachempfunden. Die Hauptspielfigur ist vom Spieler Steuerbar und wurde mit Hilfe den KI-Systemen ChatGPT, Midjourney und PIFuHD erstellt. Wie die genannten KI-Systeme verwendet werden, werde ich in den folgenden Absätzen erklären.
 
-\begin{figure}
+%\subsection{Erstellung von Midjourney-Prompts mit hilfe von ChatGPT}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=14cm]{BilderFuerBA/02.png}
 	\caption{ChatGPT: Erster Versuch zur erstellung eines Promt für Midjourney}
 	\label{ChatGPT_erster_Versuch_Midjourney_Promt}
 \end{figure}
-
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=14cm]{BilderFuerBA/03.png}
 	\caption{ChatGPT: Übersetzung des Prompts}
 	\label{ChatGPT_übersetzen}
 \end{figure}
-
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=14cm]{BilderFuerBA/04.png}
+	\caption{ChatGPT: Aufforderung verwendung einer Midjourney-Formel}
+	\label{chatgpt-ptompt-Midjourney-04}
+\end{figure}
+Ich beginne die Entwicklung der Hauptfigur in dem ich ChatGPT um eine Beschreibung meiner Hauptfigur auffordere. Ich gebe ebenfalls an, dass ich die Ausgabe von ChatGPT als Prompt für Midjourney verwenden möchte. Zusätzlich fordere ich ChatGPT auf, dass das Ergebnis von Midjourney für PIFuHD kompatibel sein soll.
+\\
+Mit der in Abbildung \ref{ChatGPT_erster_Versuch_Midjourney_Promt} zusehenden Aufforderung, habe ich eine deutsche Ausgabe bekommen. Durch eine weitere kurze Aufforderung wie in Abbildung \ref{ChatGPT_übersetzen} wird die Ausgabe von ChatGPT ins Englische übersetzt.
+\subsubsection{Exkurs Midjourney Prompts in englisch und deutsch}
 \begin{figure}
 	\centering
 	\begin{minipage}[t]{0.45\linewidth}
@@ -83,119 +95,26 @@ Jeder dieser Meilensteine besitzt in dieser Theses sein eigenes Kapitel, in dem 
 		\label{bus_driver}
 	\end{minipage}
 \end{figure}
-
-
-
-\begin{figure}
-	\centering
-	\includegraphics[width=8.022cm]{BilderFuerBA/MLaufEnglisch.png}
-	\caption{Midjourney: Erster Prompt von ChatCPT}
-	\label{Midjourney_erster_Prompt}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=14cm]{BilderFuerBA/04.png}
-	\caption{ChatGPT: Aufforderung verwendung einer Midjourney-Formel}
-	\label{chatgpt-ptompt-Midjourney-04}
-\end{figure}
-\begin{figure}
-	\centering
-	\includegraphics[width=14cm]{BilderFuerBA/05.png}
-	\caption{ChatGPT: Erstellung Prompts mit Verwendung der Midjourney-Formel}
-	\label{chatgpt_mj-formel_mit_Klammern}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[scale=0.7]{BilderFuerBA/06.png}
-	\caption{ChatGPT: ChatGPT erstellt Promt für Midjourney in Englisch und ohne Klammern}
-	\label{chatgpt_mj-formel_ohne_Klammern}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=8.022cm]{BilderFuerBA/fuchsKopfAbenteuerer.png}
-	\caption{Midjourney: Promt eines Abenteurers mit einem Fuchskopf}
-	\label{MidjourneyFuchsKopfAbenteuerer}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[scale=0.7]{BilderFuerBA/07.png}
-	\caption{ChatGPT: Midjourney Prompt für Martin Luther als Spielfigur}
-	\label{chatgptMartinLutherMJformelErstenFünf}
-\end{figure}
-
-
-\begin{figure}
-	\centering
-	\includegraphics[width=8.022cm]{BilderFuerBA/MidJourneyMLMitFormel.png}
-	\caption{Midjourney: Martin Luther Promt mit Midjourney-Formel}
-	\label{MidJourneyMLMitFormel}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[scale=0.7]{BilderFuerBA/09.png}
-	\caption{ChatGPT: Midjourney Prompt für Martin Luther in T-Pose}
-	\label{chatgptMartinLutherMJinTPose}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[scale=0.7]{BilderFuerBA/10.png}
-	\caption{ChatGPT: Midjourney Prompt für Martin Luther in T-Pose}
-	\label{chatgptMartinLutherMJmitNeutralenHintergrund}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=8.022cm]{BilderFuerBA/MartinLutherInTPoseFirst.png}
-	\caption{Midjourney: Martin Luther Promt versuch in T-Pose, neutralen Hintergrund und direkte Kamera}
-	\label{MartinLutherInTPoseNeutralerHintergrundDirekteKamera}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=8.022cm]{BilderFuerBA/ErsteAusgabeVomFinalenPrompt.png}
-	\caption{Midjourney: Erste Ausgabe vom finalen Prompt}
-	\label{ErsteAusgabeVomFinalenPrompt}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=8.022cm]{BilderFuerBA/ZweiteAusgabeVomFinalenPrompt.png}
-	\caption{Midjourney: Vier weitere Variation von Version Zwei}
-	\label{ZweiteAusgabeVomFinalenPrompt}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=8.022cm]{BilderFuerBA/DritteAusgabeVomFinalenPrompt.png}
-	\caption{Midjourney: Hochskaliertes Endresultat von Version Vier}
-	\label{DritteAusgabeVomFinalenPrompt}
-\end{figure}
-
-Auf Abbildung \ref{MartinLutherImSpiel} ist die Huptspielfigur des Prototypes zu Sehen. Die Hauptfigur ist Martin Luther nachempfunden. Die Hauptspielfigur ist vom Spieler Steuerbar und wurde mit Hilfe den KI-Systemen ChatGPT, Midjourney und PIFuHD erstellt. Wie die genannten KI-Systeme verwendet werden, werde ich in den folgenden Absätzen ausfühlich erklären.
-\\
-Ich beginne die Entwicklung der Hauptfigur in dem ich ChatGPT um eine Beschreibung meiner Hauptfigur auffordere. Ich gebe ebenfalls an, dass ich die Ausgabe von ChatGPT als Prompt für Midjourney verwenden möchte. Zusätzlich fordere ich ChatGPT auf, dass das Ergebnis von Midjourney für PIFuHD kompatibel sein soll.
-\\
-Mit der in Abbildung \ref{ChatGPT_erster_Versuch_Midjourney_Promt} zusehenden Aufforderung, habe ich eine deutsche Ausgabe bekommen. Durch eine weitere kurze Aufforderung wie in Abbildung \ref{ChatGPT_übersetzen} wurde die Ausgabe von ChatGPT übersetzt.
-\\
 Midjourney liefert in Englisch in Gegensatz im Vergleich zu Deutsch oft unterschiedliche Ergebnisse. Beobachten kann das zum Beispiel in Abbildung \ref{Bussfahrer} Bussfahrer auf deutsch, und in Abbildung \ref{bus_driver} buss driver auf englisch.
 \\
 Anhang in Abbildung \ref{Bussfahrer} und Abbildung \ref{bus_driver} kann man gut beobachten, dass die verwendeten Sprache einen Unterschied macht. Im Englischen wird eher eine Person dargestellt, die ein Lenkrad in der Hand hält, wo der Prompt auf deutsch eher ein Passagier dargestellt wird oder ein Bus in einer Landschaft.
 \\
 %https://philipp-stelzel.com/de/midjourney-deutsch-sprachen/ Abrufdatum 25.09.2023
-Midjourney versteht nicht unsere Sprache, sondert die Genauigkeit entsteht aus der Menge der Daten womit das KI-System Trainiert ist. Das Wort Bussfahrer kommt womöglich mit nicht so oft in den Trainigsdaten vor wie buss driver aus dem Englischen.
+Midjourney versteht nicht unsere Sprache, sondert die Genauigkeit entsteht aus der Menge der Daten womit das KI-System Trainiert ist. Das Wort Bussfahrer kommt womöglich nicht so oft in den Trainigsdaten vor wie buss driver aus dem Englischen.
 \\
-Mit dieser Erkenntnis, entscheide ich mich meine Promts auf Englisch für Midjourney zu verfassen bzw von ChatGPT verfassen lassen.
-\\
-Nach der Übersetzung von ChatGPT, übergebe ich den von ChatGPT generierten Promt Midjourney. Das Ergebnis is in Abbildung \ref{Midjourney_erster_Prompt} zu betrachen.
+Mit dieser Erkenntnis, entscheide ich mich meine Promts auf Englisch für Midjourney zu verfassen beziehungsweise von ChatGPT verfassen lassen.
+\newpage
+\subsection{Prompts in englisch}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=8.022cm]{BilderFuerBA/MLaufEnglisch.png}
+	\caption{Midjourney: Erster Prompt von ChatCPT}
+	\label{Midjourney_erster_Prompt}
+\end{figure}
+Nach der Übersetzung von ChatGPT, übergebe ich den von ChatGPT generierten Midjourney-Prompt Midjourney. Das Ergebnis is in Abbildung \ref{Midjourney_erster_Prompt} zu betrachten.
 \\
 %todo user-Interface erklären
-In Abbildung \ref{Midjourney_erster_Prompt} ist zu sehen, das Midjourney immer Vier bilder als Vorschau ausgibt. Midjourney bietet über sein User-Interface drei Möglichkeiten um mit dem Ergebnis weiter zu Arbeiten:
+In Abbildung \ref{Midjourney_erster_Prompt} ist zu sehen, das Midjourney immer Vier Bilder als Vorschau ausgibt. Midjourney bietet über sein User-Interface drei Möglichkeiten um mit dem Ergebnis weiter zu Arbeiten:
 \begin{itemize}
 	\item 1 Vier weitere Versionen auf grundlage von Version 1 bis 4
 	\item 2 Eine Hochskallierte Version von 1 bis 4
@@ -203,7 +122,19 @@ In Abbildung \ref{Midjourney_erster_Prompt} ist zu sehen, das Midjourney immer V
 \end{itemize}
 Oben links befindet sich Version 1, oben rechts Version 2, unten links Version 3 und unten rechts Verion 4.
 \\
-Der Prompt von ChatGPT aus Abbildung \ref{ChatGPT_übersetzen} beinhaltet sehr viele Schlüsselwörter die in Textform verfasst sind. Der beschreibe den Promt von ChatGPT sehr Athomsphärisch, wie als würde man eine Textstelle aus einem Roman lesen, anstelle einer Aufforderung gegenüber eines KI-Systems.
+Der Midjourney-Prompt von ChatGPT aus Abbildung \ref{ChatGPT_übersetzen} beinhaltet sehr viele Schlüsselwörter und ist sehr Athomsphärisch geschreiben, wie als würde es aus einer Textstelle von einem Roman kommen, anstelle einer Aufforderung gegenüber eines KI-Systems.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=14cm]{BilderFuerBA/05.png}
+	\caption{ChatGPT: Erstellung Prompts mit Verwendung der Midjourney-Formel}
+	\label{chatgpt_mj-formel_mit_Klammern}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.7]{BilderFuerBA/06.png}
+	\caption{ChatGPT: ChatGPT erstellt Promt für Midjourney in Englisch und ohne Klammern}
+	\label{chatgpt_mj-formel_ohne_Klammern}
+\end{figure}
 \\
 %Ich vermutet, dass ChatGPT nicht genügend darauf trainiert ist, wie Midjourney-Prompts auszusehen haben.
 %\\
@@ -211,17 +142,33 @@ Eine Recherche auf YouTube hat zeigt, dass das Verwenden von Midjourney-Formeln 
 \\
 Im ersten Test werden die Prompts mit Klammern \ref{chatgpt_mj-formel_mit_Klammern} ausgegeben. Diese sind mit einer einfachen Aufforderung wie in \ref{chatgpt_mj-formel_ohne_Klammern} möglich zu entfernen.
 \\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=8.022cm]{BilderFuerBA/fuchsKopfAbenteuerer.png}
+	\caption{Midjourney: Promt eines Abenteurers mit einem Fuchskopf}
+	\label{MidjourneyFuchsKopfAbenteuerer}
+\end{figure}
+\\
 Ich habe die Ausgabe von ChatGPT über einen Abenteuerer mit Fuchskopf als Prompt an Midjourney übergeben und das Ergebnis ist in Abbildung \ref{MidjourneyFuchsKopfAbenteuerer} zu sehen.
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.7]{BilderFuerBA/07.png}
+	\caption{ChatGPT: Midjourney Prompt für Martin Luther als Spielfigur}
+	\label{chatgptMartinLutherMJformelErstenFünf}
+\end{figure}
 \\
 Da mein Hauptcharakter kein Abenteurer mit Fuchskopf ist, sonder Martin Luther nachempfunden sein soll, habe ich ChatGPT dazu Aufgefordert mir 5 Promts für Midjourney zu erstellen um Bilder von Martin Luther generieren zu lassen. Die Ergebnisse von ChatGPT ist in Abbildung \ref{chatgptMartinLutherMJformelErstenFünf} zu betrachten. Abbildung \ref{MidJourneyMLMitFormel} zeigt die daruas von Midjourney generierten Bilder.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=8.022cm]{BilderFuerBA/MidJourneyMLMitFormel.png}
+	\caption{Midjourney: Martin Luther Promt mit Midjourney-Formel}
+	\label{MidJourneyMLMitFormel}
+\end{figure}
 \\
 An dieser Stelle haben ich ChatGPT soweit gebracht, dass ChatGPT mir strukutierte Midjourney-Promts generiert. Das nächste Ziel ist, das nicht nur die Midjourney-Prompts stukturiert sind, sondern auch die daraus resultierenden Bilder, die später mit Hilfe von PIFuHD 3D-Modelle erzugt. Bilder wie die aus Abbildung  \ref{MidJourneyMLMitFormel} sind noch nicht geeignet um gute Ergebnisse von PIFuHD zu bekommen. Dieses Ergenis ist zum Beispiel farbenfroh und beinhaltet viele Deteils im Hintergrund was zu einem nicht guten Ergibnis führen würde.
 \\
 Hier eine Aufzählung mit Eigenschaften von Bilder, die PIFuHD benötigt um gut zu Arbeiten:
 \\
-\begin{comment}
-	Der Vorteil dieser Methode ist, das man nun einzelne Parameter in der Midjourney-Formel belieben verändern kann um ein Gewünschtes Ergebnis zu erlangen. Das Ziel ist es ein "Foto" von Martin Luther zu bekommen um es später für PIFuHD zu verwenden. Das Ergebnis von Abbildung \ref{MidJourneyMLMitFormel} ist noch nicht zu verwenden, da zu viele Fabenfrohe Deteils zu sehen sind. PIFuHD weist darauf hin das Bilder am besten funktionieren wenn die zu verwendeten Bilder:
-\end{comment}
 Die zu verwendeten Bilder sollten:
 \begin{itemize}
 	\item eine Mindestauflösung von 512 x 512 Pixel haben.
@@ -229,7 +176,12 @@ Die zu verwendeten Bilder sollten:
 	\item eine gut beleuchtet Person zeigen.
 	\item einen einfachen Hintergrund besitzen.
 \end{itemize}
-
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.7]{BilderFuerBA/09.png}
+	\caption{ChatGPT: Midjourney Prompt für Martin Luther in T-Pose}
+	\label{chatgptMartinLutherMJinTPose}
+\end{figure}
 Um diese Punkte zu beachten habe ich folgende Parameter von ChatGPT überarbeiten lassen. Als erstes soll der Charakter in der T-Poste stellung sein Abbildung \ref{chatgptMartinLutherMJinTPose} anschließend mit einem Neutralen Hintergrund und einer direkten Kamere auf die Figur. Das Ergebnis ist in Abbildung \ref{MartinLutherInTPoseNeutralerHintergrundDirekteKamera} zu sehen.
 \\
 An dieser Stelle habe ich nicht mehr mit ChatGPT für die Hauptfigur gearbeitet. Ab hier habe ich sehr viel ausprobiert um eine Fotoähnliche abbildung von Martin Luther zu bekommen. Der Finale Prompt der am ende das Bild von Martin Luther generiert hat war:
@@ -245,16 +197,48 @@ An dieser Stelle habe ich nicht mehr mit ChatGPT für die Hauptfigur gearbeitet.
 Mit diesem Prompt habe ich es geschafft in Abbildung \ref{ErsteAusgabeVomFinalenPrompt} ein Ergebnis zu generieren was meine Anforderung als Ein-Mann-Vidospielentwickler entspricht. Ich habe ein, gerade in die Kamera schauende Mann der Martin Luther ähnlich sieht. Der Mann steht in einer T-Pose. Der Hintergrund ist farbarm / neutral und der komplette Körper ist zu sehen. 
 \\
 Durch die betätigung des Buttons V2 bekomme ich 4 weiter Versionen auf grundlage von Version 2 aus der Abbildung \ref{ErsteAusgabeVomFinalenPrompt}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.7]{BilderFuerBA/10.png}
+	\caption{ChatGPT: Midjourney Prompt für Martin Luther in T-Pose}
+	\label{chatgptMartinLutherMJmitNeutralenHintergrund}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=8.022cm]{BilderFuerBA/MartinLutherInTPoseFirst.png}
+	\caption{Midjourney: Martin Luther Promt versuch in T-Pose, neutralen Hintergrund und direkte Kamera}
+	\label{MartinLutherInTPoseNeutralerHintergrundDirekteKamera}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=8.022cm]{BilderFuerBA/ErsteAusgabeVomFinalenPrompt.png}
+	\caption{Midjourney: Erste Ausgabe vom finalen Prompt}
+	\label{ErsteAusgabeVomFinalenPrompt}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=8.022cm]{BilderFuerBA/ZweiteAusgabeVomFinalenPrompt.png}
+	\caption{Midjourney: Vier weitere Variation von Version Zwei}
+	\label{ZweiteAusgabeVomFinalenPrompt}
+\end{figure}
 \\
 Abbildung \ref{ZweiteAusgabeVomFinalenPrompt} zeigt vier weitere Versionen von Version 2 der Ausgabe \ref{ErsteAusgabeVomFinalenPrompt}. Die Unterschiede sind viel geringer und unterscheiden sich in diesem Beispiel am größten an der Frisur, den Oberteil der Robe und der Kette.
 \\
 Die Kette in Version 4 ist ein Deteil die ich an meinem Hauptcharakter sehen möchte und somit entscheide ich mich dafür, Version Vier über den Button U4 hochzuskaliern.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=8.022cm]{BilderFuerBA/DritteAusgabeVomFinalenPrompt.png}
+	\caption{Midjourney: Hochskaliertes Endresultat von Version Vier}
+	\label{DritteAusgabeVomFinalenPrompt}
+\end{figure}
 \\
 Die hochskalierte Version von Abbildung \ref{ZweiteAusgabeVomFinalenPrompt} ist in Abbildung \ref{DritteAusgabeVomFinalenPrompt} zu betrachten.
 \\
-Wir sehen einen Mann in einer Kirchlich anmutenen Robe. Sein Haar ist braun, seine Haut hell. Der Mann trägt beide Arme vom Körper so das die Handinnenfläche zur Kamera zeigen, was alle Kriterien für eine verwendung mit PifuHD besitzt, bis auf die Tatsache, das dieses Foto kein echtes Foto ist, sonder durch ein KI-System generiertes Bild ist.
+Wir sehen einen Mann in einer Kirchlich anmutenden Robe. Sein Haar ist braun, seine Haut hell. Der Mann trägt beide Arme vom Körper so das die Handinnenfläche zur Kamera zeigen, was alle Kriterien für eine Verwendung mit PIFuHD besitzt, bis auf die Tatsache, das dieses Foto kein echtes Foto ist, sonder durch ein KI-System generiertes Bild ist.
 \\
 Dieses Bild von Martin Luther verwende ich den Folgenden Kapitel als Vorlage für PIFuHD, um ein 3D-Modell von Martin Luther zu bekommen.
+
+\newpage
 \subsection{Erzeugen eines 3D-Modells mit Hilfe von PIFuHD}
 \begin{figure}
 	\centering
@@ -289,7 +273,9 @@ Meine obj-Datei befindet sich unter pifuhd -> results -> pifuhd-final -> recon. 
 \begin{comment}
 	Das 3DModell beinhaltet Verticies auserhalb des 3D-Modells von Martin Luther. Diese Verticies lösche ich in dem ich alle Verticies in dem ich den Shortcut A drücke. Anschließend Unwrape ich mein 3D-Modell in dem ich den Shortcut U drücke.
 \end{comment}
-
+\begin{comment}
+	Der Vorteil dieser Methode ist, das man nun einzelne Parameter in der Midjourney-Formel belieben verändern kann um ein Gewünschtes Ergebnis zu erlangen. Das Ziel ist es ein "Foto" von Martin Luther zu bekommen um es später für PIFuHD zu verwenden. Das Ergebnis von Abbildung \ref{MidJourneyMLMitFormel} ist noch nicht zu verwenden, da zu viele Fabenfrohe Deteils zu sehen sind. PIFuHD weist darauf hin das Bilder am besten funktionieren wenn die zu verwendeten Bilder:
+\end{comment}
 \subsection{Polycount verringern in Blender}
 in Blender kann über den Menüpunkt File -> Import -> Wavefront die Obj-Datei importiert werden. 
 \\
@@ -377,7 +363,7 @@ Nach diesen Schritten kann ich nun Martin Luther in meinem Prototyp als Hauptcha
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Gebäude\\\\\\\\\\\\\\\\\\\\\\\
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Gebäude\\\\\\\\\\\\\\\\\\\\\\\
 \section{Meilenstein: Gebäude}
-\begin{figure}[h]
+\begin{figure}
 	\centering
 	\includegraphics[scale=0.2]{BilderFuerBA/a_scatch_from_a_village_top_down.png}
 	\caption{a scatch from a village, top down}
@@ -440,13 +426,12 @@ Ein beispiel ist der Balken den ich mit ein neuen Blueprint Class vom typ Actor 
 \\
 Im Construction Script kann ich mit Hilfe von Nodes meinen Balken besondere Eigenschaften geben wie, zufällige Auswahl von Materialien oder das bestimmen der Länge mit Hilfe eines Parameters.
 \\
-\begin{figure}[h]
+\begin{figure}
 	%\centering
 	\includegraphics[width=14cm]{BilderFuerBA/Screenshot/UE5/balkenHochBP.png}
 	\caption{UE5 Blueprint: Balken Hoch Construction Script}
 	\label{UE5balkenHochBP}
 \end{figure}
-
 \section {Meilenstein: Nebenfiguren}
 Beim dritten Meilenstein Nebenfiguren möchte ich gerne beschreiben, wie ich meine Nebenfiguren, kurz NPCs, erstellt habe. Ähnlich wie beim Erstellen der Hauptfigur habe ich durch Chat GPT mir verschiedene NPCs beschrieben lassen. Zu dieser Beschreibung gehörte Alter, Geschlecht, Beruf unnd charakterliche Eigenschaften.
 \\
