@@ -1,0 +1,222 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.11)  9 OCT 2023 03:47
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./0_Titelblatt.tex
+(0_Titelblatt.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28>
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 	\begin{center}
+                   
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
+[] 
+ []
+
+! Undefined control sequence.
+l.5 		\Huge
+           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...ines Videospielprototypen als \glqq 
+                                                  Ein-Mann-Videospielentwick...
+l.6 ... Unreal Engine 5 mit Hilfe von KI-Systemen}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ... Ein-Mann-Videospielentwickler\grqq 
+                                                  {} auf der Unreal Engine 5...
+l.6 ... Unreal Engine 5 mit Hilfe von KI-Systemen}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (61.86078pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 Entwicklung 
+ []
+
+
+Overfull \hbox (24.66098pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 eines 
+ []
+
+
+Overfull \hbox (55.71637pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 Videospiel- 
+ []
+
+
+Overfull \hbox (20.70824pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 pro- 
+ []
+
+
+Overfull \hbox (14.05548pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 to- 
+ []
+
+
+Overfull \hbox (28.59013pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 typen 
+ []
+
+
+Overfull \hbox (13.32072pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 als 
+ []
+
+
+Overfull \hbox (20.9721pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 Ein- 
+ []
+
+
+Overfull \hbox (33.11786pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 Mann- 
+ []
+
+
+Overfull \hbox (102.93837pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 Videospielentwickler 
+ []
+
+
+Overfull \hbox (15.49295pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 auf 
+ []
+
+
+Overfull \hbox (16.39577pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 der 
+ []
+
+
+Overfull \hbox (19.06934pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 Un- 
+ []
+
+
+Overfull \hbox (18.79156pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 real 
+ []
+
+
+Overfull \hbox (17.77768pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 En- 
+ []
+
+
+Overfull \hbox (20.60406pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 gine 
+ []
+
+
+Overfull \hbox (5.74997pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 5 
+ []
+
+
+Overfull \hbox (17.24991pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 mit 
+ []
+
+
+Overfull \hbox (24.1735pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 Hilfe 
+ []
+
+
+Overfull \hbox (17.8888pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 von 
+ []
+
+
+Overfull \hbox (17.20824pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 KI- 
+ []
+
+
+Overfull \hbox (47.9803pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 Systemen 
+ []
+
+! Undefined control sequence.
+l.9 		\Large
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (73.8746pt too wide) in paragraph at lines 10--11
+ []\OT1/cmr/bx/n/10 Bachelorarbeit 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \end{titlepage}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> ./0_Titelblatt.tex
+                      
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 24 strings out of 475385
+ 542 string characters out of 2776907
+ 341166 words of memory out of 3000000
+ 21504 multiletter control sequences out of 15000+600000
+ 469567 words of font info for 29 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 15i,1n,12p,206b,120s stack positions out of 10000i,1000n,20000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

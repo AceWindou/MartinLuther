@@ -1,31 +1,24 @@
 \chapter{Umsetzung}
-Im Kapitel Umsetzung werde ich in I-form formuliern, mit dem Hintergrund, das ich alle Schritte und Ideen selber durchgeführt habe.
-\\
-Ich möchte in diesen Kapitel zeigen was mit den Verschieden Werkzeuge welches Ergebnis erreicht habe.
-\\
-Im Kapitel Probleme zeige ich welche Probleme ich in der Umsetzung hatte, wie zum Beispiel Hürden, die mir erschwert haben auf eine gewisse weise weiter zu arbeiten.
-\\
-Meine Idee ist ein Videospiel zu entwickeln, das eine geschichtliche und kulturelle Relevanz zur deutschen Geschichte hat. Ein weiteres Kriterium an meinem Videospiel ist es, ein Szenario zu wählen, das sich vor dem Zweiten Weltkrieg befindet. Mit dieser Idee habe ich folgenden Prompt für ChatGPT formuliert und anschließend die in Abbildung \ref{ersten-5-themen} gezeigte Ausgabe bekommen.
-\begin{figure}[h]
+Meine Idee ist es ein Videospiel zu entwickeln, das eine geschichtliche und kulturelle Relevanz zur deutschen Geschichte hat. Des Weiteren möchte ich in meinem Videospiel ein Szenario umsetzen, das vor dem zweiten Weltkrieg spielt. Mit dieser Idee habe ich den in Abbildung \ref{ersten-5-themen} folgenden Prompt für ChatGPT formuliert und anschließend die in Abbildung \ref{ersten-5-themen} gezeigte Ausgabe erhalten.
+\begin{figure}[hbt]
 	\centering
 	\includegraphics[width=14cm]{BilderFuerBA/thema01.png}
 	\caption{Ersten fünf Themen}
 	\label{ersten-5-themen}
 \end{figure}
 \\
-Nachdem ich mit den ersten fünf Ideen von ChatGPT nicht zufrieden bin, fordere ich ChatGPT auf fünf weitere Themen auszugeben, die in Abbildung \ref{zweiten-5-themen} zu sehen sind.
-\begin{figure}[h]
+Da ich mit den ersten fünf Ideen von ChatGPT nicht zufrieden war, habe ich ChatGPT aufgefordert, noch einmal fünf weitere Themen auszugeben. Diese sind in Abbildung \ref{zweiten-5-themen} zu sehen.
+\begin{figure}[hbt]
 	\centering
 	\includegraphics[width=14cm]{BilderFuerBA/thema02.png}
 	\caption{ChatGPT: Zweiten fünf Themen}
 	\label{zweiten-5-themen}
 \end{figure}
+ChatGPT besitzt scheinbar große Datenmenge über die Deutsche Geschichte. Denn alle zehn Themen die ChatGPT vorgeschlagen hat, sind vor dem zweiten Weltkrieg vorgekommen. Als Ein-Mann-Videospielentwickler ist es mir nun möglich aus den zehn vorgeschlagenen Themen ein Videospiel zu entwickeln. Ich entscheide mich ein Videospiel zu entwickeln, das in der Zeit der Reformation spielt, mit Martin Luther als Hauptfigur.
 \\
-ChatGPT besitzt wohl möglich große Datenmenge über die Deutsche Geschichte. Alle 10 Themen die ChatGPT vorgeschlagen hat, sind vor dem zweiten Weltkrieg vorgekommen. Als Ein-Mann-Videospielentwickler ist es mir nun möglich aus den zehn vorgeschlagenen Themen ein Videospiel zu entwickeln. Ich entschiede mich für die Reformation mit Martin Luther als Hauptfigur in meinem Videospiel.
+Innerhalb dieser Bachelorthesis ist es mir nicht möglich ein komplettes Videospiel zu entwickeln, was das Leben von Martin Luther widerspiegelt, deshalb Konzentriere ich mich auf die Entwicklung eines Prototypen.
 \\
-Innerhalb dieser Bachelorthesis ist es mir nicht möglich ein komplettes Videospiel zu entwickeln, was das Leben von Martin Luther widerspiegelt deshalb Konzentriere ich mich auf die Entwicklung eines Prototypen.
-\\
-Martin Luther ist überzeugt, das man durch den richtigen Glauben seine Sünden verzeihen wird und nicht durch Ablassbriefe. Genau diesen Zeitpunkt, bevor Martin Luther angeblich seine 95 Thesen an das Kirchtor in Wittenberg nagelt, möchte ich als Vorlage für mein Videospielprototyp verwenden.
+Martin Luther war damals überzeugt davon, dass den Menschen durch den richtigen Glauben ihre Sünden verziehn werden und nicht durch Ablassbriefe der Kirche. Genau diesen Zeitpunkt, bevor Martin Luther angeblich seine 95 Thesen an das Kirchentor in Wittenberg nagelt, möchte ich als Vorlage für mein Videospielprototyp verwenden \autocite{MrWissen2goGeschichte2017}.
 \\
 Meine Spielidee für meinen Prototyp ist, dass Martin Luther durch ein Dorf läuft, verschiedene NPCs trifft und mit ihnen in einen Dialog tritt. Martin Luther trifft verschiedene Personen mit verschiedenen Problemen und Ansichten. Er redet mit ihnen und lässt sich von ihnen inspirieren. Durch diese Inspiration entwickelte Martin Luther später im Spiel, seine 95 Thesen.
 \\
@@ -44,13 +37,15 @@ Jeder dieser Meilensteine besitzt in dieser Bachelorthesis sein eigenen Unterkap
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ HUPTFIGUR\\\\\\\\\\\\\\\\\\\\\\\
 %\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ HUPTFIGUR\\\\\\\\\\\\\\\\\\\\\\\
 \section {Meilenstein: Hauptfigur}
+Auf Abbildung \ref{MartinLutherImSpiel} ist die Huptspielfigur des Prototypes zu Sehen. Die Hauptfigur ist Martin Luther nachempfunden. Die Hauptspielfigur ist vom Spieler Steuerbar und wurde mit Hilfe den KI-Systemen ChatGPT, Midjourney und PIFuHD erstellt.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=14cm]{BilderFuerBA/MartinLutherImSpiel.png}
 	\caption{UE5: Martin Luther im Spiel}
 	\label{MartinLutherImSpiel}
 \end{figure}
-Auf Abbildung \ref{MartinLutherImSpiel} ist die Huptspielfigur des Prototypes zu Sehen. Die Hauptfigur ist Martin Luther nachempfunden. Die Hauptspielfigur ist vom Spieler Steuerbar und wurde mit Hilfe den KI-Systemen ChatGPT, Midjourney und PIFuHD erstellt. Wie die genannten KI-Systeme verwendet werden, werde ich in den folgenden Absätzen erklären.
+\\
+Wie die genannten KI-Systeme verwendet werden, werde ich in den folgenden Absätzen erklären.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=14cm]{BilderFuerBA/02.png}
@@ -66,7 +61,11 @@ Auf Abbildung \ref{MartinLutherImSpiel} ist die Huptspielfigur des Prototypes zu
 \\
 Ich beginne die Entwicklung der Hauptfigur in dem ich ChatGPT um eine Beschreibung meiner Hauptfigur auffordere. Ich gebe ebenfalls an, dass ich die Ausgabe von ChatGPT als Prompt für Midjourney verwenden möchte. Zusätzlich fordere ich ChatGPT auf, dass das Ergebnis von Midjourney für PIFuHD kompatibel sein soll.
 \\
-Mit der in Abbildung \ref{ChatGPT_erster_Versuch_Midjourney_Promt} zusehenden Aufforderung, habe ich eine deutsche Ausgabe bekommen. Durch eine weitere kurze Aufforderung wie in Abbildung \ref{ChatGPT_übersetzen} wird die Ausgabe von ChatGPT ins Englische übersetzt.
+Mit der in Abbildung \ref{ChatGPT_erster_Versuch_Midjourney_Promt} zusehenden Aufforderung, habe ich eine deutsche Ausgabe bekommen. 
+
+
+
+Durch eine weitere kurze Aufforderung wie in Abbildung \ref{ChatGPT_übersetzen} wird die Ausgabe von ChatGPT ins Englische übersetzt.
 \begin{comment}
 	\begin{figure}
 		\centering
